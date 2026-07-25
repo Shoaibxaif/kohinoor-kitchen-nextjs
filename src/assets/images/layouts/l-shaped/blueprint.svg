@@ -1,0 +1,248 @@
+<svg width="900" height="650" viewBox="0 0 900 650" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <!-- Background -->
+    <rect width="900" height="650" fill="#F8F6F1" />
+
+    <!-- Title -->
+    <text x="450" y="70"
+        text-anchor="middle"
+        font-family="Playfair Display"
+        font-size="34"
+        fill="#1A1A18">
+        L-Shaped Kitchen Blueprint
+    </text>
+
+    <text x="450" y="105"
+        text-anchor="middle"
+        font-family="Inter"
+        font-size="15"
+        letter-spacing="4"
+        fill="#C8A97A">
+        WORK TRIANGLE LAYOUT
+    </text>
+
+    <!-- Outer Kitchen Shape -->
+    <path
+        d="
+        M170 160
+        H620
+        V430
+        H430
+        V520
+        H170
+        Z"
+        fill="#ffffff"
+        stroke="#1A1A18"
+        stroke-width="6"
+        stroke-linejoin="round" />
+
+    <!-- Countertop -->
+    <path
+        d="
+        M195 185
+        H595
+        V405
+        H405
+        V495
+        H195
+        Z"
+        fill="#ECE7DF" />
+
+    <!-- Sink -->
+    <rect
+        x="240"
+        y="245"
+        width="90"
+        height="60"
+        rx="12"
+        fill="#D8E6EC"
+        stroke="#1A1A18"
+        stroke-width="2" />
+
+    <circle
+        cx="285"
+        cy="275"
+        r="10"
+        fill="#B6C8D1" />
+
+    <!-- Hob -->
+    <rect
+        x="465"
+        y="230"
+        width="110"
+        height="80"
+        rx="10"
+        fill="#2E2E2B" />
+
+    <circle cx="490" cy="255" r="10" fill="#C8A97A" />
+    <circle cx="550" cy="255" r="10" fill="#C8A97A" />
+    <circle cx="490" cy="290" r="10" fill="#C8A97A" />
+    <circle cx="550" cy="290" r="10" fill="#C8A97A" />
+
+    <!-- Refrigerator -->
+    <rect
+        x="235"
+        y="420"
+        width="85"
+        height="80"
+        rx="8"
+        fill="#DADADA"
+        stroke="#1A1A18"
+        stroke-width="2" />
+
+    <line
+        x1="277"
+        y1="425"
+        x2="277"
+        y2="495"
+        stroke="#999"
+        stroke-width="2" />
+
+    <!-- Magic Corner -->
+    <path
+        d="M400 400 L400 495 L315 495"
+        stroke="#C8A97A"
+        stroke-width="5"
+        stroke-linecap="round" />
+
+    <!-- Numbers -->
+
+    <!-- Sink -->
+    <circle
+        cx="125"
+        cy="275"
+        r="20"
+        fill="#C8A97A" />
+
+    <text
+        x="125"
+        y="282"
+        text-anchor="middle"
+        font-family="Inter"
+        font-size="15"
+        fill="white">
+        ①
+    </text>
+
+    <line
+        x1="145"
+        y1="275"
+        x2="240"
+        y2="275"
+        stroke="#C8A97A"
+        stroke-width="2" />
+
+    <text
+        x="70"
+        y="315"
+        font-family="Inter"
+        font-size="18"
+        fill="#1A1A18">
+        Sink
+    </text>
+
+    <!-- Hob -->
+
+    <circle
+        cx="660"
+        cy="270"
+        r="20"
+        fill="#C8A97A" />
+
+    <text
+        x="660"
+        y="277"
+        text-anchor="middle"
+        font-family="Inter"
+        font-size="15"
+        fill="white">
+        ②
+    </text>
+
+    <line
+        x1="640"
+        y1="270"
+        x2="575"
+        y2="270"
+        stroke="#C8A97A"
+        stroke-width="2" />
+
+    <text
+        x="685"
+        y="315"
+        font-family="Inter"
+        font-size="18"
+        fill="#1A1A18">
+        Hob
+    </text>
+
+    <!-- Refrigerator -->
+
+    <circle
+        cx="125"
+        cy="460"
+        r="20"
+        fill="#C8A97A" />
+
+    <text
+        x="125"
+        y="467"
+        text-anchor="middle"
+        font-family="Inter"
+        font-size="15"
+        fill="white">
+        ③
+    </text>
+
+    <line
+        x1="145"
+        y1="460"
+        x2="235"
+        y2="460"
+        stroke="#C8A97A"
+        stroke-width="2" />
+
+    <text
+        x="40"
+        y="505"
+        font-family="Inter"
+        font-size="18"
+        fill="#1A1A18">
+        Refrigerator
+    </text>
+
+    <!-- Work Triangle -->
+
+    <path
+        d="M285 275 L520 270 L280 460 Z"
+        stroke="#C8A97A"
+        stroke-width="4"
+        stroke-dasharray="12 10"
+        fill="none" />
+
+    <!-- Corner Label -->
+
+    <circle
+        cx="405"
+        cy="405"
+        r="8"
+        fill="#C8A97A" />
+
+    <line
+        x1="412"
+        y1="412"
+        x2="610"
+        y2="500"
+        stroke="#C8A97A"
+        stroke-width="2" />
+
+    <text
+        x="625"
+        y="505"
+        font-family="Inter"
+        font-size="18"
+        fill="#1A1A18">
+        Magic Corner Storage
+    </text>
+
+</svg>

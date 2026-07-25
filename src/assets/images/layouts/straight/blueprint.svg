@@ -1,0 +1,78 @@
+<svg width="900" height="550" viewBox="0 0 900 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="900" height="550" fill="#F8F6F1"/>
+
+  <!-- Main Kitchen Countertop Wall Outline -->
+  <path
+      d="M100 210 H800 V340 H100 Z"
+      fill="#ffffff"
+      stroke="#1A1A18"
+      stroke-width="4"
+      stroke-linejoin="round"/>
+
+  <!-- Countertop Interior Area -->
+  <rect x="110" y="220" width="680" height="110" fill="#ECE7DF"/>
+
+  <!-- Pantry Unit (Far Left) -->
+  <rect x="110" y="220" width="90" height="110" fill="#D8D2C8" stroke="#1A1A18" stroke-width="1.5"/>
+  <circle cx="155" cy="275" r="5" fill="#C8A97A"/>
+
+  <!-- Sink (Next to Pantry) -->
+  <rect x="230" y="235" width="100" height="80" rx="12" fill="#D8E6EC" stroke="#1A1A18" stroke-width="2"/>
+  <circle cx="280" cy="275" r="10" fill="#B6C8D1"/>
+  <circle cx="280" cy="245" r="3" fill="#1A1A18"/>
+
+  <!-- Hob / Cooktop (Center Right) -->
+  <rect x="490" y="235" width="110" height="80" rx="6" fill="#2E2E2B"/>
+  <circle cx="515" cy="255" r="9" fill="#C8A97A"/>
+  <circle cx="575" cy="255" r="9" fill="#C8A97A"/>
+  <circle cx="515" cy="295" r="9" fill="#C8A97A"/>
+  <circle cx="575" cy="295" r="9" fill="#C8A97A"/>
+
+  <!-- Refrigerator (Far Right) -->
+  <rect x="630" y="225" width="100" height="100" rx="4" fill="#DADADA" stroke="#1A1A18" stroke-width="2"/>
+  <line x1="635" y1="320" x2="685" y2="320" stroke="#999" stroke-width="3"/>
+
+  <!-- ================= LABELS & CALLOUTS ================= -->
+
+  <!-- Pantry Label (Top Left) -->
+  <text x="155" y="165" text-anchor="middle" font-family="Inter" font-size="18" font-weight="bold" fill="#1A1A18">Pantry Unit</text>
+  <line x1="155" y1="175" x2="155" y2="220" stroke="#C8A97A" stroke-width="1.5"/>
+
+  <!-- Sink Callout (Bottom Left) -->
+  <circle cx="280" cy="420" r="16" fill="#C8A97A"/>
+  <text x="280" y="425" text-anchor="middle" font-family="Inter" font-size="14" fill="white" font-weight="bold">1</text>
+  <line x1="280" y1="404" x2="280" y2="315" stroke="#C8A97A" stroke-width="1.5"/>
+  <text x="280" y="465" text-anchor="middle" font-family="Inter" font-size="18" fill="#1A1A18">Sink</text>
+
+  <!-- Hob Callout (Bottom Right Center) -->
+  <circle cx="545" cy="420" r="16" fill="#C8A97A"/>
+  <text x="545" y="425" text-anchor="middle" font-family="Inter" font-size="14" fill="white" font-weight="bold">2</text>
+  <line x1="545" y1="404" x2="545" y2="315" stroke="#C8A97A" stroke-width="1.5"/>
+  <text x="545" y="465" text-anchor="middle" font-family="Inter" font-size="18" fill="#1A1A18">Hob</text>
+
+  <!-- Refrigerator Callout (Bottom Far Right) -->
+  <circle cx="680" cy="420" r="16" fill="#C8A97A"/>
+  <text x="680" y="425" text-anchor="middle" font-family="Inter" font-size="14" fill="white" font-weight="bold">3</text>
+  <line x1="680" y1="404" x2="680" y2="325" stroke="#C8A97A" stroke-width="1.5"/>
+  <text x="680" y="465" text-anchor="middle" font-family="Inter" font-size="18" fill="#1A1A18">Refrigerator</text>
+
+  <!-- Alternative Hob Top Indicator Line & Label -->
+  <circle cx="545" cy="165" r="12" fill="#C8A97A" opacity="0.7"/>
+  <text x="545" y="169" text-anchor="middle" font-family="Inter" font-size="11" fill="white">2</text>
+  <text x="565" y="170" font-family="Inter" font-size="16" fill="#1A1A18">Hob</text>
+
+  <!-- Alternative Fridge Top Indicator Line & Label -->
+  <circle cx="680" cy="165" r="12" fill="#C8A97A" opacity="0.7"/>
+  <text x="680" y="169" text-anchor="middle" font-family="Inter" font-size="11" fill="white">3</text>
+  <text x="700" y="170" font-family="Inter" font-size="16" fill="#1A1A18">Refrigerator</text>
+
+  <!-- Width Dimension Line -->
+  <line x1="110" y1="365" x2="790" y2="365" stroke="#1A1A18" stroke-width="1.5"/>
+  <line x1="110" y1="355" x2="110" y2="375" stroke="#1A1A18" stroke-width="1.5"/>
+  <line x1="790" y1="355" x2="790" y2="375" stroke="#1A1A18" stroke-width="1.5"/>
+  <rect x="425" y="353" width="50" height="22" fill="#F8F6F1"/>
+  <text x="450" y="370" text-anchor="middle" font-family="Inter" font-size="15" fill="#1A1A18">600</text>
+
+</svg>
