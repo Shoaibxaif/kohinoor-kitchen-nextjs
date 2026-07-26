@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import Button from "@/components/common/Button";
 
@@ -12,11 +13,11 @@ function PageHero({
     return (
         <section className="relative h-[65vh] min-h-[520px] overflow-hidden">
             {/* Background */}
-            <img
+            <Image
+                fill
                 src={image?.src ?? image}
                 alt={title}
-                fetchPriority="high"
-                decoding="async"
+                sizes="100vw"
                 className="absolute inset-0 h-full w-full object-cover"
             />
 

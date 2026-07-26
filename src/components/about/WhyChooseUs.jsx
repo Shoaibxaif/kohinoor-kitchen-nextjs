@@ -64,7 +64,7 @@ function WhyChooseUs() {
             />
 
             <p className="mt-8 text-lg leading-8 text-[#6b6b66]">
-              We don't just manufacture modular kitchens—we create personalized
+              We don&apos;t just manufacture modular kitchens—we create personalized
               spaces that combine intelligent planning, premium craftsmanship,
               and timeless aesthetics.
             </p>

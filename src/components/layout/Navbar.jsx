@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 
@@ -22,11 +23,14 @@ function Navbar() {
                     {/* Logo */}
                     {/* Logo */}
                     <Link href={ROUTES.HOME} className="flex items-center">
-                        <img
-                            src={logo.src ?? logo}
-                            alt="Kohinoor Modular Kitchen"
-                            className="h-14 w-auto object-contain"
-                        />
+                        <div className="relative h-14 w-[160px] sm:w-[180px]">
+                            <Image
+                                src={logo}
+                                alt="Kohinoor Modular Kitchen"
+                                fill
+                                className="object-contain"
+                            />
+                        </div>
                     </Link>
 
                     {/* Desktop Navigation */}

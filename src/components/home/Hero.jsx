@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -102,18 +103,14 @@ function Hero() {
                         transition={{ duration: 0.8 }}
                         className="relative"
                     >
-                        <div className="overflow-hidden rounded-sm">
-                            <img
-                                src={heroImage.src ?? heroImage}
+                        <div className="relative overflow-hidden rounded-sm h-[500px] lg:h-[700px]">
+                            <Image
+                                src={heroImage}
                                 alt="Luxury Modular Kitchen"
-                                fetchPriority="high"
-                                decoding="async"
-                                className="
-                  w-full
-                  h-[500px]
-                  lg:h-[700px]
-                  object-cover
-                "
+                                fill
+                                priority
+                                className="object-cover"
+                                sizes="(min-width: 1024px) 50vw, 100vw"
                             />
                         </div>
 

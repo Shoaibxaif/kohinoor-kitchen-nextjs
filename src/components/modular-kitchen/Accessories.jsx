@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Container from "@/components/common/Container";
 import SectionHeading from "@/components/common/SectionHeading";
 
@@ -70,18 +71,18 @@ function Accessories() {
                 hover:shadow-xl
               "
                         >
-                            <div className="overflow-hidden">
-                                <img
-                                    src={item.image?.src ?? item.image}
+                            <div className="relative overflow-hidden h-64">
+                                <Image
+                                    src={item.image}
                                     alt={item.title}
+                                    fill
                                     className="
-                    w-full
-                    h-64
                     object-cover
                     transition-transform
                     duration-700
                     group-hover:scale-105
                   "
+                                    sizes="(min-width: 1024px) 33vw, 100vw"
                                 />
                             </div>
 

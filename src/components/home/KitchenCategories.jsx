@@ -1,3 +1,4 @@
+import Image from "next/image";
 import SectionHeading from "@/components/common/SectionHeading";
 import Container from "@/components/common/Container";
 import img1 from "@/assets/images/layouts/l-shaped/gallery-1.jpg";
@@ -61,20 +62,18 @@ function KitchenCategories() {
                             href={kitchen.path}
                             className="group cursor-pointer"
                         >
-                            <div className="overflow-hidden">
-                                <img
-                                    src={kitchen.image.src ?? kitchen.image}
+                            <div className="relative overflow-hidden h-[380px]">
+                                <Image
+                                    src={kitchen.image}
                                     alt={kitchen.title}
-                                    loading="lazy"
-                                    decoding="async"
+                                    fill
                                     className="
-                    h-[380px]
-                    w-full
                     object-cover
                     transition-transform
                     duration-700
                     group-hover:scale-105
                   "
+                                    sizes="(min-width: 1024px) 33vw, 100vw"
                                 />
                             </div>
 

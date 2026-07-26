@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import { ROUTES } from "@/constants/routes";
@@ -12,20 +13,18 @@ function ProjectCard({
     return (
         <article className="group overflow-hidden bg-white">
             {/* Image */}
-            <div className="relative overflow-hidden">
-                <img
-                    src={image?.src ?? image}
+            <div className="relative overflow-hidden h-[420px]">
+                <Image
+                    src={image}
                     alt={title}
-                    loading="lazy"
-                    decoding="async"
+                    fill
                     className="
-            h-[420px]
-            w-full
             object-cover
             transition-transform
             duration-700
             group-hover:scale-105
           "
+                    sizes="(min-width: 1024px) 33vw, 100vw"
                 />
 
                 {/* Layout Badge */}

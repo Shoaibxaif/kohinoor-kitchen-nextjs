@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 
 import Container from "@/components/common/Container";
 import Button from "@/components/common/Button";
@@ -118,17 +119,13 @@ function AboutHero() {
                     </div>
 
                     {/* Right Image */}
-                    <div className="relative">
-                        <img
-                            src={heroImage.src ?? heroImage}
+                    <div className="relative min-h-[650px]">
+                        <Image
+                            src={heroImage}
                             alt="Kohinoor Kitchens"
-                            loading="eager"
-                            className="
-                min-h-[650px]
-                w-full
-                object-cover
-                rounded-sm
-              "
+                            fill
+                            sizes="(min-width: 1024px) 50vw, 100vw"
+                            className="rounded-sm object-cover"
                         />
 
                         {/* Floating Card */}

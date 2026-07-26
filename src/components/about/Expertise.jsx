@@ -7,6 +7,7 @@ import {
     Settings2,
 } from "lucide-react";
 
+import Image from "next/image";
 import Container from "@/components/common/Container";
 import SectionHeading from "@/components/common/SectionHeading";
 
@@ -57,11 +58,13 @@ function Expertise() {
             <Container>
                 <div className="grid items-center gap-20 lg:grid-cols-2">
                     {/* Image */}
-                    <div className="relative">
-                        <img
-                            src={expertiseImage.src ?? expertiseImage}
+                    <div className="relative h-[700px]">
+                        <Image
+                            src={expertiseImage}
                             alt="Kohinoor Kitchens Expertise"
-                            className="h-[700px] w-full rounded-sm object-cover"
+                            fill
+                            sizes="(min-width: 1024px) 50vw, 100vw"
+                            className="rounded-sm object-cover"
                         />
 
                         {/* Floating Badge */}

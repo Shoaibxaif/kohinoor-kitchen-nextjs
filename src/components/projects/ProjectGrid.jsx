@@ -6,8 +6,8 @@ function ProjectGrid({ projects = [], activeFilter }) {
     activeFilter === "All"
       ? projects
       : projects.filter(
-          (project) => project.layout === activeFilter
-        );
+        (project) => project.layout === activeFilter
+      );
 
   return (
     <section className="bg-white py-10 lg:py-16">
@@ -22,7 +22,7 @@ function ProjectGrid({ projects = [], activeFilter }) {
             </h3>
 
             <p className="mt-4 text-[#6b6b66]">
-              We're continuously adding new completed projects.
+              We&apos;re continuously adding new completed projects.
             </p>
           </div>
         ) : (

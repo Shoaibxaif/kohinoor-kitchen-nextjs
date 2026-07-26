@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Container from "@/components/common/Container";
 
 import heroImage from "@/assets/images/projects/hero.png";
@@ -50,7 +51,7 @@ function ProjectsHero() {
                         >
                             Explore our collection of luxury modular kitchens designed for
                             apartments, villas, and modern homes. Every project is customized
-                            to reflect the homeowner's lifestyle, space, and personality.
+                            to reflect the homeowner&apos;s lifestyle, space, and personality.
                         </p>
 
 
@@ -92,16 +93,13 @@ function ProjectsHero() {
 
                     {/* Image */}
 
-                    <div className="relative">
-                        <img
-                            src={heroImage?.src ?? heroImage}
+                    <div className="relative h-[650px] lg:h-[720px] overflow-hidden rounded-sm">
+                        <Image
+                            src={heroImage}
                             alt="Luxury Modular Kitchen"
-                            className="
-                h-[650px]
-                w-full
-                object-cover
-                rounded-sm
-              "
+                            fill
+                            className="object-cover"
+                            sizes="(min-width: 1024px) 50vw, 100vw"
                         />
 
                         <div

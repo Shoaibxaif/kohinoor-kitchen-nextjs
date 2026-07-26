@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Container from "@/components/common/Container";
 import SectionHeading from "@/components/common/SectionHeading";
 
@@ -52,16 +53,13 @@ function AboutSection({
 
                     {/* Image */}
 
-                    <div className="overflow-hidden rounded-sm">
-                        <img
-                            src={image?.src ?? image}
+                    <div className="relative overflow-hidden rounded-sm h-[600px]">
+                        <Image
+                            src={image}
                             alt={imageAlt}
-                            loading="lazy"
-                            className="
-                h-[600px]
-                w-full
-                object-cover
-              "
+                            fill
+                            className="object-cover"
+                            sizes="(min-width: 1024px) 50vw, 100vw"
                         />
                     </div>
                 </div>

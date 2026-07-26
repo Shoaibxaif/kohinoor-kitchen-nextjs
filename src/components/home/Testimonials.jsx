@@ -58,7 +58,7 @@ function Testimonials() {
                   leading-8
                 "
                             >
-                                "{testimonial.review}"
+                                “{testimonial.review}”
                             </p>
 
                             {/* Client */}

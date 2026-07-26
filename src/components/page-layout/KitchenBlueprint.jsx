@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Container from "@/components/common/Container";
 import SectionHeading from "@/components/common/SectionHeading";
 
@@ -34,20 +35,20 @@ function KitchenBlueprint({
 
                     <div
                         className="
+              relative
               bg-[#f7f5f0]
               border
               border-[#e8e4dc]
               p-10
             "
+                        style={{ minHeight: 320 }}
                     >
-                        <img
-                            src={image?.src ?? image}
+                        <Image
+                            src={image}
                             alt={title}
-                            className="
-                w-full
-                h-auto
-                object-contain
-              "
+                            fill
+                            className="object-contain"
+                            sizes="(min-width: 1024px) 50vw, 100vw"
                         />
                     </div>
 

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Container from "@/components/common/Container";
 import SectionHeading from "@/components/common/SectionHeading";
 
@@ -59,18 +60,18 @@ function MaterialOptions() {
                 overflow-hidden
               "
                         >
-                            <div className="overflow-hidden">
-                                <img
-                                    src={material.image?.src ?? material.image}
+                            <div className="relative overflow-hidden h-[300px]">
+                                <Image
+                                    src={material.image}
                                     alt={material.title}
+                                    fill
                                     className="
-                    w-full
-                    h-[300px]
                     object-cover
                     transition-transform
                     duration-700
                     group-hover:scale-105
                   "
+                                    sizes="(min-width: 1024px) 33vw, 100vw"
                                 />
                             </div>
 

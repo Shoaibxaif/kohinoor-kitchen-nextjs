@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
@@ -23,18 +24,18 @@ function GallerySection({ tag, title, italicWord, projects = [] }) {
                 bg-[#f7f5f0]
               "
                         >
-                            <div className="overflow-hidden">
-                                <img
-                                    src={project.image?.src ?? project.image}
+                            <div className="relative overflow-hidden h-[380px]">
+                                <Image
+                                    src={project.image}
                                     alt={project.title}
+                                    fill
                                     className="
-                    w-full
-                    h-[380px]
                     object-cover
                     transition-transform
                     duration-700
                     group-hover:scale-105
                   "
+                                    sizes="(min-width: 1024px) 50vw, 100vw"
                                 />
                             </div>
 

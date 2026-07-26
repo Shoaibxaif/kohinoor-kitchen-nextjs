@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import Container from "@/components/common/Container";
@@ -68,11 +69,14 @@ function Footer() {
 
             {/* Brand */}
             <div>
-                <img
-                    src={logo.src ?? logo}
-                    alt="Kohinoor Modular Kitchen"
-                    className="h-20 w-auto object-contain"
-                />
+                <div className="relative h-20 w-[220px]">
+                    <Image
+                        src={logo}
+                        alt="Kohinoor Modular Kitchen"
+                        fill
+                        className="object-contain"
+                    />
+                </div>
 
                 <p
                     className="

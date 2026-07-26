@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Button from "@/components/common/Button";
 import { ROUTES } from "@/constants/routes";
 
@@ -12,11 +13,15 @@ function LayoutHero({
     return (
         <section className="relative h-[70vh] min-h-[600px] overflow-hidden">
             {/* Background Image */}
-            <img
-                src={image?.src ?? image}
-                alt={title}
-                className="absolute inset-0 w-full h-full object-cover"
-            />
+            <div className="absolute inset-0">
+                <Image
+                    src={image}
+                    alt={title}
+                    fill
+                    className="object-cover"
+                    sizes="100vw"
+                />
+            </div>
 
             {/* Overlay */}
             <div className="absolute inset-0 bg-black/55" />

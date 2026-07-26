@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Check } from "lucide-react";
 
 import Container from "@/components/common/Container";
@@ -18,11 +19,13 @@ function OurStory() {
             <Container>
                 <div className="grid items-center gap-20 lg:grid-cols-2">
                     {/* Image */}
-                    <div className="relative">
-                        <img
-                            src={storyImage.src ?? storyImage}
+                    <div className="relative h-[650px]">
+                        <Image
+                            src={storyImage}
                             alt="Our Story"
-                            className="h-[650px] w-full object-cover rounded-sm"
+                            fill
+                            sizes="(min-width: 1024px) 50vw, 100vw"
+                            className="rounded-sm object-cover"
                         />
 
                         {/* Floating Card */}
@@ -62,9 +65,7 @@ function OurStory() {
 
                         <p className="mt-8 text-lg leading-8 text-[#6b6b66]">
                             At Kohinoor Kitchens, we believe a kitchen is more than just a
-                            place to cook—it's the heart of every home. Every family has a
-                            unique lifestyle, and every kitchen we create is thoughtfully
-                            designed to reflect that individuality.
+                            place to cook—it&apos;s the heart of every home. Every family has a
                         </p>
 
                         <p className="mt-6 text-lg leading-8 text-[#6b6b66]">

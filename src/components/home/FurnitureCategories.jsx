@@ -1,3 +1,4 @@
+import Image from "next/image";
 import SectionHeading from "@/components/common/SectionHeading";
 import Container from "@/components/common/Container";
 
@@ -62,20 +63,18 @@ function FurnitureCategories() {
                             className="group block"
                         >
                             <article>
-                                <div className="overflow-hidden">
-                                    <img
-                                        src={item.image.src ?? item.image}
+                                <div className="relative overflow-hidden h-[380px]">
+                                    <Image
+                                        src={item.image}
                                         alt={item.title}
-                                        loading="lazy"
-                                        decoding="async"
+                                        fill
                                         className="
-                      h-[380px]
-                      w-full
                       object-cover
                       transition-transform
                       duration-700
                       group-hover:scale-105
                     "
+                                        sizes="(min-width: 1024px) 33vw, 100vw"
                                     />
                                 </div>
 

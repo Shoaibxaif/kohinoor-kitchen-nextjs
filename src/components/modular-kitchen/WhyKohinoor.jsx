@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Container from "@/components/common/Container";
 import SectionHeading from "@/components/common/SectionHeading";
 import Button from "@/components/common/Button";
@@ -25,11 +26,13 @@ function WhyKohinoor() {
                 />
 
                 {/* Hero Image */}
-                <div className="mt-16 overflow-hidden rounded-sm">
-                    <img
-                        src={kitchenImage?.src ?? kitchenImage}
+                <div className="relative mt-16 overflow-hidden rounded-sm h-[500px]">
+                    <Image
+                        src={kitchenImage}
                         alt="Luxury Modular Kitchen"
-                        className="w-full h-[500px] object-cover"
+                        fill
+                        className="object-cover"
+                        sizes="(min-width: 1024px) 100vw, 100vw"
                     />
                 </div>
 

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Container from "@/components/common/Container";
 import kitchenImage from "@/assets/images/about-kitchen.jpg";
 import Button from "@/components/common/Button";
@@ -17,18 +18,13 @@ function AboutSection() {
                 <div className="grid lg:grid-cols-2 min-h-[650px]">
 
                     {/* Image */}
-                    <div className="relative">
-                        <img
-                            src={kitchenImage.src ?? kitchenImage}
+                    <div className="relative h-full min-h-[450px]">
+                        <Image
+                            src={kitchenImage}
                             alt="Luxury Modular Kitchen"
-                            loading="lazy"
-                            decoding="async"
-                            className="
-                w-full
-                h-full
-                object-cover
-                min-h-[450px]
-              "
+                            fill
+                            className="object-cover"
+                            sizes="(min-width: 1024px) 50vw, 100vw"
                         />
                     </div>
 

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Container from "@/components/common/Container";
 import SectionHeading from "@/components/common/SectionHeading";
 
@@ -29,18 +30,18 @@ function StorageSolutions({ tag, title, italicWord, description, items = [] }) {
                 hover:-translate-y-2
               "
                         >
-                            <div className="overflow-hidden h-72">
-                                <img
-                                    src={item.image?.src ?? item.image}
+                            <div className="relative overflow-hidden h-72">
+                                <Image
+                                    src={item.image}
                                     alt={item.title}
+                                    fill
                                     className="
-                    w-full
-                    h-full
                     object-cover
                     transition-transform
                     duration-500
                     group-hover:scale-105
                   "
+                                    sizes="(min-width: 1024px) 33vw, 100vw"
                                 />
                             </div>
 

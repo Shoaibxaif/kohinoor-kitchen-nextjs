@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 
 import Container from "@/components/common/Container";
@@ -66,20 +67,18 @@ function FeaturedProjects() {
                         >
                             <article className="cursor-pointer">
                                 {/* Image */}
-                                <div className="overflow-hidden">
-                                    <img
-                                        src={project.image.src ?? project.image}
+                                <div className="relative overflow-hidden h-[450px]">
+                                    <Image
+                                        src={project.image}
                                         alt={project.title}
-                                        loading="lazy"
-                                        decoding="async"
+                                        fill
                                         className="
-                    w-full
-                    h-[450px]
                     object-cover
                     transition-transform
                     duration-700
                     group-hover:scale-105
                   "
+                                        sizes="(min-width: 1024px) 33vw, 100vw"
                                     />
                                 </div>
 

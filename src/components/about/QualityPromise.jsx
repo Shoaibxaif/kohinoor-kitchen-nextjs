@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
     BadgeCheck,
     ShieldCheck,
@@ -104,11 +105,13 @@ function QualityPromise() {
                     </div>
 
                     {/* Image */}
-                    <div className="relative">
-                        <img
-                            src={promiseImage.src ?? promiseImage}
+                    <div className="relative h-[700px]">
+                        <Image
+                            src={promiseImage}
                             alt="Quality Promise"
-                            className="h-[700px] w-full rounded-sm object-cover"
+                            fill
+                            sizes="(min-width: 1024px) 50vw, 100vw"
+                            className="rounded-sm object-cover"
                         />
 
                         <div
