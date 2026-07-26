@@ -53,9 +53,9 @@ function WhyChooseUs() {
   return (
     <section className="bg-white py-24 lg:py-32">
       <Container>
-        <div className="grid gap-20 lg:grid-cols-[0.9fr_1.1fr]">
+        <div className="grid gap-20 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           {/* Left */}
-          <div className="sticky top-28 h-fit">
+          <div className="lg:sticky lg:top-28 h-fit">
             <SectionHeading
               align="left"
               tag="Why Choose Kohinoor"
