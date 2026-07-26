@@ -16,6 +16,8 @@ function ProjectFilters({ activeFilter, onFilterChange }) {
       <Container>
         <div className="flex justify-center">
           <div
+            role="group"
+            aria-label="Project layout filters"
             className="
               inline-flex
               flex-wrap
@@ -31,7 +33,9 @@ function ProjectFilters({ activeFilter, onFilterChange }) {
             {filters.map((filter) => (
               <button
                 key={filter}
+                type="button"
                 onClick={() => onFilterChange(filter)}
+                aria-pressed={activeFilter === filter}
                 className={`
                   px-6
                   py-3
@@ -41,10 +45,9 @@ function ProjectFilters({ activeFilter, onFilterChange }) {
                   tracking-[0.15em]
                   transition-all
                   duration-300
-                  ${
-                    activeFilter === filter
-                      ? "bg-[#1a1a18] text-white shadow-md"
-                      : "text-[#6b6b66] hover:bg-white hover:text-[#1a1a18]"
+                  ${activeFilter === filter
+                    ? "bg-[#1a1a18] text-white shadow-md"
+                    : "text-[#6b6b66] hover:bg-white hover:text-[#1a1a18]"
                   }
                 `}
               >

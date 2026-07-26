@@ -62,25 +62,27 @@ const services = [
     }
 ];
 
-function MegaMenu() {
+function MegaMenu({ isOpen }) {
     return (
         <div
-            className="
+            id="solutions-menu"
+            role="menu"
+            aria-label="Solutions"
+            aria-hidden={!isOpen}
+            className={`
       absolute
       left-1/2
       top-full
       -translate-x-1/2
       pt-5
-      opacity-0
-      invisible
-      translate-y-3
-      group-hover:opacity-100
-      group-hover:visible
-      group-hover:translate-y-0
       transition-all
       duration-300
       z-50
-    "
+      ${isOpen
+                    ? "opacity-100 visible translate-y-0"
+                    : "opacity-0 invisible translate-y-3 pointer-events-none"
+                }
+    `}
         >
             <div className="w-[920px] bg-white border border-[#e8e4dc] shadow-2xl">
                 <div className="h-[2px] bg-[#C8A97A]" />

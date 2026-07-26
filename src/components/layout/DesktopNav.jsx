@@ -1,5 +1,6 @@
 "use client";
 
+import { useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ChevronDown } from "lucide-react";
@@ -24,6 +25,22 @@ const navLinks = [
 
 function DesktopNav() {
     const pathname = usePathname();
+    const [isOpen, setIsOpen] = useState(false);
+    const navItemRef = useRef(null);
+
+    const closeMenu = () => setIsOpen(false);
+
+    const handleBlur = (event) => {
+        if (!event.currentTarget.contains(event.relatedTarget)) {
+            closeMenu();
+        }
+    };
+
+    const handleKeyDown = (event) => {
+        if (event.key === "Escape") {
+            closeMenu();
+        }
+    };
 
     return (
         <ul className="hidden lg:flex items-center gap-10">
@@ -47,8 +64,21 @@ function DesktopNav() {
             </li>
 
             {/* Mega Menu */}
-            <li className="relative group">
+            <li
+                className="relative"
+                ref={navItemRef}
+                onMouseEnter={() => setIsOpen(true)}
+                onMouseLeave={() => setIsOpen(false)}
+                onBlur={handleBlur}
+                onKeyDown={handleKeyDown}
+            >
                 <button
+                    type="button"
+                    aria-expanded={isOpen}
+                    aria-controls="solutions-menu"
+                    aria-haspopup="menu"
+                    onClick={() => setIsOpen((current) => !current)}
+                    onFocus={() => setIsOpen(true)}
                     className="
             flex
             items-center
@@ -64,15 +94,15 @@ function DesktopNav() {
                     Solutions
                     <ChevronDown
                         size={16}
-                        className="
+                        className={`
               transition-transform
               duration-300
-              group-hover:rotate-180
-            "
+              ${isOpen ? "rotate-180" : "rotate-0"}
+            `}
                     />
                 </button>
 
-                <MegaMenu />
+                <MegaMenu isOpen={isOpen} />
             </li>
 
             {/* Remaining Links */}

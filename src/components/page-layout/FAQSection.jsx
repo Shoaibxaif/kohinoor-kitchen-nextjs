@@ -26,10 +26,16 @@ function FAQSection({
                 <div className="max-w-4xl mx-auto mt-16">
                     {items.map((faq, index) => {
                         const isOpen = activeIndex === index;
+                        const buttonId = `faq-toggle-${index}`;
+                        const panelId = `faq-panel-${index}`;
 
                         return (
                             <div key={faq.question} className="border-b border-[#e8e4dc]">
                                 <button
+                                    type="button"
+                                    id={buttonId}
+                                    aria-expanded={isOpen}
+                                    aria-controls={panelId}
                                     onClick={() => toggle(index)}
                                     className="
                     w-full
@@ -59,6 +65,10 @@ function FAQSection({
                                 </button>
 
                                 <div
+                                    id={panelId}
+                                    role="region"
+                                    aria-labelledby={buttonId}
+                                    aria-hidden={!isOpen}
                                     className={`
                     overflow-hidden
                     transition-all
