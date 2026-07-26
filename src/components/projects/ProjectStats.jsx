@@ -3,12 +3,12 @@ import SectionHeading from "@/components/common/SectionHeading";
 
 const stats = [
   {
-    value: "500+",
+    value: "6000+",
     label: "Projects Completed",
     description: "Luxury modular kitchens delivered across India.",
   },
   {
-    value: "15+",
+    value: "18+",
     label: "Years Experience",
     description: "Crafting premium kitchens with precision and care.",
   },

@@ -7,7 +7,7 @@ const testimonials = [
   {
     id: 1,
     name: "Rahul Sharma",
-    location: "Jaipur",
+    location: "Delhi NCR",
     rating: 5,
     review:
       "The entire experience was seamless. From the initial design consultation to the final installation, Kohinoor exceeded our expectations. The quality and finish are outstanding.",

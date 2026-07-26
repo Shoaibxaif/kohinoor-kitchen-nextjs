@@ -180,7 +180,7 @@ function MegaMenu() {
                         </p>
 
                         <div className="space-y-4 text-[#6b6b66]">
-                            <p>✓ 20+ Years Experience</p>
+                            <p>✓ 18+ Years Experience</p>
 
                             <p>✓ Factory Manufactured</p>
 

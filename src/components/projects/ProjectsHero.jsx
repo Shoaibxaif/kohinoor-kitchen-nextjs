@@ -60,7 +60,7 @@ function ProjectsHero() {
                         <div className="mt-16 grid grid-cols-3 gap-8">
                             <div>
                                 <h3 className="text-3xl font-semibold text-[#1a1a18]">
-                                    500+
+                                    6000+
                                 </h3>
 
                                 <p className="mt-2 text-sm uppercase tracking-wider text-[#6b6b66]">
@@ -70,7 +70,7 @@ function ProjectsHero() {
 
                             <div>
                                 <h3 className="text-3xl font-semibold text-[#1a1a18]">
-                                    15+
+                                    18+
                                 </h3>
 
                                 <p className="mt-2 text-sm uppercase tracking-wider text-[#6b6b66]">
@@ -130,7 +130,7 @@ function ProjectsHero() {
                             </h3>
 
                             <p className="mt-2 text-[#6b6b66]">
-                                Jaipur • L-Shaped • 320 sq.ft
+                                Delhi NCR • L-Shaped • 320 sq.ft
                             </p>
                         </div>
                     </div>

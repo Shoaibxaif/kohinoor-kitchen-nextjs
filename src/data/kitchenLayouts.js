@@ -471,7 +471,7 @@ export const kitchenLayouts = {
   projects: [
     {
       title: "Modern White U-Shaped Kitchen",
-      location: "Jaipur",
+      location: "Delhi NCR",
       image: kitchenImages.uShaped.gallery1,
     },
     {
@@ -723,7 +723,7 @@ gallery: {
   projects: [
     {
       title: "Modern White Parallel Kitchen",
-      location: "Jaipur",
+      location: "Delhi NCR",
       image: kitchenImages.parallel.gallery1,
     },
     {
@@ -981,7 +981,7 @@ gallery: {
   projects: [
     {
       title: "Modern White Island Kitchen",
-      location: "Jaipur",
+      location: "Delhi NCR",
       image: kitchenImages.island.gallery1,
     },
     {
@@ -1240,7 +1240,7 @@ gallery: {
   projects: [
     {
       title: "Modern White Straight Kitchen",
-      location: "Jaipur",
+      location: "Delhi NCR",
       image: kitchenImages.straight.gallery1,
     },
     {
@@ -1499,7 +1499,7 @@ storage: {
   projects: [
     {
       title: "Modern White Peninsula Kitchen",
-      location: "Jaipur",
+      location: "Delhi NCR",
       image: kitchenImages.peninsula.gallery1,
     },
     {

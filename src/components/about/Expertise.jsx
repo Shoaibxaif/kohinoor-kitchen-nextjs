@@ -80,7 +80,7 @@ function Expertise() {
                                 className="text-4xl text-[#1a1a18]"
                                 style={{ fontFamily: "Playfair Display" }}
                             >
-                                500+
+                                6000+
                             </h3>
 
                             <p className="mt-2 uppercase tracking-[0.18em] text-sm text-[#C8A97A]">

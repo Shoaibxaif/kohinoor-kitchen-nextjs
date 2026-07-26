@@ -22,9 +22,9 @@ export const projectFaq = {
         "Absolutely. We create detailed 3D visualizations so you can review the design, make changes, and approve every detail before production begins.",
     },
     {
-      question: "Do you undertake projects outside Jaipur?",
+      question: "Do you undertake projects outside Delhi NCR?",
       answer:
-        "Yes. We design and install modular kitchens across multiple cities. Contact our team to confirm service availability in your location.",
+        "Yes. We design and install modular kitchens across India. Contact our team to confirm service availability in your location.",
     },
     {
       question: "What warranty do you provide?",

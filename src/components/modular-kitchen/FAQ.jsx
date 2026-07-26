@@ -34,7 +34,7 @@ const faqs = [
     {
         question: "Do you offer warranty?",
         answer:
-            "Yes. Every kitchen includes manufacturer warranty along with dedicated after-sales support.",
+            "Yes. Every kitchen includes a 1-year manufacturer warranty along with dedicated after-sales support.",
     },
 ];
 

@@ -32,14 +32,13 @@ export const wardrobeData = {
 
     stats: [
       {
-        value: "500+",
+        value: "6000+",
         label: "Wardrobes Installed",
       },
       {
-        value: "10+",
+        value: "18+",
         label: "Years Experience",
-      },
-      {
+      },      {
         value: "100%",
         label: "Custom Design",
       },

@@ -95,7 +95,7 @@ function ContactHero() {
                                     className="text-3xl text-[#1a1a18]"
                                     style={{ fontFamily: "Playfair Display" }}
                                 >
-                                    15+
+                                    18+
                                 </h3>
 
                                 <p className="mt-2 text-sm uppercase tracking-[0.15em] text-[#6b6b66]">
@@ -108,7 +108,7 @@ function ContactHero() {
                                     className="text-3xl text-[#1a1a18]"
                                     style={{ fontFamily: "Playfair Display" }}
                                 >
-                                    500+
+                                    6000+
                                 </h3>
 
                                 <p className="mt-2 text-sm uppercase tracking-[0.15em] text-[#6b6b66]">

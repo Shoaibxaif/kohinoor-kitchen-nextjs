@@ -8,7 +8,7 @@ export const projects = [
     slug: "modern-white-l-shaped-kitchen",
     title: "Modern White L-Shaped Kitchen",
     layout: "L-Shaped",
-    location: "Jaipur",
+    location: "Delhi NCR",
     area: "320 sq.ft",
     image: project1,
   },

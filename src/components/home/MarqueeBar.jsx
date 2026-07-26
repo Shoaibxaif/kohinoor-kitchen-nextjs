@@ -1,7 +1,7 @@
 const items = [
     "Custom Modular Kitchens",
     "Premium Hardware",
-    "5-Year Warranty",
+    "1-Year Warranty",
     "Free Design Consultation",
     "Made For Delhi Homes",
     "Expert Installation",

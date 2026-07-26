@@ -42,7 +42,7 @@ function OurStory() {
                                 className="text-5xl"
                                 style={{ fontFamily: "Playfair Display" }}
                             >
-                                15+
+                                18+
                             </h3>
 
                             <p className="mt-2 uppercase tracking-[0.18em] text-sm text-[#C8A97A]">

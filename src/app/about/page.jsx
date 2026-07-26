@@ -12,7 +12,7 @@ import FAQ from "@/components/projects/ProjectFAQ";
 export const metadata = {
     title: "About Us",
     description:
-        "Learn about Kohinoor Kitchens — 15+ years of experience crafting premium modular kitchens for modern homes across Delhi NCR.",
+        "Learn about Kohinoor Kitchens — 18+ years of experience crafting premium modular kitchens for modern homes across Delhi NCR.",
 };
 
 export default function AboutPage() {
