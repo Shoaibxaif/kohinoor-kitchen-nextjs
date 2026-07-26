@@ -7,6 +7,8 @@ import { useEffect, useState } from "react";
 import Button from "@/components/common/Button";
 import Container from "@/components/common/Container";
 import SectionHeading from "@/components/common/SectionHeading";
+import Link from "next/link";
+import { ROUTES } from "@/constants/routes";
 import { SITE } from "@/constants/siteConfig";
 
 const RATE_LIMIT_MS = 30_000;
@@ -295,9 +297,8 @@ function ContactForm() {
                   className="mt-1 h-4 w-4 rounded border-[#e8e4dc] text-[#C8A97A] focus:ring-[#C8A97A]"
                 />
                 <span className="text-sm leading-6 text-[#4a4a46]">
-                  I agree to receive project updates and communications from {SITE.name}. I
-                  understand my details will be used only for this enquiry and will not be
-                  shared with unauthorised third parties.
+                  I agree to receive project updates from {SITE.name}. I have read and agree
+                  to the <Link href={ROUTES.PRIVACY} className="underline text-[#1a1a18]">Privacy Policy</Link>.
                 </span>
               </label>
 

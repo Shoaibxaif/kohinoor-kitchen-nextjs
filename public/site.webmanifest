@@ -1,0 +1,16 @@
+{
+  "name": "Kohinoor Kitchens",
+  "short_name": "Kohinoor",
+  "description": "Premium modular kitchens and furniture for homes across Delhi NCR.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "48x46",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f5f0",
+  "theme_color": "#c8a97a"
+}

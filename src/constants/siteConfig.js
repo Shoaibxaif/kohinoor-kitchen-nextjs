@@ -1,5 +1,6 @@
 export const SITE = {
   name: "Kohinoor Kitchens",
+  url: "https://www.kohinoorinterior.in",
   phone: "+91 8929120505",
   email: "kohinoor9210@gmail.com",
   address: [

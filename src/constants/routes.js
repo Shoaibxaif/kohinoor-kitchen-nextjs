@@ -21,6 +21,10 @@ export const ROUTES = {
 
   PROJECTS: "/projects",
 
+  PRIVACY: "/privacy",
+  
+  TERMS: "/terms",
+
   WARDROBES: "/wardrobes",
 
   BEDS: "/beds",

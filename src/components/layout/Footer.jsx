@@ -33,6 +33,14 @@ const links = [
         label: "Contact",
         path: ROUTES.CONTACT,
     },
+    {
+        label: "Privacy Policy",
+        path: ROUTES.PRIVACY,
+    },
+    {
+        label: "Terms",
+        path: ROUTES.TERMS,
+    },
 ];
 
 const services = [
@@ -217,21 +225,7 @@ function Footer() {
             </p>
 
             <p className="text-[#7a7a73] text-sm">
-                Designed by{" "}
-                <a
-                    href="https://www.linkedin.com/in/mohammad-shoaib-0a8298223/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="
-     text-[#3f3f3b]
-hover:text-[#C8A97A]
-      underline-offset-4
-      hover:underline
-      transition-all
-    "
-                >
-                    Mohammad Shoaib
-                </a>
+                Designed for Kohinoor Kitchens.
             </p>
         </div>
 
