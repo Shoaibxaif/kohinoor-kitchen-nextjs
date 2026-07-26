@@ -9,6 +9,9 @@ import Container from "@/components/common/Container";
 import SectionHeading from "@/components/common/SectionHeading";
 import { SITE } from "@/constants/siteConfig";
 
+const RATE_LIMIT_MS = 30_000;
+const CONTACT_FORM_LAST_SUBMIT = "contactFormLastSubmit";
+
 const services = [
   "Modular Kitchen",
   "Wardrobe",
@@ -28,12 +31,41 @@ const fieldClasses =
 const phoneHref = `tel:${SITE.phone.replace(/\s/g, "")}`;
 function ContactForm() {
   const [submissionState, setSubmissionState] = useState("idle");
+  const [statusMessage, setStatusMessage] = useState("");
+  const [cooldown, setCooldown] = useState(() => {
+    if (typeof window === "undefined") {
+      return 0;
+    }
+
+    const lastSubmit = Number(window.localStorage.getItem(CONTACT_FORM_LAST_SUBMIT) || "0");
+    const timeSinceLast = Date.now() - lastSubmit;
+
+    return timeSinceLast < RATE_LIMIT_MS ? Math.ceil((RATE_LIMIT_MS - timeSinceLast) / 1000) : 0;
+  });
 
   useEffect(() => {
     if (emailPublicKey) {
       emailjs.init({ publicKey: emailPublicKey });
     }
   }, []);
+
+  useEffect(() => {
+    if (cooldown <= 0) {
+      return;
+    }
+
+    const timer = window.setInterval(() => {
+      setCooldown((current) => {
+        if (current <= 1) {
+          return 0;
+        }
+
+        return current - 1;
+      });
+    }, 1000);
+
+    return () => window.clearInterval(timer);
+  }, [cooldown]);
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -42,19 +74,46 @@ function ContactForm() {
       return;
     }
 
-    if (!emailServiceId || !emailTemplateId || !emailPublicKey) {
-      setSubmissionState("configuration-error");
+    const form = event.currentTarget;
+
+    if (!form.checkValidity()) {
+      setSubmissionState("validation-error");
+      setStatusMessage("Please complete all required fields before sending your enquiry.");
       return;
     }
 
-    const form = event.currentTarget;
+    if (!emailServiceId || !emailTemplateId || !emailPublicKey) {
+      setSubmissionState("configuration-error");
+      setStatusMessage("The contact form is not fully configured. Please call us directly.");
+      return;
+    }
+
     const formData = new FormData(form);
 
-    // A hidden field that ordinary visitors never complete. It quietly drops
-    // simple bot submissions before they reach EmailJS.
     if (formData.get("website")) {
       form.reset();
       setSubmissionState("success");
+      setStatusMessage("Thank you. Your enquiry has been received.");
+      return;
+    }
+
+    const consentAccepted = formData.get("consent") === "on";
+
+    if (!consentAccepted) {
+      setSubmissionState("validation-error");
+      setStatusMessage("Please agree to our privacy policy to proceed.");
+      return;
+    }
+
+    const now = Date.now();
+    const lastSubmit = Number(window.localStorage.getItem(CONTACT_FORM_LAST_SUBMIT) || "0");
+    const timeSinceLast = now - lastSubmit;
+
+    if (timeSinceLast < RATE_LIMIT_MS) {
+      const waitSeconds = Math.ceil((RATE_LIMIT_MS - timeSinceLast) / 1000);
+      setSubmissionState("rate-limit");
+      setStatusMessage(`Please wait ${waitSeconds} second${waitSeconds === 1 ? "" : "s"} before submitting again.`);
+      setCooldown(waitSeconds);
       return;
     }
 
@@ -67,22 +126,23 @@ function ContactForm() {
       budget: formData.get("budget") || "Not specified",
       stage: formData.get("stage") || "Not specified",
       message: formData.get("message") || "Not provided",
+      consent: consentAccepted ? "Yes" : "No",
       time: new Date().toLocaleString("en-IN"),
     };
 
     setSubmissionState("sending");
+    setStatusMessage("");
 
     try {
-      await emailjs.send(
-        emailServiceId,
-        emailTemplateId,
-        templateParams,
-        emailPublicKey,
-      );
-      form.reset();
+      await emailjs.send(emailServiceId, emailTemplateId, templateParams, emailPublicKey);
+      window.localStorage.setItem(CONTACT_FORM_LAST_SUBMIT, String(now));
       setSubmissionState("success");
+      setStatusMessage("Your enquiry has been sent successfully. We will reply within 24 hours.");
+      setCooldown(Math.ceil(RATE_LIMIT_MS / 1000));
+      form.reset();
     } catch {
       setSubmissionState("error");
+      setStatusMessage("We could not send your message right now. Please try again later or call us directly.");
     }
   };
 
@@ -227,48 +287,52 @@ function ContactForm() {
                 />
               </label>
 
+              <label className="flex items-start gap-3">
+                <input
+                  type="checkbox"
+                  name="consent"
+                  required
+                  className="mt-1 h-4 w-4 rounded border-[#e8e4dc] text-[#C8A97A] focus:ring-[#C8A97A]"
+                />
+                <span className="text-sm leading-6 text-[#4a4a46]">
+                  I agree to receive project updates and communications from {SITE.name}. I
+                  understand my details will be used only for this enquiry and will not be
+                  shared with unauthorised third parties.
+                </span>
+              </label>
+
               <Button
                 type="submit"
                 variant="primary"
                 className="w-full"
-                disabled={submissionState === "sending"}
+                disabled={submissionState === "sending" || cooldown > 0}
               >
                 {submissionState === "sending"
                   ? "Sending Request..."
-                  : "Get Free Design Consultation"}
+                  : cooldown > 0
+                    ? `Please wait ${cooldown}s...`
+                    : "Get Free Design Consultation"}
               </Button>
 
-              <div aria-live="polite" aria-atomic="true">
-                {submissionState === "success" && (
-                  <div className="rounded-md border border-[#C8A97A] bg-[#fdf9f3] p-5">
-                    <h4 className="font-semibold text-[#1a1a18]">
-                      Your enquiry has been received.
-                    </h4>
-                    <p className="mt-2 text-sm leading-6 text-[#5f5f5f]">
-                      Thank you for choosing <strong>{SITE.name}</strong>. Our design consultant
-                      will review your requirements and get in touch within the next{" "}
-                      <strong>24 hours</strong>.
-                    </p>
-                    <p className="mt-3 text-sm text-[#5f5f5f]">
-                      Need immediate assistance?{" "}
-                      <a className="font-semibold underline" href={phoneHref}>
-                        Call us at {SITE.phone}
-                      </a>
-                    </p>
+              <div id="contact-form-status" aria-live="polite" aria-atomic="true" className="min-h-[5rem]">
+                {statusMessage ? (
+                  <div
+                    role={submissionState === "success" ? "status" : "alert"}
+                    className={`rounded-md p-5 ${submissionState === "success"
+                      ? "border border-[#C8A97A] bg-[#fdf9f3] text-[#1a1a18]"
+                      : "border border-red-200 bg-red-50 text-red-700"
+                      }`}
+                  >
+                    <p className="text-sm leading-6">{statusMessage}</p>
+                    {submissionState === "success" && (
+                      <p className="mt-3 text-sm text-[#5f5f5f]">
+                        Need immediate assistance? <a className="font-semibold underline" href={phoneHref}>
+                          Call us at {SITE.phone}
+                        </a>
+                      </p>
+                    )}
                   </div>
-                )}
-
-                {submissionState === "error" && (
-                  <p role="alert" className="text-sm text-red-700">
-                    We could not send your request. Please try again or call us directly.
-                  </p>
-                )}
-
-                {submissionState === "configuration-error" && (
-                  <p role="alert" className="text-sm text-red-700">
-                    The contact form is not configured yet. Please call us directly.
-                  </p>
-                )}
+                ) : null}
               </div>
 
               <div className="flex flex-wrap gap-6 border-t pt-6 text-sm text-[#6b6b66]">
