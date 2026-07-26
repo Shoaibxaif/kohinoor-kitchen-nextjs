@@ -1,8 +1,7 @@
 "use client";
 
-import { ArrowRight, PhoneCall } from "lucide-react";
-
-import { useRouter } from "next/navigation";
+import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 
 import Container from "@/components/common/Container";
 import Button from "@/components/common/Button";
@@ -12,8 +11,6 @@ import { ROUTES } from "@/constants/routes";
 import heroImage from "@/assets/images/contact/hero.png";
 
 function ContactHero() {
-    const router = useRouter();
-
     return (
         <section className="relative overflow-hidden bg-[#f7f5f0]">
             <Container>
@@ -42,7 +39,7 @@ function ContactHero() {
               "
                             style={{ fontFamily: "Playfair Display" }}
                         >
-                            Let's Create
+                            Let&apos;s Create
                             <br />
                             Your
                             <span className="italic text-[#C8A97A]">
@@ -59,14 +56,15 @@ function ContactHero() {
                 text-[#6b6b66]
               "
                         >
-                            Whether you're renovating your kitchen or building a new home,
+                            Whether you&apos;re renovating your kitchen or building a new home,
                             our experts are here to help. Schedule a free consultation and
-                            let's design a modular kitchen tailored to your lifestyle.
+                            let&apos;s design a modular kitchen tailored to your lifestyle.
                         </p>
 
                         <div className="mt-10 flex flex-wrap gap-4">
                             <Button
                                 variant="primary"
+                                type="button"
                                 className="gap-2"
                                 onClick={() => {
                                     document
@@ -80,11 +78,11 @@ function ContactHero() {
                             </Button>
 
                             <Button
+                                to={ROUTES.PROJECTS}
                                 variant="outline"
                                 className="gap-2"
-                                onClick={() => router.push(ROUTES.PROJECTS)}
                             >
-                                <PhoneCall size={18} />
+                                <ArrowRight size={18} />
                                 View Projects
                             </Button>
                         </div>
@@ -136,9 +134,11 @@ function ContactHero() {
                     {/* Right */}
 
                     <div className="relative">
-                        <img
-                            src={heroImage?.src ?? heroImage}
+                        <Image
+                            src={heroImage}
                             alt="Contact Kohinoor Kitchens"
+                            preload
+                            sizes="(min-width: 1024px) 50vw, 100vw"
                             className="
                 h-[700px]
                 w-full
