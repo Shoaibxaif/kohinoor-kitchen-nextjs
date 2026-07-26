@@ -10,6 +10,7 @@ import MobileNav from "./MobileNav";
 
 import { ROUTES } from "@/constants/routes";
 import { SITE } from "@/constants/siteConfig";
+import logo from "@/assets/images/logo.png";
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -19,12 +20,13 @@ function Navbar() {
             <Container>
                 <nav className="h-20 flex items-center justify-between">
                     {/* Logo */}
-                    <Link
-                        href={ROUTES.HOME}
-                        className="font-serif text-2xl font-medium tracking-wide text-[#1a1a18]"
-                        style={{ fontFamily: "Playfair Display" }}
-                    >
-                        Kohinoor
+                    {/* Logo */}
+                    <Link href={ROUTES.HOME} className="flex items-center">
+                        <img
+                            src={logo.src ?? logo}
+                            alt="Kohinoor Modular Kitchen"
+                            className="h-14 w-auto object-contain"
+                        />
                     </Link>
 
                     {/* Desktop Navigation */}

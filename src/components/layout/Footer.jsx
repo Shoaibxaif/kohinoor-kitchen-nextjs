@@ -3,6 +3,7 @@ import Link from "next/link";
 import Container from "@/components/common/Container";
 import { ROUTES } from "@/constants/routes";
 import { SITE } from "@/constants/siteConfig";
+import logo from "@/assets/images/logo.png";
 
 import {
     Phone,
@@ -67,27 +68,21 @@ function Footer() {
 
             {/* Brand */}
             <div>
-                <h2
-                    className="text-4xl text-[#1a1a18]"
-                    style={{
-                        fontFamily: "Playfair Display",
-                    }}
-                >
-                    KOHINOOR
-                </h2>
-
-                <div className="mt-5 h-px w-20 bg-[#C8A97A]" />
+                <img
+                    src={logo.src ?? logo}
+                    alt="Kohinoor Modular Kitchen"
+                    className="h-20 w-auto object-contain"
+                />
 
                 <p
                     className="
-              mt-6
-              max-w-lg
-              text-[#6b6b66]
-              leading-8
-            "
+      mt-6
+      max-w-lg
+      text-[#6b6b66]
+      leading-8
+    "
                 >
                     Kohinoor Modular Kitchen is a trusted modular kitchen manufacturer in Delhi with over 20 years of experience. We design and build premium modular kitchens featuring smart storage, quality materials, and expert craftsmanship for modern homes.
-
                 </p>
             </div>
 
