@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Container from "@/components/common/Container";
 import kitchenImage from "@/assets/images/about-kitchen.jpg";
 import Button from "@/components/common/Button";
@@ -11,6 +12,14 @@ const features = [
     "Dedicated After-Sales Support",
 ];
 
+const layoutLinks = [
+    { label: "L-shaped", path: ROUTES.L_SHAPED_KITCHEN },
+    { label: "U-shaped", path: ROUTES.U_SHAPED_KITCHEN },
+    { label: "parallel", path: ROUTES.PARALLEL_KITCHEN },
+    { label: "island", path: ROUTES.ISLAND_KITCHEN },
+    { label: "straight", path: ROUTES.STRAIGHT_KITCHEN },
+];
+
 function AboutSection() {
     return (
         <section className="bg-[#1a1a18] py-24 lg:py-32">
@@ -21,7 +30,7 @@ function AboutSection() {
                     <div className="relative h-full min-h-[450px]">
                         <Image
                             src={kitchenImage}
-                            alt="Luxury Modular Kitchen"
+                            alt="Modular kitchen interior design in Ghaziabad, serving Delhi NCR"
                             fill
                             className="object-cover"
                             sizes="(min-width: 1024px) 50vw, 100vw"
@@ -78,11 +87,30 @@ function AboutSection() {
                 max-w-xl
               "
                         >
-                            At Kohinoor Kitchens, we believe a kitchen is more
-                            than a workspace. It is the heart of every home.
-                            Our team combines thoughtful design, premium
-                            materials, and expert craftsmanship to create
-                            spaces that are both beautiful and functional.
+                            At Kohinoor Kitchens, we believe a kitchen is more than a
+                            workspace - it&apos;s the heart of every home. As a
+                            Ghaziabad-based modular kitchen and interior specialist
+                            serving homeowners across Delhi NCR, we design{" "}
+                            {layoutLinks.map((layout, index) => (
+                                <span key={layout.path}>
+                                    <Link
+                                        href={layout.path}
+                                        className="text-[#c8a97a] underline underline-offset-4 hover:text-white transition-colors"
+                                    >
+                                        {layout.label}
+                                    </Link>
+                                    {index < layoutLinks.length - 2
+                                        ? ", "
+                                        : index === layoutLinks.length - 2
+                                            ? " and "
+                                            : ""}
+                                </span>
+                            ))}{" "}
+                            modular kitchens that make the most of apartment and
+                            villa spaces. Choose from premium finishes, smart storage
+                            solutions, soft-close hardware, wardrobes, TV units, beds
+                            and made-to-measure furniture — planned around your
+                            lifestyle, budget and space.
                         </p>
 
                         <ul className="mt-10 space-y-5">

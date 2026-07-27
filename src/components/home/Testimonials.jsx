@@ -1,28 +1,59 @@
 import Container from "@/components/common/Container";
 import SectionHeading from "@/components/common/SectionHeading";
+import GoogleIcon from "@/components/common/GoogleIcon";
 
+// Real reviews copied directly from the Kohinoor Google Business Profile
+// (google.com/maps/place/?q=place_id:ChIJyaQbnl79DDkRIpjMvWhmKRc).
+// To add more: open a review on Google Maps, copy the name, star rating,
+// and review text, and add another object below in the same shape.
 const testimonials = [
     {
-        name: "Arjun Mehra",
-        location: "South Delhi",
+        name: "Nishith Sharma",
+        location: "Local Guide · 19 reviews",
+        rating: 5,
         review:
-            "Kohinoor Kitchens transformed our space beautifully. The attention to detail, material quality, and execution exceeded our expectations.",
+            "Just got my modular kitchen delivered by Kohinoor Modular Kitchens, and I'm genuinely impressed with the entire experience! From design to execution, everything was handled professionally and with great attention to detail. The finish, fittings, and overall quality have truly elevated the look and functionality of my kitchen. A special thanks to Furkan and Zeeshan for their outstanding support throughout the process. They were responsive, cooperative, and ensured everything was completed smoothly and on time. Highly recommended for anyone planning a modular kitchen upgrade!",
+        profileUrl:
+            "https://www.google.com/maps/contrib/109529087084098678060/reviews?hl=en-GB",
     },
     {
-        name: "Priya Sharma",
-        location: "Gurgaon",
+        name: "Vasim Khan",
+        location: "9 weeks ago",
+        rating: 5,
         review:
-            "From design consultation to installation, the entire process was seamless. The team delivered exactly what was promised.",
+            "Kohinoor modular kitchen se Puri tarah Ham satisfy Hain humne inse pichhle 10 salon mein do bar kam kara liya ek bar kitchen banai aur ab TV panel aur almari banai hai inhone Main aur Meri wife donon khush hai inse",
+        profileUrl:
+            "https://www.google.com/maps/contrib/113142022567067377707/reviews?hl=en-GB",
     },
     {
-        name: "Rahul Verma",
-        location: "Noida",
+        name: "Mohammad Shoaib",
+        location: "Local Guide · 3 reviews",
+        rating: 5,
         review:
-            "Our kitchen feels premium, functional, and perfectly suited to our lifestyle. We couldn't be happier with the result.",
+            "I had a wonderful experience with Kohinoor Modular Kitchen. The team was highly professional, attentive to my requirements, and delivered exactly what they promised. The design is modern, the quality of materials is excellent, and the installation was completed neatly and on time. Their craftsmanship and attention to detail truly exceeded my expectations. I highly recommend Kohinoor Modular Kitchen to anyone looking for a stylish, durable, and functional kitchen. Great service and excellent value for money!",
+        profileUrl:
+            "https://www.google.com/maps/contrib/114168961772162032973/reviews?hl=en-IN",
     },
+    // Add the next real review here, same shape as above:
+    // {
+    //     name: "",
+    //     location: "",
+    //     rating: 5,
+    //     review: "",
+    //     profileUrl: "",
+    // },
 ];
 
 function Testimonials() {
+    const count = testimonials.length;
+
+    const gridClass =
+        count === 1
+            ? "grid-cols-1 max-w-xl mx-auto"
+            : count === 2
+                ? "sm:grid-cols-2 max-w-4xl mx-auto"
+                : "md:grid-cols-2 lg:grid-cols-3";
+
     return (
         <section className="py-24 lg:py-32 bg-[#f7f5f0]">
             <Container>
@@ -32,7 +63,7 @@ function Testimonials() {
                     italicWord="Say"
                 />
 
-                <div className="grid lg:grid-cols-3 gap-8 mt-16">
+                <div className={`grid gap-8 mt-16 ${gridClass}`}>
                     {testimonials.map((testimonial) => (
                         <article
                             key={testimonial.name}
@@ -40,14 +71,18 @@ function Testimonials() {
                 bg-white
                 border
                 border-[#e8e4dc]
-                p-8
+                p-10
                 flex
                 flex-col
               "
                         >
-                            {/* Stars */}
-                            <div className="flex gap-1 text-[#c8a97a] text-lg">
-                                ★★★★★
+                            {/* Stars + source */}
+                            <div className="flex items-center justify-between">
+                                <div className="flex gap-1 text-[#c8a97a] text-lg">
+                                    {"★".repeat(testimonial.rating ?? 5)}
+                                </div>
+
+                                <GoogleIcon size={18} />
                             </div>
 
                             {/* Review */}
@@ -58,7 +93,7 @@ function Testimonials() {
                   leading-8
                 "
                             >
-                                “{testimonial.review}”
+                                &ldquo;{testimonial.review}&rdquo;
                             </p>
 
                             {/* Client */}
@@ -70,6 +105,7 @@ function Testimonials() {
                                     }}
                                 >
                                     {testimonial.name}
+
                                 </h4>
 
                                 <p className="text-sm text-[#9a9a92] mt-1">
@@ -79,6 +115,10 @@ function Testimonials() {
                         </article>
                     ))}
                 </div>
+
+                <p className="mt-10 text-center text-xs text-[#9a9a92]">
+                    Reviews shown as posted on Google.
+                </p>
             </Container>
         </section>
     );

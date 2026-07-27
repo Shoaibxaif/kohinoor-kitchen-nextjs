@@ -1,5 +1,5 @@
-import Image from "next/image";
 import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 
 import Container from "@/components/common/Container";
 import SectionHeading from "@/components/common/SectionHeading";
@@ -70,15 +70,16 @@ function FeaturedProjects() {
                                 <div className="relative overflow-hidden h-[450px]">
                                     <Image
                                         src={project.image}
-                                        alt={project.title}
+                                        alt={`${project.type} interior design, ${project.location} — Kohinoor Kitchens`}
                                         fill
+                                        loading="lazy"
+                                        sizes="(min-width: 1024px) 33vw, 100vw"
                                         className="
                     object-cover
                     transition-transform
                     duration-700
                     group-hover:scale-105
                   "
-                                        sizes="(min-width: 1024px) 33vw, 100vw"
                                     />
                                 </div>
 

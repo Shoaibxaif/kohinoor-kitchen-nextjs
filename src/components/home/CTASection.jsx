@@ -54,7 +54,8 @@ function CTASection() {
 
                     <div className="mt-10 flex flex-col sm:flex-row sm:items-center gap-4 justify-center">
                         <Button to={ROUTES.CONTACT}>
-                            Get Free Consultation
+                            Book a Free <br />
+                            Design Consultation
                         </Button>
 
                         <Button

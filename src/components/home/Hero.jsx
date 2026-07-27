@@ -1,8 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 import Container from "@/components/common/Container";
 import Button from "@/components/common/Button";
@@ -11,11 +11,11 @@ import heroImage from "@/assets/images/hero-kitchen.jpg";
 
 const stats = [
     {
-        value: "6000+",
+        value: "1500+",
         label: "Projects Delivered",
     },
     {
-        value: "18+",
+        value: "10+",
         label: "Years Experience",
     },
     {
@@ -37,8 +37,7 @@ function Hero() {
                         transition={{ duration: 0.7 }}
                     >
                         <p className="text-xs uppercase tracking-[0.25em] text-[#c8a97a] mb-6">
-                            Luxury Modular Kitchens & Furniture
-                        </p>
+                            Explore Modular Kitchen Designs for Delhi NCR Homes                        </p>
 
                         <h1
                             className="text-5xl md:text-6xl xl:text-7xl leading-tight text-[#1a1a18]"
@@ -50,14 +49,14 @@ function Hero() {
                         </h1>
 
                         <p className="mt-8 text-lg text-[#4a4a46] max-w-xl leading-relaxed">
-                            Designing and manufacturing premium modular kitchens, wardrobes, TV panels, beds, sofas, and custom furniture for modern homes across Delhi NCR.
+                            Custom modular kitchens, wardrobes and bespoke furniture designed for modern homes in Delhi, Ghaziabad, Noida, Gurgaon and across NCR. From space planning and material selection to manufacturing and installation, Kohinoor Kitchens creates practical, premium interiors tailored to your home.
                         </p>
 
                         <div className="flex flex-col sm:flex-row sm:items-center gap-4 mt-10">
                             <Button
                                 to={ROUTES.CONTACT}
                             >
-                                Get Free Consultation
+                                Book a Free Design Consultation
                             </Button>
 
                             <Button
@@ -106,11 +105,11 @@ function Hero() {
                         <div className="relative overflow-hidden rounded-sm h-[500px] lg:h-[700px]">
                             <Image
                                 src={heroImage}
-                                alt="Luxury Modular Kitchen"
+                                alt="Luxury modular kitchen design for modern Delhi NCR homes"
                                 fill
                                 priority
-                                className="object-cover"
                                 sizes="(min-width: 1024px) 50vw, 100vw"
+                                className="object-cover"
                             />
                         </div>
 
