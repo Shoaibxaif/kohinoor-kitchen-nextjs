@@ -54,10 +54,10 @@ function QualityPromise() {
 
                         <p className="mt-8 text-lg leading-8 text-[#6b6b66]">
                             Every Kohinoor Kitchen is built with one commitment in mind:
-                            delivering exceptional quality without compromise. From premium
-                            materials to expert craftsmanship, every detail is carefully
-                            planned, manufactured, and installed to create kitchens that
-                            remain beautiful for years.
+                            delivering exceptional modular kitchen quality without
+                            compromise. From premium materials to expert craftsmanship, every
+                            detail is carefully planned, manufactured, and installed to
+                            create kitchens that remain beautiful for years.
                         </p>
 
                         <div className="mt-12 space-y-8">

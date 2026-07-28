@@ -13,25 +13,25 @@ const values = [
     icon: Gem,
     title: "Premium Quality",
     description:
-      "We use carefully selected materials, branded hardware, and precision manufacturing to ensure every kitchen stands the test of time.",
+      "We use premium materials, branded hardware, and precision manufacturing to ensure every modular kitchen stands the test of time.",
   },
   {
     icon: Sparkles,
     title: "Thoughtful Design",
     description:
-      "Every kitchen is customized around your lifestyle, maximizing functionality while maintaining timeless aesthetics.",
+      "Every kitchen is customized around your lifestyle and space, maximizing functionality while maintaining timeless aesthetics.",
   },
   {
     icon: ShieldCheck,
     title: "Built to Last",
     description:
-      "From moisture-resistant boards to premium fittings, every detail is chosen for durability and long-term performance.",
+      "From moisture-resistant boards to superior fittings, every detail is chosen for durability and long-term performance.",
   },
   {
     icon: HeartHandshake,
     title: "Customer First",
     description:
-      "We believe exceptional service, transparent communication, and complete customer satisfaction are the foundation of every successful project.",
+      "We deliver exceptional service, transparent communication, and complete customer satisfaction on every kitchen project.",
   },
 ];
 

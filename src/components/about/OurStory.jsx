@@ -65,7 +65,10 @@ function OurStory() {
 
                         <p className="mt-8 text-lg leading-8 text-[#6b6b66]">
                             At Kohinoor Kitchens, we believe a kitchen is more than just a
-                            place to cook—it&apos;s the heart of every home. Every family has a
+                            place to cook—it&apos;s the heart of every home. Every family has
+                            unique needs, and our modular kitchen solutions are designed to
+                            support daily living while elevating the look and feel of your
+                            space.
                         </p>
 
                         <p className="mt-6 text-lg leading-8 text-[#6b6b66]">

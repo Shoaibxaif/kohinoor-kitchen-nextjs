@@ -58,21 +58,21 @@ function WhyChooseUs() {
           <div className="lg:sticky lg:top-28 h-fit">
             <SectionHeading
               align="left"
-              tag="Why Choose Kohinoor"
-              title="Luxury Kitchens"
+              tag="Why Choose Kohinoor Kitchens"
+              title="Luxury Modular Kitchens"
               italicWord="Built Around You"
             />
 
             <p className="mt-8 text-lg leading-8 text-[#6b6b66]">
               We don&apos;t just manufacture modular kitchens—we create personalized
               spaces that combine intelligent planning, premium craftsmanship,
-              and timeless aesthetics.
+              and timeless aesthetics for modern homes across Delhi NCR.
             </p>
 
             <p className="mt-6 text-lg leading-8 text-[#6b6b66]">
-              From design consultation to final installation, every step is
-              handled by experienced professionals committed to delivering
-              exceptional quality and complete customer satisfaction.
+              From design consultation to final installation, every step is handled
+              by experienced professionals committed to delivering exceptional
+              quality and complete customer satisfaction.
             </p>
           </div>
 

@@ -18,37 +18,37 @@ const expertise = [
         icon: PenTool,
         title: "Design Consultation",
         description:
-            "Personalized planning with detailed layouts and realistic 3D visualizations before execution.",
+            "Personalized modular kitchen planning with detailed layouts and realistic 3D visualizations before execution.",
     },
     {
         icon: Factory,
         title: "Precision Manufacturing",
         description:
-            "Modern manufacturing processes ensure accurate dimensions and superior finish for every cabinet.",
+            "Modern manufacturing ensures accurate dimensions and superior finishes for every kitchen cabinet and component.",
     },
     {
         icon: Drill,
         title: "Professional Installation",
         description:
-            "Experienced installation specialists deliver seamless fitting with meticulous attention to detail.",
+            "Experienced installation specialists deliver seamless fitting and precise execution at every project site.",
     },
     {
         icon: ShieldCheck,
         title: "Quality Inspection",
         description:
-            "Every project undergoes multiple quality checks before final handover.",
+            "Every modular kitchen undergoes multiple quality checks before final handover to ensure lasting performance.",
     },
     {
         icon: Users,
         title: "Dedicated Project Team",
         description:
-            "A dedicated team coordinates design, production, delivery, and installation for a hassle-free experience.",
+            "A dedicated team coordinates design, production, delivery, and installation for a hassle-free kitchen experience.",
     },
     {
         icon: Settings2,
         title: "Premium Hardware",
         description:
-            "We use trusted brands for hinges, channels, accessories, and fittings to ensure lasting performance.",
+            "We use trusted brands for hinges, channels, accessories, and fittings to ensure long-lasting kitchen performance.",
     },
 ];
 

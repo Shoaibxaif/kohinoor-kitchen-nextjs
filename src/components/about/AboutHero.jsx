@@ -54,10 +54,10 @@ function AboutHero() {
                 text-[#6b6b66]
               "
                         >
-                            At Kohinoor Kitchens, we believe every kitchen should be as
-                            functional as it is beautiful. Combining thoughtful design,
-                            premium materials, and expert craftsmanship, we create modular
-                            kitchens that become the heart of every home.
+                            At Kohinoor Kitchens, we believe every modular kitchen should
+                            be as functional as it is beautiful. Combining thoughtful
+                            design, premium materials, and expert craftsmanship, we create
+                            custom kitchens that become the heart of every home in Delhi NCR.
                         </p>
 
                         <div className="mt-10 flex flex-wrap gap-4">

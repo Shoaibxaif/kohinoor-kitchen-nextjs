@@ -10,9 +10,16 @@ import Stats from "@/components/projects/ProjectStats";
 import FAQ from "@/components/projects/ProjectFAQ";
 
 export const metadata = {
-    title: "About Us",
+    title: "About Kohinoor Kitchens | Modular Kitchen Experts in Delhi NCR",
     description:
-        "Learn about Kohinoor Kitchens — 18+ years of experience crafting premium modular kitchens for modern homes across Delhi NCR.",
+        "Discover Kohinoor Kitchens: 18+ years of experience designing and installing premium modular kitchens for modern homes across Delhi NCR.",
+    keywords: [
+        "about kohinoor kitchens",
+        "modular kitchen experts",
+        "delhi ncr kitchen designers",
+        "premium modular kitchens",
+        "custom kitchen installation",
+    ],
 };
 
 export default function AboutPage() {
