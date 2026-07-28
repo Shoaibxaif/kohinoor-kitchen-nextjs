@@ -17,42 +17,42 @@ const layouts = [
     {
         title: "L-Shaped Kitchen",
         description:
-            "An efficient layout that maximizes corner space and provides a seamless cooking workflow.",
+            "An efficient modular kitchen layout that maximizes corner storage and supports a seamless cooking workflow.",
         image: layout1,
         path: ROUTES.L_SHAPED_KITCHEN,
     },
     {
         title: "U-Shaped Kitchen",
         description:
-            "Ideal for larger homes, offering generous storage and an expansive work area.",
+            "A premium modular kitchen design for larger homes, offering generous storage and an expansive work area.",
         image: layout2,
         path: ROUTES.U_SHAPED_KITCHEN,
     },
     {
         title: "Parallel Kitchen",
         description:
-            "A practical design with two workstations, perfect for compact and functional spaces.",
+            "A practical modular kitchen with two workstations, ideal for compact and highly functional spaces.",
         image: layout3,
         path: ROUTES.PARALLEL_KITCHEN,
     },
     {
         title: "Island Kitchen",
         description:
-            "A luxurious layout featuring a central island for entertaining and additional workspace.",
+            "A luxury modular kitchen featuring a central island for entertaining, cooking, and extra workspace.",
         image: layout4,
         path: ROUTES.ISLAND_KITCHEN,
     },
     {
         title: "Straight Kitchen",
         description:
-            "Minimal, elegant, and ideal for apartments or compact urban homes.",
+            "A minimal modular kitchen design that is elegant, efficient, and perfect for apartments or urban homes.",
         image: layout5,
         path: ROUTES.STRAIGHT_KITCHEN,
     },
     {
         title: "Peninsula Kitchen",
         description:
-            "Combines openness with functionality while adding extra storage and seating.",
+            "A modern modular kitchen layout that combines openness with extra storage, prep space, and seating.",
         image: layout6,
         path: ROUTES.PENINSULA_KITCHEN,
     },
@@ -63,7 +63,7 @@ function KitchenLayouts() {
         <section className="py-24 lg:py-32 bg-[#f7f5f0]">
             <Container>
                 <SectionHeading
-                    tag="Kitchen Layouts"
+                    tag="Modular Kitchen Layouts"
                     title="Designed For Every"
                     italicWord="Home"
                 />

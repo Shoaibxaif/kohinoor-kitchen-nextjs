@@ -50,9 +50,9 @@ function Accessories() {
         <section className="py-24 lg:py-32 bg-[#f7f5f0]">
             <Container>
                 <SectionHeading
-                    tag="Smart Storage"
+                    tag="Smart Storage Accessories"
                     title="Premium Accessories For"
-                    italicWord="Every Kitchen"
+                    italicWord="Modular Kitchens"
                 />
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">

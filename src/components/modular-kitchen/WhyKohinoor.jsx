@@ -7,12 +7,12 @@ import { ROUTES } from "@/constants/routes";
 import kitchenImage from "@/assets/images/hero-kitchen.jpg";
 
 const benefits = [
-    "Maximum Space Utilization",
-    "Smart Storage Solutions",
-    "Premium Hardware & Accessories",
-    "Elegant Contemporary Designs",
-    "Easy Maintenance & Cleaning",
-    "Customized For Every Home",
+    "Maximum space utilization for every kitchen layout",
+    "Smart storage solutions for pantry, drawers, and corner cabinets",
+    "Premium hardware, hinges, and accessories",
+    "Elegant contemporary modular kitchen designs",
+    "Easy maintenance and long-lasting finishes",
+    "Custom modular kitchen planning for Delhi NCR homes",
 ];
 
 function WhyKohinoor() {
@@ -20,7 +20,7 @@ function WhyKohinoor() {
         <section className="py-24 lg:py-32 bg-white">
             <Container>
                 <SectionHeading
-                    tag="Why Modular Kitchen"
+                    tag="Why Choose Modular Kitchens"
                     title="Designed Around"
                     italicWord="Your Lifestyle"
                 />
@@ -39,11 +39,11 @@ function WhyKohinoor() {
                 {/* Content */}
                 <div className="max-w-4xl mx-auto text-center mt-16">
                     <p className="text-[#6b6b66] leading-8">
-                        A modular kitchen is more than beautiful cabinetry. It is an
-                        intelligently designed space that maximizes functionality, improves
-                        organization, and enhances everyday living. At Kohinoor Kitchens,
-                        every layout is thoughtfully planned to match your lifestyle,
-                        cooking habits, and available space.
+                        A modular kitchen is more than cabinetry. It is a thoughtfully
+                        planned cooking space with smart storage, premium kitchen materials,
+                        and a layout optimized for modern living. At Kohinoor Kitchens, we
+                        build custom modular kitchens for homes across Delhi NCR that look
+                        beautiful, work efficiently, and stand the test of time.
                     </p>
 
                     <div className="grid sm:grid-cols-2 gap-5 mt-12 text-left">
