@@ -2,7 +2,7 @@ export const SITE = {
   name: "Kohinoor Kitchens",
   url: "https://www.kohinoorinterior.in",
   phone: "+91 8929120505",
-  email: "kohinoor9210@gmail.com",
+  email: "contact@kohinoorinterior.in",
   address: [
     "G-396, Shaheed Nagar",
     "Near Shaheed Nagar Metro Station",

@@ -44,7 +44,7 @@ function ContactHero() {
                             Your
                             <span className="italic text-[#C8A97A]">
                                 {" "}
-                                Dream Kitchen
+                                Dream Modular Kitchen
                             </span>
                         </h1>
 
@@ -56,9 +56,10 @@ function ContactHero() {
                 text-[#6b6b66]
               "
                         >
-                            Whether you&apos;re renovating your kitchen or building a new home,
-                            our experts are here to help. Schedule a free consultation and
-                            let&apos;s design a modular kitchen tailored to your lifestyle.
+                            Whether you&apos;re renovating your kitchen or building a new home
+                            in Delhi NCR, our modular kitchen experts are here to help.
+                            Schedule a free consultation and let&apos;s design a custom modular
+                            kitchen tailored to your lifestyle.
                         </p>
 
                         <div className="mt-10 flex flex-wrap gap-4">
@@ -173,7 +174,7 @@ function ContactHero() {
                             >
                                 Bring Your
                                 <br />
-                                Vision To Life
+                                Modular Kitchen Vision To Life
                             </h3>
 
                             <p className="mt-4 leading-7 text-[#6b6b66]">

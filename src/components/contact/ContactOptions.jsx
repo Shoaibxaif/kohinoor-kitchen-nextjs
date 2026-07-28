@@ -13,14 +13,14 @@ const options = [
     title: "Call Us",
     value: SITE.phone,
     description:
-      "Speak directly with our kitchen experts for immediate assistance.",
+      "Speak directly with our modular kitchen experts for immediate assistance.",
     href: phoneHref,
   },
   {
     icon: Mail,
     title: "Email Us",
     value: SITE.email,
-    description: "Send your requirements and we'll get back within 24 hours.",
+    description: "Send your modular kitchen requirements and we'll reply within 24 hours.",
     href: `mailto:${SITE.email}`,
   },
   {
@@ -28,14 +28,14 @@ const options = [
     title: "Visit Showroom",
     value: showroomLocation,
     description:
-      "Explore premium materials, finishes, and complete kitchen displays.",
+      "Explore premium modular kitchen materials, finishes, and complete display kitchens.",
     href: SITE.mapUrl,
   },
   {
     icon: Clock3,
     title: "Working Hours",
     value: SITE.hours.display,
-    description: "Book an appointment for a personalized design consultation.",
+    description: "Book an appointment for a personalized modular kitchen design consultation.",
     href: null,
   },
 ];

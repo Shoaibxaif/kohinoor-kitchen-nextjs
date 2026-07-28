@@ -34,7 +34,7 @@ export default function TermsPage() {
 
                     <h2>Contact</h2>
                     <p>
-                        For questions about these terms, contact us at <a href="mailto:kohinoor9210@gmail.com" className="text-[#C8A97A] underline">kohinoor9210@gmail.com</a>.
+                        For questions about these terms, contact us at <a href="mailto:contact@kohinoorinterior.in" className="text-[#C8A97A] underline">contact@kohinoorinterior.in</a>.
                     </p>
                 </div>
             </Container>

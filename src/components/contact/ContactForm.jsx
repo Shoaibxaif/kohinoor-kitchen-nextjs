@@ -149,7 +149,7 @@ function ContactForm() {
   };
 
   return (
-    <section id="contact-form" className="bg-[#f7f5f0] py-24 lg:py-32">
+    <section id="contact-form" className="bg-[#f7f5f0] pt-24 pb-16 lg:pt-32 lg:pb-24">
       <Container>
         <div className="grid gap-16 lg:grid-cols-[1.2fr_0.8fr]">
           <div>
@@ -157,10 +157,10 @@ function ContactForm() {
               align="left"
               tag="Free Consultation"
               title="Let's Build Your"
-              italicWord="Dream Space"
+              italicWord="Dream Modular Kitchen"
             />
             <p className="mt-6 max-w-xl leading-8 text-[#6b6b66]">
-              Share your requirements and our design experts will contact you within 24 hours.
+              Share your modular kitchen requirements and our design experts will contact you within 24 hours.
             </p>
 
             <form
@@ -315,11 +315,11 @@ function ContactForm() {
                     : "Get Free Design Consultation"}
               </Button>
 
-              <div id="contact-form-status" aria-live="polite" aria-atomic="true" className="min-h-[5rem]">
+              <div id="contact-form-status" aria-live="polite" aria-atomic="true">
                 {statusMessage ? (
                   <div
                     role={submissionState === "success" ? "status" : "alert"}
-                    className={`rounded-md p-5 ${submissionState === "success"
+                    className={`mt-6 rounded-md p-5 ${submissionState === "success"
                       ? "border border-[#C8A97A] bg-[#fdf9f3] text-[#1a1a18]"
                       : "border border-red-200 bg-red-50 text-red-700"
                       }`}
@@ -336,7 +336,7 @@ function ContactForm() {
                 ) : null}
               </div>
 
-              <div className="flex flex-wrap gap-6 border-t pt-6 text-sm text-[#6b6b66]">
+              <div className="flex flex-wrap gap-6 border-t text-sm text-[#6b6b66]">
                 <span>✓ Free Consultation</span>
                 <span>✓ Free Site Visit</span>
                 <span>✓ 24-Hour Response</span>
@@ -423,7 +423,7 @@ function ContactForm() {
                 src={SITE.mapEmbedUrl}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                className="h-[340px] w-full"
+                className="h-[400px] w-full"
               />
             </div>
           </div>

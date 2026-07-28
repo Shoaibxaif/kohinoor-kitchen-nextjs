@@ -37,7 +37,7 @@ export default function PrivacyPage() {
 
                     <h2>Contact</h2>
                     <p>
-                        If you have questions about this policy, please contact us at <a href="mailto:kohinoor9210@gmail.com" className="text-[#C8A97A] underline">kohinoor9210@gmail.com</a>.
+                        If you have questions about this policy, please contact us at <a href="mailto:contact@kohinoorinterior.in" className="text-[#C8A97A] underline">contact@kohinoorinterior.in</a>.
                     </p>
                 </div>
             </Container>
