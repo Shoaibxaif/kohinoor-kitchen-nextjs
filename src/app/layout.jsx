@@ -66,7 +66,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" suppressHydrationWarning className={playfairDisplay.className}>
+    <html lang="en" suppressHydrationWarning className={playfairDisplay.className} data-scroll-behavior="smooth">
       <head>
         <meta name="theme-color" content="#f7f5f0" />
       </head>
