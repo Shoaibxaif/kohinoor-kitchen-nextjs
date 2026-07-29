@@ -76,14 +76,11 @@ function FAQ() {
                             </button>
 
                             <div
-                                className={`
-                  overflow-hidden
-                  transition-all
-                  duration-300
-                  ${active === index ? "max-h-60 pb-7" : "max-h-0"}
-                `}
+                                className={`grid transition-all duration-300 ${active === index ? "grid-rows-[1fr]" : "grid-rows-[0fr]"}`}
                             >
-                                <p className="text-[#6b6b66] leading-8 pr-8">{faq.answer}</p>
+                                <div className="overflow-hidden">
+                                    <p className="pb-7 text-[#6b6b66] leading-8 pr-8">{faq.answer}</p>
+                                </div>
                             </div>
                         </div>
                     ))}

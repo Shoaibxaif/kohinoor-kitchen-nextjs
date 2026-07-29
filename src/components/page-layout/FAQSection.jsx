@@ -69,22 +69,20 @@ function FAQSection({
                                     role="region"
                                     aria-labelledby={buttonId}
                                     aria-hidden={!isOpen}
-                                    className={`
-                    overflow-hidden
-                    transition-all
-                    duration-300
-                    ${isOpen ? "max-h-60 pb-7" : "max-h-0"}
-                  `}
+                                    className={`grid transition-all duration-300 ${isOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"}`}
                                 >
-                                    <p
-                                        className="
-                      text-[#6b6b66]
-                      leading-8
-                      pr-8
-                    "
-                                    >
-                                        {faq.answer}
-                                    </p>
+                                    <div className="overflow-hidden">
+                                        <p
+                                            className="
+                          text-[#6b6b66]
+                          leading-8
+                          pr-8
+                          pb-7
+                        "
+                                        >
+                                            {faq.answer}
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         );
