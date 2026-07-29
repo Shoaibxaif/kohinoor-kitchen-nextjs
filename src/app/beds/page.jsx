@@ -9,9 +9,25 @@ import CTA from "@/components/home/CTASection";
 import bedImage from "@/assets/images/beds/hero.jpg";
 
 export const metadata = {
-    title: "Custom Beds",
+    title: "Custom Storage Beds in Delhi NCR | Kohinoor Kitchens",
     description:
-        "Premium beds thoughtfully designed to combine exceptional comfort, elegant aesthetics, and practical storage solutions.",
+        "Explore premium custom storage beds in Delhi NCR with elegant designs, smart organization, and durable craftsmanship for modern bedrooms.",
+    keywords: [
+        "custom beds Delhi NCR",
+        "storage bed design Delhi",
+        "modular beds Delhi",
+        "premium bedroom furniture Delhi NCR",
+        "hydraulic storage bed",
+    ],
+    openGraph: {
+        title: "Custom Storage Beds in Delhi NCR | Kohinoor Kitchens",
+        description: "Premium custom storage beds in Delhi NCR designed for comfort, style, and smart bedroom organization.",
+        type: "website",
+        locale: "en_IN",
+    },
+    alternates: {
+        canonical: "https://www.kohinoorinterior.in/beds",
+    },
 };
 
 export default function BedPage() {

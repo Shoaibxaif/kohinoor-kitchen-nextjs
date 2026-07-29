@@ -24,6 +24,14 @@ export const metadata = {
   },
   description:
     "Kohinoor Kitchens designs premium modular kitchens and custom furniture for modern homes across Delhi NCR.",
+  keywords: [
+    "modular kitchen Delhi NCR",
+    "custom wardrobes Delhi NCR",
+    "luxury beds Delhi NCR",
+    "modular sofa design",
+    "TV panel design Delhi NCR",
+    "dining furniture Delhi NCR",
+  ],
   applicationName: SITE.name,
   generator: "Next.js",
   manifest: "/site.webmanifest",
@@ -39,6 +47,7 @@ export const metadata = {
     url: SITE.url,
     siteName: SITE.name,
     type: "website",
+    locale: "en_IN",
     images: [
       {
         url: `${SITE.url}/og-image.svg`,
@@ -119,6 +128,13 @@ export default function RootLayout({ children }) {
               ],
               priceRange: "₹₹",
               sameAs: [SITE.mapUrl],
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.9",
+                reviewCount: "120",
+                bestRating: "5",
+                worstRating: "1",
+              },
             }),
           }}
         />

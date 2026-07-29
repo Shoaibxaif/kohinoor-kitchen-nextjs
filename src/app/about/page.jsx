@@ -8,6 +8,7 @@ import ProcessTimeline from "@/components/projects/ProcessTimeline";
 import QualityPromise from "@/components/about/QualityPromise";
 import Stats from "@/components/projects/ProjectStats";
 import FAQ from "@/components/projects/ProjectFAQ";
+import StructuredData from "@/components/common/StructuredData";
 
 export const metadata = {
     title: "About Kohinoor Kitchens | Modular Kitchen Experts in Delhi NCR",
@@ -23,8 +24,18 @@ export const metadata = {
 };
 
 export default function AboutPage() {
+    const breadcrumbSchema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.kohinoorinterior.in/" },
+            { "@type": "ListItem", position: 2, name: "About", item: "https://www.kohinoorinterior.in/about" },
+        ],
+    };
+
     return (
         <>
+            <StructuredData data={breadcrumbSchema} />
             <HeroSection />
             <OurStory />
             <CoreValues />

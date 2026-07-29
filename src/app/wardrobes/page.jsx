@@ -8,9 +8,25 @@ import wardrobeImage from "@/assets/images/wardrobe/hero.jpg";
 import CTA from "@/components/home/CTASection";
 
 export const metadata = {
-    title: "Custom Wardrobes",
+    title: "Custom Modular Wardrobes in Ghaziabad | Kohinoor Kitchens",
     description:
-        "Our modular wardrobes are thoughtfully crafted to maximize storage while complementing your bedroom interiors.",
+        "Explore premium modular wardrobes in Ghaziabad and Delhi NCR with smart storage, modern finishes, and custom interiors.",
+    keywords: [
+        "modular wardrobes Ghaziabad",
+        "custom wardrobes Delhi NCR",
+        "sliding wardrobe design",
+        "luxury wardrobe manufacturers Delhi",
+        "bedroom storage solutions",
+    ],
+    openGraph: {
+        title: "Custom Modular Wardrobes in Ghaziabad | Kohinoor Kitchens",
+        description: "Premium modular wardrobes in Ghaziabad and Delhi NCR designed to maximize storage and style.",
+        type: "website",
+        locale: "en_IN",
+    },
+    alternates: {
+        canonical: "https://www.kohinoorinterior.in/wardrobes",
+    },
 };
 
 export default function WardrobePage() {

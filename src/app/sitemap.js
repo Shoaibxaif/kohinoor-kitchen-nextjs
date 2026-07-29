@@ -36,6 +36,8 @@ function buildUrl(path, priority) {
     };
 }
 
+export const dynamic = "force-static";
+
 export default function sitemap() {
     return [
         ...staticRoutes.map(({ path, priority }) => buildUrl(path, priority)),

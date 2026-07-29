@@ -9,9 +9,25 @@ import CTA from "@/components/home/CTASection";
 import tvPanelImage from "@/assets/images/tv-panel/hero.jpg";
 
 export const metadata = {
-    title: "TV Panels",
+    title: "Custom TV Panels in Delhi NCR | Kohinoor Kitchens",
     description:
-        "Custom-designed TV panels that combine elegant aesthetics, practical storage, and premium craftsmanship.",
+        "Discover custom TV panels in Delhi NCR with sleek design, hidden storage, and premium craftsmanship for modern interiors.",
+    keywords: [
+        "TV panel design Delhi NCR",
+        "custom TV unit Delhi",
+        "wall mounted TV panel",
+        "entertainment unit design",
+        "luxury TV panel manufacturer",
+    ],
+    openGraph: {
+        title: "Custom TV Panels in Delhi NCR | Kohinoor Kitchens",
+        description: "Premium custom TV panels in Delhi NCR crafted for modern entertainment spaces and smart storage.",
+        type: "website",
+        locale: "en_IN",
+    },
+    alternates: {
+        canonical: "https://www.kohinoorinterior.in/tv-panels",
+    },
 };
 
 export default function TVPanelPage() {

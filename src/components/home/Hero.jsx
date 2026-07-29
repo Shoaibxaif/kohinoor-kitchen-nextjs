@@ -43,9 +43,9 @@ function Hero() {
                             className="text-5xl md:text-6xl xl:text-7xl leading-tight text-[#1a1a18]"
                             style={{ fontFamily: "Playfair Display" }}
                         >
-                            Crafted For
+                            Modular Kitchens
                             <br />
-                            Modern Homes
+                            Crafted for Modern Homes in Delhi NCR
                         </h1>
 
                         <p className="mt-8 text-lg text-[#4a4a46] max-w-xl leading-relaxed">

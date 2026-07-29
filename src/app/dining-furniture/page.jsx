@@ -9,9 +9,25 @@ import CTA from "@/components/home/CTASection";
 import diningImage from "@/assets/images/dining/hero.jpg";
 
 export const metadata = {
-    title: "Dining Furniture",
+    title: "Dining Furniture in Delhi NCR | Kohinoor Kitchens",
     description:
-        "Beautifully crafted dining tables and chairs designed for everyday meals and special occasions.",
+        "Explore premium dining furniture in Delhi NCR with elegant dining tables, chairs, and crafted finishes for modern homes.",
+    keywords: [
+        "dining furniture Delhi NCR",
+        "custom dining table Delhi",
+        "luxury dining chairs",
+        "modular dining set Delhi",
+        "modern dining room furniture",
+    ],
+    openGraph: {
+        title: "Dining Furniture in Delhi NCR | Kohinoor Kitchens",
+        description: "Premium dining furniture in Delhi NCR crafted for modern homes, family gatherings, and timeless style.",
+        type: "website",
+        locale: "en_IN",
+    },
+    alternates: {
+        canonical: "https://www.kohinoorinterior.in/dining-furniture",
+    },
 };
 
 export default function DiningFurniturePage() {
