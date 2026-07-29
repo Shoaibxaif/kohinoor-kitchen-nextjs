@@ -12,9 +12,9 @@ export const kitchenLayouts = {
   lShaped: {
     hero: {
       subtitle: "Luxury Modular Kitchens",
-      title: "L-Shaped Kitchen",
+      title: "L-Shaped Modular Kitchen Design",
       description:
-        "Elegant L-shaped modular kitchens designed to maximize corner space while delivering a seamless cooking experience.",
+        "Discover premium L-shaped modular kitchens in Delhi NCR with smart corner storage, efficient workflow, and elegant finishes for modern homes.",
       image: kitchenImages.lShaped.hero,
       buttonText: "Get Free Consultation",
       buttonLink: "/contact",
@@ -281,9 +281,9 @@ export const kitchenLayouts = {
   uShaped: {
   hero: {
   subtitle: "Luxury Modular Kitchens",
-  title: "U-Shaped Kitchen",
+  title: "U-Shaped Modular Kitchen Design",
   description:
-    "Experience unmatched efficiency with a U-shaped modular kitchen that surrounds you with ample workspace, smart storage, and seamless workflow.",
+    "Explore luxury U-shaped modular kitchens in Delhi NCR designed for maximum workspace, smart storage, and effortless cooking in large homes.",
   image: kitchenImages.uShaped.hero,
   buttonText: "Get Free Consultation",
   buttonLink: "/contact",
@@ -511,9 +511,9 @@ export const kitchenLayouts = {
 parallel:{
   hero: {
   subtitle: "Luxury Modular Kitchens",
-  title: "Parallel Kitchen",
+  title: "Parallel Modular Kitchen Design",
   description:
-    "A highly efficient parallel kitchen layout featuring two opposing countertops, offering excellent workflow, generous storage, and maximum functionality for modern homes.",
+    "Upgrade to a functional parallel modular kitchen in Delhi NCR with dual work zones, optimized storage, and a sleek modern finish for compact homes.",
   image: kitchenImages.parallel.hero,
   buttonText: "Get Free Consultation",
   buttonLink: "/contact",
@@ -751,10 +751,10 @@ island:{
   hero: {
   subtitle: "Luxury Modular Kitchens",
 
-  title: "Island Kitchen",
+  title: "Island Modular Kitchen Design",
 
   description:
-    "Transform your home with a luxurious island kitchen that combines elegant design, expansive workspace, premium storage, and a central gathering space for family and entertaining.",
+    "Create a luxurious island modular kitchen in Delhi NCR with a central workspace, premium storage, and stylish open-plan living for modern homes.",
 
   image: kitchenImages.island.hero,
 
@@ -999,10 +999,10 @@ straight: {
   hero: {
   subtitle: "Luxury Modular Kitchens",
 
-  title: "Straight Kitchen",
+  title: "Straight Modular Kitchen Design",
 
   description:
-    "A sleek and space-efficient straight modular kitchen designed for apartments, studios, and modern homes, offering smart storage and a streamlined cooking experience.",
+    "Choose a space-saving straight modular kitchen in Delhi NCR for compact homes, smart vertical storage, and a clean contemporary style.",
 
   image: kitchenImages.straight.hero,
 
@@ -1245,10 +1245,10 @@ peninsula:{
   hero: {
   subtitle: "Luxury Modular Kitchens",
 
-  title: "Peninsula Kitchen",
+  title: "Peninsula Modular Kitchen Design",
 
   description:
-    "A peninsula kitchen combines the openness of an island with the efficiency of a connected layout, offering additional workspace, storage, and casual seating without requiring a large floor plan.",
+    "Discover elegant peninsula modular kitchens in Delhi NCR that combine extra workspace, smart storage, and casual dining in one modern layout.",
 
   image: kitchenImages.peninsula.hero,
 

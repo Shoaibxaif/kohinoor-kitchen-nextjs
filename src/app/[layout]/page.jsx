@@ -38,10 +38,19 @@ export async function generateMetadata({ params }) {
     if (!key) return {};
 
     const { hero } = kitchenLayouts[key];
+    const pageTitle = `${titleMap[layout]} Modular Kitchen Design in Delhi NCR`;
+    const pageDescription = `Explore premium ${titleMap[layout]} modular kitchens in Delhi NCR with smart storage, efficient workflow, and luxury finishes for modern homes.`;
 
     return {
-        title: titleMap[layout],
-        description: hero.description,
+        title: pageTitle,
+        description: pageDescription,
+        keywords: [
+            `${titleMap[layout]} modular kitchen`,
+            `${titleMap[layout]} kitchen design`,
+            "modular kitchen Delhi NCR",
+            "luxury modular kitchen",
+            "custom kitchen design",
+        ],
     };
 }
 
