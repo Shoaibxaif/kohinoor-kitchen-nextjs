@@ -12,7 +12,7 @@ import FAQ from "@/components/projects/ProjectFAQ";
 export const metadata = {
     title: "About Kohinoor Kitchens | Modular Kitchen Experts in Delhi NCR",
     description:
-        "Discover Kohinoor Kitchens: 18+ years of experience designing and installing premium modular kitchens for modern homes across Delhi NCR.",
+        "Discover Kohinoor Kitchens: 18+ years of experience and 6000+ kitchens delivered across Delhi NCR, creating premium modular kitchens for modern homes.",
     keywords: [
         "about kohinoor kitchens",
         "modular kitchen experts",

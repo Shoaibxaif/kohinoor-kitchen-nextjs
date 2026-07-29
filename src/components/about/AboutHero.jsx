@@ -85,7 +85,7 @@ function AboutHero() {
                                     6000+
                                 </h3>
 
-                                <p className="mt-2 text-sm uppercase tracking-[0.15em] text-[#6b6b66]">
+                                <p className="text-sm text-[#9a9a92] mt-2">
                                     Kitchens Delivered
                                 </p>
                             </div>
@@ -98,7 +98,7 @@ function AboutHero() {
                                     18+
                                 </h3>
 
-                                <p className="mt-2 text-sm uppercase tracking-[0.15em] text-[#6b6b66]">
+                                <p className="text-sm text-[#9a9a92] mt-2">
                                     Years Experience
                                 </p>
                             </div>
@@ -111,7 +111,7 @@ function AboutHero() {
                                     98%
                                 </h3>
 
-                                <p className="mt-2 text-sm uppercase tracking-[0.15em] text-[#6b6b66]">
+                                <p className="text-sm text-[#9a9a92] mt-2">
                                     Happy Clients
                                 </p>
                             </div>

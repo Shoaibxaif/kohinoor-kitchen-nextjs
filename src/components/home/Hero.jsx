@@ -11,11 +11,11 @@ import heroImage from "@/assets/images/hero-kitchen.jpg";
 
 const stats = [
     {
-        value: "1500+",
-        label: "Projects Delivered",
+        value: "6000+",
+        label: "Kitchens Delivered",
     },
     {
-        value: "10+",
+        value: "18+",
         label: "Years Experience",
     },
     {

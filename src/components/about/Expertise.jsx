@@ -102,10 +102,11 @@ function Expertise() {
                         />
 
                         <p className="mt-8 text-lg leading-8 text-[#6b6b66]">
-                            Every Kohinoor kitchen is the result of experienced designers,
-                            skilled craftsmen, precision manufacturing, and professional
-                            installation. Our expertise ensures every project is delivered
-                            with exceptional quality and attention to detail.
+                            Every Kohinoor kitchen is the result of 18+ years of experience,
+                            skilled craftsmanship, precision manufacturing, and professional
+                            installation. With 6000+ kitchens delivered across Delhi NCR,
+                            our expertise ensures every project is completed with exceptional
+                            quality and attention to detail.
                         </p>
 
                         <div className="mt-12 space-y-8">

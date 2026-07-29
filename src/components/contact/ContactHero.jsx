@@ -58,8 +58,8 @@ function ContactHero() {
                         >
                             Whether you&apos;re renovating your kitchen or building a new home
                             in Delhi NCR, our modular kitchen experts are here to help.
-                            Schedule a free consultation and let&apos;s design a custom modular
-                            kitchen tailored to your lifestyle.
+                            With 18+ years of experience and 6000+ kitchens delivered, we
+                            create custom modular kitchens tailored to your lifestyle and space.
                         </p>
 
                         <div className="mt-10 flex flex-wrap gap-4">

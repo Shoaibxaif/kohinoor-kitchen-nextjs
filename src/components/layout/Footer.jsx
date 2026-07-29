@@ -94,7 +94,7 @@ function Footer() {
       leading-8
     "
                 >
-                    Kohinoor Modular Kitchen is a trusted modular kitchen manufacturer in Delhi with 18+ years of experience. We design and build premium modular kitchens featuring smart storage, quality materials, and expert craftsmanship for modern homes.
+                    Kohinoor Kitchens is a trusted modular kitchen manufacturer in Delhi NCR with 18+ years of experience and 6000+ kitchens delivered. We design and build premium modular kitchens with smart storage, quality materials, and expert craftsmanship for modern homes.
                 </p>
             </div>
 
