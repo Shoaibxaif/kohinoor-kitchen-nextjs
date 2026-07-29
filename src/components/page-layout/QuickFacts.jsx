@@ -12,7 +12,7 @@ function QuickFacts({
       <Container>
         <SectionHeading tag={tag} title={title} italicWord={italicWord} />
 
-        <div className="grid gap-px mt-16 bg-[#e8e4dc] md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-px mt-16 bg-[#e8e4dc] md:grid-cols-2 lg:grid-cols-2">
           {facts.map((fact) => {
             const Icon = fact.icon;
 

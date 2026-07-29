@@ -39,12 +39,6 @@ export const kitchenLayouts = {
           description: "Efficient corner configuration.",
         },
         {
-          icon: Ruler,
-          label: "Space Required",
-          value: "80–150 sq.ft",
-          description: "Comfortable working area.",
-        },
-        {
           icon: Boxes,
           label: "Storage",
           value: "High",
@@ -55,12 +49,6 @@ export const kitchenLayouts = {
           label: "Workflow",
           value: "Excellent",
           description: "Optimized work triangle.",
-        },
-        {
-          icon: IndianRupee,
-          label: "Starting Price",
-          value: "₹2.5 Lakhs*",
-          description: "Custom pricing based on requirements.",
         },
       ],
     },
@@ -319,12 +307,6 @@ export const kitchenLayouts = {
       description: "Three-sided countertop for maximum efficiency.",
     },
     {
-      icon: Ruler,
-      label: "Space Required",
-      value: "120–220 sq.ft",
-      description: "Ideal where ample floor space is available.",
-    },
-    {
       icon: Boxes,
       label: "Storage",
       value: "Very High",
@@ -335,12 +317,6 @@ export const kitchenLayouts = {
       label: "Workflow",
       value: "Excellent",
       description: "Minimal movement with an optimized work triangle.",
-    },
-    {
-      icon: IndianRupee,
-      label: "Starting Price",
-      value: "₹3.5 Lakhs*",
-      description: "Customized according to finishes and accessories.",
     },
   ],
 },
@@ -561,12 +537,6 @@ quickFacts: {
       description: "Two parallel countertops facing each other.",
     },
     {
-      icon: Ruler,
-      label: "Space Required",
-      value: "70–140 sq.ft",
-      description: "Efficient use of compact and medium-sized spaces.",
-    },
-    {
       icon: Boxes,
       label: "Storage",
       value: "Very High",
@@ -577,12 +547,6 @@ quickFacts: {
       label: "Workflow",
       value: "Excellent",
       description: "Minimal walking distance between work zones.",
-    },
-    {
-      icon: IndianRupee,
-      label: "Starting Price",
-      value: "₹2.8 Lakhs*",
-      description: "Pricing varies based on materials and finishes.",
     },
   ],
 },
@@ -819,12 +783,6 @@ quickFacts: {
       description: "Central island with surrounding workspace.",
     },
     {
-      icon: Ruler,
-      label: "Space Required",
-      value: "180–350 sq.ft",
-      description: "Requires generous floor space.",
-    },
-    {
       icon: Boxes,
       label: "Storage",
       value: "Maximum",
@@ -835,12 +793,6 @@ quickFacts: {
       label: "Lifestyle",
       value: "Luxury Living",
       description: "Cooking, dining, and entertaining together.",
-    },
-    {
-      icon: IndianRupee,
-      label: "Starting Price",
-      value: "₹5 Lakhs*",
-      description: "Customized according to layout and finishes.",
     },
   ],
 },
@@ -1079,12 +1031,6 @@ quickFacts: {
       description: "Single-wall modular kitchen.",
     },
     {
-      icon: Ruler,
-      label: "Space Required",
-      value: "50–100 sq.ft",
-      description: "Perfect for narrow layouts.",
-    },
-    {
       icon: Boxes,
       label: "Storage",
       value: "Moderate",
@@ -1095,12 +1041,6 @@ quickFacts: {
       label: "Workflow",
       value: "Simple",
       description: "Everything within a single linear workspace.",
-    },
-    {
-      icon: IndianRupee,
-      label: "Starting Price",
-      value: "₹1.8 Lakhs*",
-      description: "Customized according to materials and finishes.",
     },
   ],
 },blueprint: {
@@ -1337,12 +1277,6 @@ quickFacts: {
       description: "Connected island extension.",
     },
     {
-      icon: Ruler,
-      label: "Space Required",
-      value: "120–220 sq.ft",
-      description: "Needs less space than a full island kitchen.",
-    },
-    {
       icon: Boxes,
       label: "Storage",
       value: "Very High",
@@ -1353,12 +1287,6 @@ quickFacts: {
       label: "Lifestyle",
       value: "Open Living",
       description: "Ideal for cooking and social interaction.",
-    },
-    {
-      icon: IndianRupee,
-      label: "Starting Price",
-      value: "₹4 Lakhs*",
-      description: "Customized according to finishes and hardware.",
     },
   ],
 },
