@@ -98,17 +98,19 @@ function Testimonials() {
 
                             {/* Client */}
                             <div className="mt-8 pt-6 border-t border-[#e8e4dc]">
-                                <h4
-                                    className="text-xl text-[#1a1a18]"
+                                <a
+                                    href={testimonial.profileUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-xl text-[#1a1a18] transition-colors hover:text-[#C8A97A]"
                                     style={{
                                         fontFamily: "Playfair Display",
                                     }}
                                 >
                                     {testimonial.name}
+                                </a>
 
-                                </h4>
-
-                                <p className="text-sm text-[#9a9a92] mt-1">
+                                <p className="mt-1 text-sm text-[#9a9a92]">
                                     {testimonial.location}
                                 </p>
                             </div>
