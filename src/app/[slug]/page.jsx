@@ -28,25 +28,30 @@ const titleMap = {
     "peninsula-kitchen": "Peninsula Kitchen",
 };
 
+// Static export can only serve the layouts generated below. Unknown slugs
+// should resolve to the app's branded not-found page instead of a runtime
+// parameter error.
+export const dynamicParams = false;
+
 export function generateStaticParams() {
-    return Object.keys(slugMap).map((layout) => ({ layout }));
+    return Object.keys(slugMap).map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }) {
-    const { layout } = await params;
-    const key = slugMap[layout];
+    const { slug } = await params;
+    const key = slugMap[slug];
     if (!key) return {};
 
     const { hero } = kitchenLayouts[key];
-    const pageTitle = `${titleMap[layout]} Modular Kitchen Design in Delhi NCR`;
-    const pageDescription = `Explore premium ${titleMap[layout]} modular kitchens in Delhi NCR with smart storage, efficient workflow, and luxury finishes for modern homes.`;
+    const pageTitle = `${titleMap[slug]} Modular Kitchen Design in Delhi NCR`;
+    const pageDescription = `Explore premium ${titleMap[slug]} modular kitchens in Delhi NCR with smart storage, efficient workflow, and luxury finishes for modern homes.`;
 
     return {
         title: pageTitle,
         description: pageDescription,
         keywords: [
-            `${titleMap[layout]} modular kitchen`,
-            `${titleMap[layout]} kitchen design`,
+            `${titleMap[slug]} modular kitchen`,
+            `${titleMap[slug]} kitchen design`,
             "modular kitchen Delhi NCR",
             "luxury modular kitchen",
             "custom kitchen design",
@@ -55,8 +60,8 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function KitchenLayoutPage({ params }) {
-    const { layout } = await params;
-    const key = slugMap[layout];
+    const { slug } = await params;
+    const key = slugMap[slug];
 
     if (!key) {
         notFound();
