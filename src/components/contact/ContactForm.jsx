@@ -14,16 +14,6 @@ import { SITE } from "@/constants/siteConfig";
 const RATE_LIMIT_MS = 30_000;
 const CONTACT_FORM_LAST_SUBMIT = "contactFormLastSubmit";
 
-const services = [
-  "Modular Kitchen",
-  "Wardrobe",
-  "Bed",
-  "Sofa",
-  "TV Panel",
-  "Dining Furniture",
-];
-const budgets = ["Under ₹2 Lakhs", "₹2–5 Lakhs", "₹5–10 Lakhs", "₹10 Lakhs+"];
-const stages = ["Planning", "Construction", "Renovation", "Ready to Start"];
 const emailServiceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
 const emailTemplateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
 const emailPublicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
@@ -31,6 +21,7 @@ const emailPublicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
 const fieldClasses =
   "w-full border border-[#e8e4dc] px-5 py-4 outline-none transition-colors focus:border-[#C8A97A] focus-visible:ring-2 focus-visible:ring-[#C8A97A]/40";
 const phoneHref = `tel:${SITE.phone.replace(/\s/g, "")}`;
+
 function ContactForm() {
   const [submissionState, setSubmissionState] = useState("idle");
   const [statusMessage, setStatusMessage] = useState("");
@@ -122,11 +113,7 @@ function ContactForm() {
     const templateParams = {
       name: formData.get("name"),
       phone: formData.get("phone"),
-      email: formData.get("email"),
-      city: formData.get("city"),
-      services: formData.getAll("services").join(", ") || "Not specified",
-      budget: formData.get("budget") || "Not specified",
-      stage: formData.get("stage") || "Not specified",
+      email: formData.get("email") || "Not provided",
       message: formData.get("message") || "Not provided",
       consent: consentAccepted ? "Yes" : "No",
       time: new Date().toLocaleString("en-IN"),
@@ -197,85 +184,19 @@ function ContactForm() {
                     className={fieldClasses}
                   />
                 </label>
-
-                <label className="block">
-                  <span className="mb-2 block text-sm font-medium text-[#1a1a18]">
-                    Email address
-                  </span>
-                  <input
-                    name="email"
-                    type="email"
-                    autoComplete="email"
-                    maxLength={254}
-                    className={fieldClasses}
-                  />
-                </label>
-
-                <label className="block">
-                  <span className="mb-2 block text-sm font-medium text-[#1a1a18]">
-                    City / location <span aria-hidden="true">*</span>
-                  </span>
-                  <input
-                    name="city"
-                    type="text"
-                    autoComplete="address-level2"
-                    maxLength={120}
-                    required
-                    className={fieldClasses}
-                  />
-                </label>
               </div>
-
-              <input
-                name="website"
-                type="text"
-                tabIndex={-1}
-                autoComplete="off"
-                className="hidden"
-              />
-
-              <fieldset>
-                <legend className="mb-4 text-sm font-semibold uppercase text-[#1a1a18]">
-                  Services required
-                </legend>
-                <div className="grid gap-4 md:grid-cols-2">
-                  {services.map((service) => (
-                    <label
-                      key={service}
-                      className="flex cursor-pointer items-center gap-3 border border-[#e8e4dc] p-4 transition-colors hover:border-[#C8A97A]"
-                    >
-                      <input name="services" value={service} type="checkbox" />
-                      {service}
-                    </label>
-                  ))}
-                </div>
-              </fieldset>
-
-              <div className="grid gap-8 md:grid-cols-2">
-                <fieldset>
-                  <legend className="mb-4 text-sm font-semibold uppercase text-[#1a1a18]">
-                    Budget
-                  </legend>
-                  {budgets.map((budget) => (
-                    <label key={budget} className="mb-2 flex cursor-pointer gap-3">
-                      <input type="radio" name="budget" value={budget} />
-                      {budget}
-                    </label>
-                  ))}
-                </fieldset>
-
-                <fieldset>
-                  <legend className="mb-4 text-sm font-semibold uppercase text-[#1a1a18]">
-                    Project stage
-                  </legend>
-                  {stages.map((stage) => (
-                    <label key={stage} className="mb-2 flex cursor-pointer gap-3">
-                      <input type="radio" name="stage" value={stage} />
-                      {stage}
-                    </label>
-                  ))}
-                </fieldset>
-              </div>
+              <label className="block">
+                <span className="mb-2 block text-sm font-medium text-[#1a1a18]">
+                  Email address
+                </span>
+                <input
+                  name="email"
+                  type="email"
+                  autoComplete="email"
+                  maxLength={254}
+                  className={fieldClasses}
+                />
+              </label>
 
               <label className="block">
                 <span className="mb-2 block text-sm font-medium text-[#1a1a18]">
@@ -345,29 +266,6 @@ function ContactForm() {
           </div>
 
           <div className="space-y-8">
-            <div className="bg-[#1a1a18] p-8 text-white">
-              <p className="text-xs uppercase tracking-[0.2em] text-[#C8A97A]">
-                Why Choose Kohinoor?
-              </p>
-              <h3 className="mt-4 text-3xl" style={{ fontFamily: "Playfair Display" }}>
-                Trusted Interior Experts
-              </h3>
-              <div className="mt-8 space-y-4">
-                {[
-                  "Free Design Consultation",
-                  "Free Site Measurement",
-                  "Premium Materials",
-                  "Factory Manufacturing",
-                  "Professional Installation",
-                  "After Sales Support",
-                ].map((item) => (
-                  <div key={item} className="flex items-center gap-3">
-                    <CheckCircle2 size={18} aria-hidden="true" className="text-[#C8A97A]" />
-                    {item}
-                  </div>
-                ))}
-              </div>
-            </div>
 
             <div className="border border-[#e8e4dc] bg-white p-8">
               <h3 className="text-3xl" style={{ fontFamily: "Playfair Display" }}>
@@ -376,6 +274,7 @@ function ContactForm() {
               <div className="mt-8 space-y-6">
                 <div className="flex gap-4">
                   <MapPin aria-hidden="true" className="mt-1 shrink-0 text-[#C8A97A]" />
+
                   <a
                     href={SITE.mapUrl}
                     target="_blank"
@@ -429,7 +328,7 @@ function ContactForm() {
           </div>
         </div>
       </Container>
-    </section>
+    </section >
   );
 }
 
