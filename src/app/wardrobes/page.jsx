@@ -3,9 +3,11 @@ import { wardrobeData } from "@/data/wardrobe";
 import LayoutHero from "@/components/page-layout/LayoutHero";
 import GallerySection from "@/components/page-layout/GallerySection";
 import AboutSection from "@/components/page-layout/AboutSection";
+import FAQSection from "@/components/page-layout/FAQSection";
 import wardrobeImage from "@/assets/images/wardrobe/hero.jpg";
 
 import CTA from "@/components/home/CTASection";
+import { furnitureFaqs } from "@/data/furnitureFaq";
 
 export const metadata = {
     title: "Custom Modular Wardrobes in Ghaziabad | Kohinoor Kitchens",
@@ -53,6 +55,7 @@ export default function WardrobePage() {
             />
 
             <GallerySection {...gallery} />
+            <FAQSection title="Wardrobe" italicWord="FAQs" items={furnitureFaqs.wardrobes} />
 
             <CTA />
         </>

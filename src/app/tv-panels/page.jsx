@@ -3,10 +3,12 @@ import { tvPanelData } from "@/data/tvPanel";
 import LayoutHero from "@/components/page-layout/LayoutHero";
 import AboutSection from "@/components/page-layout/AboutSection";
 import GallerySection from "@/components/page-layout/GallerySection";
+import FAQSection from "@/components/page-layout/FAQSection";
 
 import CTA from "@/components/home/CTASection";
 
 import tvPanelImage from "@/assets/images/tv-panel/hero.jpg";
+import { furnitureFaqs } from "@/data/furnitureFaq";
 
 export const metadata = {
     title: "Custom TV Panels in Delhi NCR | Kohinoor Kitchens",
@@ -55,6 +57,7 @@ export default function TVPanelPage() {
             />
 
             <GallerySection {...gallery} />
+            <FAQSection title="TV Panel" italicWord="FAQs" items={furnitureFaqs.tvPanels} />
 
             <CTA />
         </>
