@@ -56,11 +56,16 @@ function Testimonials() {
               "
             >
               {/* Rating */}
-              <div className="flex gap-1">
+              <div
+                role="img"
+                aria-label={`Rated ${testimonial.rating} out of 5 stars`}
+                className="flex gap-1"
+              >
                 {Array.from({ length: testimonial.rating }).map((_, index) => (
                   <Star
                     key={index}
                     size={18}
+                    aria-hidden="true"
                     className="fill-[#C8A97A] text-[#C8A97A]"
                   />
                 ))}

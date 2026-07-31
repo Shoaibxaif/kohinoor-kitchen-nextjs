@@ -42,7 +42,7 @@ export default function AboutHero() {
             >
               {value}
             </h2>
-            <p className="mt-2 text-sm text-[#9a9a92]">{label}</p>
+            <p className="mt-2 text-sm text-[#6b6b66]">{label}</p>
           </div>
         ))}
       </div>

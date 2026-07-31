@@ -78,8 +78,14 @@ function Testimonials() {
                         >
                             {/* Stars + source */}
                             <div className="flex items-center justify-between">
-                                <div className="flex gap-1 text-[#c8a97a] text-lg">
-                                    {"★".repeat(testimonial.rating ?? 5)}
+                                <div
+                                    role="img"
+                                    aria-label={`Rated ${testimonial.rating ?? 5} out of 5 stars`}
+                                    className="flex gap-1 text-[#c8a97a] text-lg"
+                                >
+                                    <span aria-hidden="true">
+                                        {"★".repeat(testimonial.rating ?? 5)}
+                                    </span>
                                 </div>
 
                                 <GoogleIcon size={18} />
