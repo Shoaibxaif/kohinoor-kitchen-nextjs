@@ -67,7 +67,7 @@ export default function ModularKitchenPage() {
                 description="Custom modular kitchen design, manufacturing, and installation with intelligent storage, premium materials, and expert craftsmanship."
                 image={heroImage}
                 primaryAction={{
-                    label: "Schedule a Free Consultation",
+                    label: "Book a Free Design Consultation",
                     to: ROUTES.CONTACT,
                 }}
                 secondaryAction={{

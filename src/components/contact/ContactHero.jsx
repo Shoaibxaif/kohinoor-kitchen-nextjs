@@ -25,7 +25,7 @@ export default function ContactHero() {
       image={heroImage}
       imageAlt="Contact Kohinoor Kitchens"
       primaryAction={{
-        label: "Book Free Consultation",
+        label: "Book a Free Design Consultation",
         scrollTarget: "contact-form",
       }}
       secondaryAction={{ label: "View Projects", to: ROUTES.PROJECTS }}

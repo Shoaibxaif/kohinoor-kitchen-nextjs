@@ -57,7 +57,7 @@ function WhyKohinoor() {
                     </div>
 
                     <Button variant="accent" className="mt-12" to={ROUTES.CONTACT}>
-                        Book Free Consultation
+                        Book a Free Design Consultation
                     </Button>
                 </div>
             </Container>

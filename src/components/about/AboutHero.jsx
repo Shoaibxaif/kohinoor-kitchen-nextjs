@@ -24,7 +24,10 @@ export default function AboutHero() {
       description="At Kohinoor Kitchens, we believe every modular kitchen should be as functional as it is beautiful. Combining thoughtful design, premium materials, and expert craftsmanship, we create custom kitchens that become the heart of every home in Delhi NCR."
       image={heroImage}
       imageAlt="Kohinoor Kitchens"
-      primaryAction={{ label: "Free Consultation", to: ROUTES.CONTACT }}
+      primaryAction={{
+        label: "Book a Free Design Consultation",
+        to: ROUTES.CONTACT,
+      }}
       secondaryAction={{ label: "View Projects", to: ROUTES.PROJECTS }}
       featured={{
         tag: "Our Promise",
