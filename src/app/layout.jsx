@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import WhatsAppChatButton from "@/components/common/WhatsAppChatButton";
 import { SITE } from "@/constants/siteConfig";
 import { DM_Sans, Playfair_Display } from "next/font/google";
 
@@ -83,6 +84,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <WhatsAppChatButton />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
