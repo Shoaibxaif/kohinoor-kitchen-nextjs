@@ -55,7 +55,7 @@ function Testimonials() {
                 : "md:grid-cols-2 lg:grid-cols-3";
 
     return (
-        <section className="py-24 lg:py-32 bg-[#f7f5f0]">
+        <section className="py-24 lg:py-32 bg-cream">
             <Container>
                 <SectionHeading
                     tag="Client Experiences"
@@ -70,7 +70,7 @@ function Testimonials() {
                             className="
                 bg-white
                 border
-                border-[#e8e4dc]
+                border-border
                 p-10
                 flex
                 flex-col
@@ -81,7 +81,7 @@ function Testimonials() {
                                 <div
                                     role="img"
                                     aria-label={`Rated ${testimonial.rating ?? 5} out of 5 stars`}
-                                    className="flex gap-1 text-[#c8a97a] text-lg"
+                                    className="flex gap-1 text-accent text-lg"
                                 >
                                     <span aria-hidden="true">
                                         {"★".repeat(testimonial.rating ?? 5)}
@@ -95,7 +95,7 @@ function Testimonials() {
                             <p
                                 className="
                   mt-6
-                  text-[#4a4a46]
+                  text-mid
                   leading-8
                 "
                             >
@@ -103,20 +103,17 @@ function Testimonials() {
                             </p>
 
                             {/* Client */}
-                            <div className="mt-8 pt-6 border-t border-[#e8e4dc]">
+                            <div className="mt-8 pt-6 border-t border-border">
                                 <a
                                     href={testimonial.profileUrl}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-xl text-[#1a1a18] transition-colors hover:text-[#C8A97A]"
-                                    style={{
-                                        fontFamily: "Playfair Display",
-                                    }}
+                                    className="text-xl text-dark transition-colors hover:text-accent"
                                 >
                                     {testimonial.name}
                                 </a>
 
-                                <p className="mt-1 text-sm text-[#9a9a92]">
+                                <p className="mt-1 text-sm text-light">
                                     {testimonial.location}
                                 </p>
                             </div>
@@ -124,7 +121,7 @@ function Testimonials() {
                     ))}
                 </div>
 
-                <p className="mt-10 text-center text-xs text-[#9a9a92]">
+                <p className="mt-10 text-center text-xs text-light">
                     Reviews shown as posted on Google.
                 </p>
             </Container>

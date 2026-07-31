@@ -9,7 +9,7 @@ function StorageSolutions({ tag, title, italicWord, description, items = [] }) {
                 <SectionHeading tag={tag} title={title} italicWord={italicWord} />
 
                 {description && (
-                    <p className="max-w-3xl mx-auto mt-6 text-center text-[#6b6b66] leading-8">
+                    <p className="max-w-3xl mx-auto mt-6 text-center text-muted leading-8">
                         {description}
                     </p>
                 )}
@@ -23,7 +23,7 @@ function StorageSolutions({ tag, title, italicWord, description, items = [] }) {
                 overflow-hidden
                 bg-white
                 border
-                border-[#e8e4dc]
+                border-border
                 transition-all
                 duration-300
                 hover:shadow-xl
@@ -47,22 +47,19 @@ function StorageSolutions({ tag, title, italicWord, description, items = [] }) {
 
                             <div className="p-8">
                                 <h3
-                                    className="text-2xl text-[#1a1a18]"
-                                    style={{
-                                        fontFamily: "Playfair Display",
-                                    }}
+                                    className="text-2xl text-dark"
                                 >
                                     {item.title}
                                 </h3>
 
-                                <p className="mt-4 text-[#6b6b66] leading-7">
+                                <p className="mt-4 text-muted leading-7">
                                     {item.description}
                                 </p>
 
-                                <div className="mt-6 flex items-center gap-2 text-[#C8A97A] uppercase tracking-[0.15em] text-xs">
+                                <div className="mt-6 flex items-center gap-2 text-accent uppercase tracking-[0.15em] text-xs">
                                     <span>Premium Hardware</span>
 
-                                    <div className="flex-1 h-px bg-[#C8A97A]" />
+                                    <div className="flex-1 h-px bg-accent" />
                                 </div>
                             </div>
                         </div>

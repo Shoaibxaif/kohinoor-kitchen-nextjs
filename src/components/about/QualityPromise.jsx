@@ -52,7 +52,7 @@ function QualityPromise() {
                             italicWord="Trust"
                         />
 
-                        <p className="mt-8 text-lg leading-8 text-[#6b6b66]">
+                        <p className="mt-8 text-lg leading-8 text-muted">
                             Every Kohinoor Kitchen is built with one commitment in mind:
                             delivering exceptional modular kitchen quality without
                             compromise. From premium materials to expert craftsmanship, every
@@ -75,26 +75,23 @@ function QualityPromise() {
                         items-center
                         justify-center
                         rounded-full
-                        bg-[#f7f5f0]
+                        bg-cream
                       "
                                         >
                                             <Icon
                                                 size={24}
-                                                className="text-[#C8A97A]"
+                                                className="text-accent"
                                             />
                                         </div>
 
                                         <div>
                                             <h3
-                                                className="text-2xl text-[#1a1a18]"
-                                                style={{
-                                                    fontFamily: "Playfair Display",
-                                                }}
+                                                className="text-2xl text-dark"
                                             >
                                                 {item.title}
                                             </h3>
 
-                                            <p className="mt-2 leading-7 text-[#6b6b66]">
+                                            <p className="mt-2 leading-7 text-muted">
                                                 {item.description}
                                             </p>
                                         </div>
@@ -126,20 +123,19 @@ function QualityPromise() {
                 backdrop-blur
               "
                         >
-                            <p className="text-xs uppercase tracking-[0.2em] text-[#C8A97A]">
+                            <p className="text-xs uppercase tracking-[0.2em] text-accent">
                                 Quality Promise
                             </p>
 
                             <h3
-                                className="mt-3 text-3xl text-[#1a1a18]"
-                                style={{ fontFamily: "Playfair Display" }}
+                                className="mt-3 text-3xl text-dark"
                             >
                                 Built For
                                 <br />
                                 Everyday Living
                             </h3>
 
-                            <p className="mt-4 leading-7 text-[#6b6b66]">
+                            <p className="mt-4 leading-7 text-muted">
                                 Premium craftsmanship, trusted materials, and meticulous
                                 installation ensure every kitchen delivers lasting beauty and
                                 performance.

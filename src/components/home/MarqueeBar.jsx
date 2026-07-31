@@ -11,14 +11,14 @@ const items = [
 
 function MarqueeBar() {
     return (
-        <section className="bg-[#1a1a18] overflow-hidden py-3">
+        <section className="bg-dark overflow-hidden py-3">
             <div className="marquee-track motion-reduce:animate-none">
                 {[...items, ...items].map((item, index) => (
                     <div
                         key={index}
                         className="flex items-center gap-3 shrink-0"
                     >
-                        <span className="w-1 h-1 rounded-full bg-[#c8a97a]" />
+                        <span className="w-1 h-1 rounded-full bg-accent" />
 
                         <span
                             className="

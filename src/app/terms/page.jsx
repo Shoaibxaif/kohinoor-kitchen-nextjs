@@ -12,7 +12,7 @@ export default function TermsPage() {
                     italicWord="Agreement"
                 />
 
-                <div className="prose prose-lg max-w-4xl text-[#4a4a46]">
+                <div className="prose prose-lg max-w-4xl text-mid">
                     <p>
                         By using the Kohinoor Kitchens website, you agree to provide accurate information when submitting enquiries and to use the site for lawful purposes.
                     </p>
@@ -34,7 +34,7 @@ export default function TermsPage() {
 
                     <h2>Contact</h2>
                     <p>
-                        For questions about these terms, contact us at <a href="mailto:contact@kohinoorinterior.in" className="text-[#C8A97A] underline">contact@kohinoorinterior.in</a>.
+                        For questions about these terms, contact us at <a href="mailto:contact@kohinoorinterior.in" className="text-accent underline">contact@kohinoorinterior.in</a>.
                     </p>
                 </div>
             </Container>

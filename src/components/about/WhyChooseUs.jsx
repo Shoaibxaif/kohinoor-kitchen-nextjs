@@ -63,13 +63,13 @@ function WhyChooseUs() {
               italicWord="Built Around You"
             />
 
-            <p className="mt-8 text-lg leading-8 text-[#6b6b66]">
+            <p className="mt-8 text-lg leading-8 text-muted">
               We don&apos;t just manufacture modular kitchens—we create personalized
               spaces that combine intelligent planning, premium craftsmanship,
               and timeless aesthetics for modern homes across Delhi NCR.
             </p>
 
-            <p className="mt-6 text-lg leading-8 text-[#6b6b66]">
+            <p className="mt-6 text-lg leading-8 text-muted">
               From design consultation to final installation, every step is handled
               by experienced professionals committed to delivering exceptional
               quality and complete customer satisfaction.
@@ -87,8 +87,8 @@ function WhyChooseUs() {
                   className="
                     group
                     border
-                    border-[#e8e4dc]
-                    bg-[#f7f5f0]
+                    border-border
+                    bg-cream
                     p-8
                     transition-all
                     duration-300
@@ -108,13 +108,13 @@ function WhyChooseUs() {
                       bg-white
                       transition
                       duration-300
-                      group-hover:bg-[#C8A97A]
+                      group-hover:bg-accent
                     "
                   >
                     <Icon
                       size={26}
                       className="
-                        text-[#C8A97A]
+                        text-accent
                         transition
                         duration-300
                         group-hover:text-white
@@ -123,15 +123,12 @@ function WhyChooseUs() {
                   </div>
 
                   <h3
-                    className="mt-6 text-2xl text-[#1a1a18]"
-                    style={{
-                      fontFamily: "Playfair Display",
-                    }}
+                    className="mt-6 text-2xl text-dark"
                   >
                     {reason.title}
                   </h3>
 
-                  <p className="mt-4 leading-7 text-[#6b6b66]">
+                  <p className="mt-4 leading-7 text-muted">
                     {reason.description}
                   </p>
                 </article>

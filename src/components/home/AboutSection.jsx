@@ -22,7 +22,7 @@ const layoutLinks = [
 
 function AboutSection() {
     return (
-        <section className="bg-[#1a1a18] py-24 lg:py-32">
+        <section className="bg-dark py-24 lg:py-32">
             <Container>
                 <div className="grid lg:grid-cols-2 min-h-[650px]">
 
@@ -53,7 +53,7 @@ function AboutSection() {
                 text-[11px]
                 uppercase
                 tracking-[0.18em]
-                text-[#c8a97a]
+                text-accent
                 mb-5
               "
                         >
@@ -67,14 +67,11 @@ function AboutSection() {
                 leading-tight
                 text-white
               "
-                            style={{
-                                fontFamily: "Playfair Display",
-                            }}
                         >
                             Crafting Kitchens
                             <br />
                             For Modern
-                            <em className="text-[#c8a97a] not-italic">
+                            <em className="text-accent not-italic">
                                 {" "}Living
                             </em>
                         </h2>
@@ -95,7 +92,7 @@ function AboutSection() {
                                 <span key={layout.path}>
                                     <Link
                                         href={layout.path}
-                                        className="text-[#c8a97a] underline underline-offset-4 hover:text-white transition-colors"
+                                        className="text-accent underline underline-offset-4 hover:text-white transition-colors"
                                     >
                                         {layout.label}
                                     </Link>
@@ -129,7 +126,7 @@ function AboutSection() {
                       w-2
                       h-2
                       rounded-full
-                      bg-[#c8a97a]
+                      bg-accent
                     "
                                     />
 

@@ -73,24 +73,23 @@ export default function Hero({
 
   if (!isOverlay) {
     return (
-      <section className="relative overflow-hidden bg-[#f7f5f0] py-16 lg:py-20">
+      <section className="relative overflow-hidden bg-cream py-16 lg:py-20">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 lg:grid-cols-2 lg:gap-20 lg:px-8">
           <motion.div
             {...contentMotion}
             transition={{ duration: 0.7 }}
             className="max-w-xl"
           >
-            <p className="mb-6 text-xs uppercase tracking-[0.25em] text-[#C8A97A]">
+            <p className="mb-6 text-xs uppercase tracking-[0.25em] text-accent">
               {subtitle}
             </p>
             <h1
-              className="text-5xl leading-tight text-[#1a1a18] md:text-6xl xl:text-7xl"
-              style={{ fontFamily: "Playfair Display" }}
+              className="text-5xl leading-tight text-dark md:text-6xl xl:text-7xl"
             >
               {title}
             </h1>
             {description && (
-              <p className="mt-8 text-lg leading-relaxed text-[#4a4a46]">
+              <p className="mt-8 text-lg leading-relaxed text-mid">
                 {description}
               </p>
             )}
@@ -111,17 +110,16 @@ export default function Hero({
             />
             {featured && (
               <div className="absolute bottom-8 left-8 bg-white/95 p-6 shadow-xl backdrop-blur">
-                <p className="text-xs uppercase tracking-[0.2em] text-[#C8A97A]">
+                <p className="text-xs uppercase tracking-[0.2em] text-accent">
                   {featured.tag}
                 </p>
                 <h2
-                  className="mt-2 text-2xl text-[#1a1a18]"
-                  style={{ fontFamily: "Playfair Display" }}
+                  className="mt-2 text-2xl text-dark"
                 >
                   {featured.title}
                 </h2>
                 {featured.subtitle && (
-                  <p className="mt-2 text-[#6b6b66]">{featured.subtitle}</p>
+                  <p className="mt-2 text-muted">{featured.subtitle}</p>
                 )}
               </div>
             )}
@@ -156,12 +154,11 @@ export default function Hero({
               <span className="text-white">{tag}</span>
             </div>
           )}
-          <p className="mb-6 text-xs uppercase tracking-[0.22em] text-[#C8A97A]">
+          <p className="mb-6 text-xs uppercase tracking-[0.22em] text-accent">
             {subtitle}
           </p>
           <h1
             className="text-5xl leading-tight text-white md:text-6xl lg:text-7xl"
-            style={{ fontFamily: "Playfair Display" }}
           >
             {title}
           </h1>

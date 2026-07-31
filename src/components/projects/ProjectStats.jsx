@@ -26,7 +26,7 @@ const stats = [
 
 function ProjectStats() {
   return (
-    <section className="bg-[#f7f5f0] py-24 lg:py-32">
+    <section className="bg-cream py-24 lg:py-32">
       <Container>
         <SectionHeading
           tag="Our Achievements"
@@ -40,7 +40,7 @@ function ProjectStats() {
               key={stat.label}
               className="
                 border
-                border-[#e8e4dc]
+                border-border
                 bg-white
                 p-10
                 text-center
@@ -51,19 +51,16 @@ function ProjectStats() {
               "
             >
               <h3
-                className="text-6xl text-[#C8A97A]"
-                style={{
-                  fontFamily: "Playfair Display",
-                }}
+                className="text-6xl text-accent"
               >
                 {stat.value}
               </h3>
 
-              <h4 className="mt-6 text-xl font-medium text-[#1a1a18]">
+              <h4 className="mt-6 text-xl font-medium text-dark">
                 {stat.label}
               </h4>
 
-              <p className="mt-4 leading-7 text-[#6b6b66]">
+              <p className="mt-4 leading-7 text-muted">
                 {stat.description}
               </p>
             </div>

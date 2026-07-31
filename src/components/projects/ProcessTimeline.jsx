@@ -46,7 +46,7 @@ function ProcessTimeline() {
 
         <div className="relative mt-20">
           {/* Connecting Line */}
-          <div className="absolute left-0 right-0 top-10 hidden h-px bg-[#e8e4dc] lg:block" />
+          <div className="absolute left-0 right-0 top-10 hidden h-px bg-border lg:block" />
 
           <div className="grid gap-10 lg:grid-cols-5">
             {steps.map((step) => (
@@ -62,15 +62,12 @@ function ProcessTimeline() {
                     justify-center
                     rounded-full
                     border-4
-                    border-[#f7f5f0]
-                    bg-[#C8A97A]
+                    border-cream
+                    bg-accent
                     text-2xl
                     text-white
                     shadow-lg
                   "
-                  style={{
-                    fontFamily: "Playfair Display",
-                  }}
                 >
                   {step.number}
                 </div>
@@ -80,8 +77,8 @@ function ProcessTimeline() {
                   className="
                     mt-8
                     border
-                    border-[#e8e4dc]
-                    bg-[#f7f5f0]
+                    border-border
+                    bg-cream
                     p-8
                     transition-all
                     duration-300
@@ -90,15 +87,12 @@ function ProcessTimeline() {
                   "
                 >
                   <h3
-                    className="text-2xl text-[#1a1a18]"
-                    style={{
-                      fontFamily: "Playfair Display",
-                    }}
+                    className="text-2xl text-dark"
                   >
                     {step.title}
                   </h3>
 
-                  <p className="mt-4 leading-7 text-[#6b6b66]">
+                  <p className="mt-4 leading-7 text-muted">
                     {step.description}
                   </p>
                 </div>

@@ -30,7 +30,7 @@ function FAQSection({
                         const panelId = `faq-panel-${index}`;
 
                         return (
-                            <div key={faq.question} className="border-b border-[#e8e4dc]">
+                            <div key={faq.question} className="border-b border-border">
                                 <button
                                     type="button"
                                     id={buttonId}
@@ -49,7 +49,7 @@ function FAQSection({
                                     <h3
                                         className="
                       text-xl
-                      text-[#1a1a18]
+                      text-dark
                       font-medium
                       pr-8
                     "
@@ -58,9 +58,9 @@ function FAQSection({
                                     </h3>
 
                                     {isOpen ? (
-                                        <Minus size={20} className="text-[#C8A97A] flex-shrink-0" />
+                                        <Minus size={20} className="text-accent flex-shrink-0" />
                                     ) : (
-                                        <Plus size={20} className="text-[#C8A97A] flex-shrink-0" />
+                                        <Plus size={20} className="text-accent flex-shrink-0" />
                                     )}
                                 </button>
 
@@ -74,7 +74,7 @@ function FAQSection({
                                     <div className="overflow-hidden">
                                         <p
                                             className="
-                          text-[#6b6b66]
+                          text-muted
                           leading-8
                           pr-8
                           pb-7

@@ -89,7 +89,7 @@ function MobileNav({ isOpen, setIsOpen }) {
     if (!isOpen) return null;
 
     return (
-        <div className="lg:hidden border-t border-[#e8e4dc] bg-white">
+        <div className="lg:hidden border-t border-border bg-white">
             <div className="py-6">
                 {/* Home */}
 
@@ -103,7 +103,7 @@ function MobileNav({ isOpen, setIsOpen }) {
               uppercase
               tracking-[0.15em]
               text-sm
-              ${pathname === ROUTES.HOME ? "text-[#1a1a18]" : "text-[#4a4a46]"}
+              ${pathname === ROUTES.HOME ? "text-dark" : "text-mid"}
             `}
                 >
                     Home
@@ -123,7 +123,7 @@ function MobileNav({ isOpen, setIsOpen }) {
             uppercase
             tracking-[0.15em]
             text-sm
-            text-[#4a4a46]
+            text-mid
           "
                     aria-expanded={openKitchen}
                 >
@@ -156,7 +156,7 @@ function MobileNav({ isOpen, setIsOpen }) {
                     block
                     py-3
                     text-sm
-                    ${pathname === item.path ? "text-[#1a1a18]" : "text-[#6b6b66]"}
+                    ${pathname === item.path ? "text-dark" : "text-muted"}
                   `}
                             >
                                 {item.label}
@@ -179,7 +179,7 @@ function MobileNav({ isOpen, setIsOpen }) {
             uppercase
             tracking-[0.15em]
             text-sm
-            text-[#4a4a46]
+            text-mid
           "
                     aria-expanded={openServices}
                 >
@@ -212,7 +212,7 @@ function MobileNav({ isOpen, setIsOpen }) {
                     block
                     py-3
                     text-sm
-                    ${pathname === item.path ? "text-[#1a1a18]" : "text-[#6b6b66]"}
+                    ${pathname === item.path ? "text-dark" : "text-muted"}
                   `}
                             >
                                 {item.label}
@@ -235,7 +235,7 @@ function MobileNav({ isOpen, setIsOpen }) {
                 uppercase
                 tracking-[0.15em]
                 text-sm
-                ${pathname === item.path ? "text-[#1a1a18]" : "text-[#4a4a46]"}
+                ${pathname === item.path ? "text-dark" : "text-mid"}
               `}
                     >
                         {item.label}
@@ -244,12 +244,12 @@ function MobileNav({ isOpen, setIsOpen }) {
 
                 {/* Phone */}
 
-                <div className="mt-6 border-t border-[#e8e4dc] pt-6 px-6">
+                <div className="mt-6 border-t border-border pt-6 px-6">
                     <a
                         href={`tel:${SITE.phone}`}
                         className="
               font-medium
-              text-[#1a1a18]
+              text-dark
             "
                     >
                         {SITE.phone}

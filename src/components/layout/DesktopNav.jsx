@@ -54,8 +54,8 @@ function DesktopNav() {
               tracking-[0.15em]
               transition-colors
               ${pathname === ROUTES.HOME
-                            ? "text-[#1a1a18]"
-                            : "text-[#4a4a46] hover:text-[#1a1a18]"
+                            ? "text-dark"
+                            : "text-mid hover:text-dark"
                         }
             `}
                 >
@@ -86,8 +86,8 @@ function DesktopNav() {
             text-sm
             uppercase
             tracking-[0.15em]
-            text-[#4a4a46]
-            hover:text-[#1a1a18]
+            text-mid
+            hover:text-dark
             transition-colors
           "
                 >
@@ -116,8 +116,8 @@ function DesktopNav() {
                 tracking-[0.15em]
                 transition-colors
                 ${pathname === link.path
-                                ? "text-[#1a1a18]"
-                                : "text-[#4a4a46] hover:text-[#1a1a18]"
+                                ? "text-dark"
+                                : "text-mid hover:text-dark"
                             }
               `}
                     >

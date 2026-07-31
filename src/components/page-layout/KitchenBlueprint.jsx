@@ -22,7 +22,7 @@ function KitchenBlueprint({
               max-w-3xl
               mx-auto
               text-center
-              text-[#6b6b66]
+              text-muted
               leading-8
             "
                     >
@@ -36,9 +36,9 @@ function KitchenBlueprint({
                     <div
                         className="
               relative
-              bg-[#f7f5f0]
+              bg-cream
               border
-              border-[#e8e4dc]
+              border-border
               p-10
             "
                         style={{ minHeight: 320 }}
@@ -62,7 +62,7 @@ function KitchenBlueprint({
                     w-12
                     h-12
                     rounded-full
-                    bg-[#C8A97A]
+                    bg-accent
                     text-white
                     flex
                     items-center
@@ -79,11 +79,8 @@ function KitchenBlueprint({
                                     <h3
                                         className="
                       text-2xl
-                      text-[#1a1a18]
+                      text-dark
                     "
-                                        style={{
-                                            fontFamily: "Playfair Display",
-                                        }}
                                     >
                                         {point.title}
                                     </h3>
@@ -91,7 +88,7 @@ function KitchenBlueprint({
                                     <p
                                         className="
                       mt-3
-                      text-[#6b6b66]
+                      text-muted
                       leading-8
                     "
                                     >

@@ -56,26 +56,25 @@ function ContactOptions() {
 
             const card = (
               <article
-                className="group h-full border border-[#e8e4dc] bg-[#f7f5f0] p-10 transition-all duration-300 hover:-translate-y-2 hover:bg-white hover:shadow-xl"
+                className="group h-full border border-border bg-cream p-10 transition-all duration-300 hover:-translate-y-2 hover:bg-white hover:shadow-xl"
               >
-                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-white transition-all duration-300 group-hover:bg-[#C8A97A]">
+                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-white transition-all duration-300 group-hover:bg-accent">
                   <Icon
                     size={28}
                     aria-hidden="true"
-                    className="text-[#C8A97A] transition-all duration-300 group-hover:text-white"
+                    className="text-accent transition-all duration-300 group-hover:text-white"
                   />
                 </div>
 
                 <h3
-                  className="mt-8 text-2xl text-[#1a1a18]"
-                  style={{ fontFamily: "Playfair Display" }}
+                  className="mt-8 text-2xl text-dark"
                 >
                   {item.title}
                 </h3>
 
-                <p className="mt-4 font-medium text-[#1a1a18]">{item.value}</p>
-                <p className="mt-4 leading-7 text-[#6b6b66]">{item.description}</p>
-                <div className="mt-8 h-px w-16 bg-[#C8A97A]" />
+                <p className="mt-4 font-medium text-dark">{item.value}</p>
+                <p className="mt-4 leading-7 text-muted">{item.description}</p>
+                <div className="mt-8 h-px w-16 bg-accent" />
               </article>
             );
 

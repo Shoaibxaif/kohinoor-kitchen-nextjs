@@ -5,13 +5,12 @@ const SectionHeading = ({
 }) => {
   return (
     <div>
-      <p className="text-[11px] uppercase tracking-[0.18em] text-[#c8a97a] mb-3">
+      <p className="text-[11px] uppercase tracking-[0.18em] text-accent mb-3">
         {tag}
       </p>
 
       <h2
-        className="font-serif text-4xl md:text-5xl leading-tight text-[#1a1a18]"
-        style={{ fontFamily: "Playfair Display" }}
+        className="font-serif text-4xl md:text-5xl leading-tight text-dark"
       >
         {title} <em>{italicWord}</em>
       </h2>

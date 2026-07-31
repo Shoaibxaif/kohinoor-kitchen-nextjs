@@ -55,8 +55,8 @@ function MaterialOptions() {
                             className="
                 group
                 border
-                border-[#e8e4dc]
-                bg-[#f7f5f0]
+                border-border
+                bg-cream
                 overflow-hidden
               "
                         >
@@ -77,24 +77,21 @@ function MaterialOptions() {
 
                             <div className="p-8">
                                 <h3
-                                    className="text-3xl text-[#1a1a18]"
-                                    style={{
-                                        fontFamily: "Playfair Display",
-                                    }}
+                                    className="text-3xl text-dark"
                                 >
                                     {material.title}
                                 </h3>
 
-                                <p className="mt-4 text-[#6b6b66] leading-8">
+                                <p className="mt-4 text-muted leading-8">
                                     {material.description}
                                 </p>
 
                                 <ul className="mt-6 space-y-3">
                                     {material.features.map((feature) => (
                                         <li key={feature} className="flex items-center gap-3">
-                                            <span className="w-2 h-2 rounded-full bg-[#C8A97A]" />
+                                            <span className="w-2 h-2 rounded-full bg-accent" />
 
-                                            <span className="text-[#4a4a46]">{feature}</span>
+                                            <span className="text-mid">{feature}</span>
                                         </li>
                                     ))}
                                 </ul>

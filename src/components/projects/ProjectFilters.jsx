@@ -25,8 +25,8 @@ function ProjectFilters({ activeFilter, onFilterChange }) {
               gap-3
               rounded-full
               border
-              border-[#e8e4dc]
-              bg-[#f7f5f0]
+              border-border
+              bg-cream
               p-2
             "
           >
@@ -46,8 +46,8 @@ function ProjectFilters({ activeFilter, onFilterChange }) {
                   transition-all
                   duration-300
                   ${activeFilter === filter
-                    ? "bg-[#1a1a18] text-white shadow-md"
-                    : "text-[#6b6b66] hover:bg-white hover:text-[#1a1a18]"
+                    ? "bg-dark text-white shadow-md"
+                    : "text-muted hover:bg-white hover:text-dark"
                   }
                 `}
               >

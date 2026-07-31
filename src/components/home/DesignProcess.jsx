@@ -41,7 +41,7 @@ function DesignProcess() {
                 <div className="mt-20 relative">
 
                     {/* Desktop Line */}
-                    <div className="hidden lg:block absolute top-10 left-0 w-full h-px bg-[#e8e4dc]" />
+                    <div className="hidden lg:block absolute top-10 left-0 w-full h-px bg-border" />
 
                     <div className="grid lg:grid-cols-4 gap-10 relative">
                         {steps.map((step) => (
@@ -53,20 +53,17 @@ function DesignProcess() {
                     w-20
                     h-20
                     rounded-full
-                    bg-[#f7f5f0]
+                    bg-cream
                     border
-                    border-[#e8e4dc]
+                    border-border
                     flex
                     items-center
                     justify-center
-                    text-[#c8a97a]
+                    text-accent
                     text-lg
                     font-medium
                     mx-auto lg:mx-0
                   "
-                                    style={{
-                                        fontFamily: "Playfair Display",
-                                    }}
                                 >
                                     {step.number}
                                 </div>
@@ -75,13 +72,10 @@ function DesignProcess() {
                                     <h3
                                         className="
                       text-2xl
-                      text-[#1a1a18]
+                      text-dark
                       text-center
                       lg:text-left
                     "
-                                        style={{
-                                            fontFamily: "Playfair Display",
-                                        }}
                                     >
                                         {step.title}
                                     </h3>
@@ -89,7 +83,7 @@ function DesignProcess() {
                                     <p
                                         className="
                       mt-4
-                      text-[#4a4a46]
+                      text-mid
                       leading-7
                       text-center
                       lg:text-left

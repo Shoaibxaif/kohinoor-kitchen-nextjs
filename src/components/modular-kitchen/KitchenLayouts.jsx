@@ -60,7 +60,7 @@ const layouts = [
 
 function KitchenLayouts() {
     return (
-        <section className="py-24 lg:py-32 bg-[#f7f5f0]">
+        <section className="py-24 lg:py-32 bg-cream">
             <Container>
                 <SectionHeading
                     tag="Modular Kitchen Layouts"
@@ -78,13 +78,13 @@ function KitchenLayouts() {
                 block
                 bg-white
                 border
-                border-[#e8e4dc]
+                border-border
                 overflow-hidden
                 transition-shadow
                 hover:shadow-lg
                 focus:outline-none
                 focus-visible:ring-2
-                focus-visible:ring-[#C8A97A]
+                focus-visible:ring-accent
                 focus-visible:ring-offset-2
               "
                         >
@@ -105,10 +105,7 @@ function KitchenLayouts() {
 
                             <div className="p-8">
                                 <h3
-                                    className="text-3xl text-[#1a1a18]"
-                                    style={{
-                                        fontFamily: "Playfair Display",
-                                    }}
+                                    className="text-3xl text-dark"
                                 >
                                     {layout.title}
                                 </h3>
@@ -116,7 +113,7 @@ function KitchenLayouts() {
                                 <p
                                     className="
                     mt-4
-                    text-[#6b6b66]
+                    text-muted
                     leading-8
                   "
                                 >
@@ -132,7 +129,7 @@ function KitchenLayouts() {
                     uppercase
                     text-sm
                     tracking-[0.15em]
-                    text-[#C8A97A]
+                    text-accent
                     transition-all
                     group-hover:gap-4
                   "

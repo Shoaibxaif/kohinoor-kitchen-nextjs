@@ -27,35 +27,35 @@ const Button = ({
     `,
 
         variant === "primary" &&
-        "bg-[#1a1a18] text-white hover:opacity-90",
+        "bg-dark text-white hover:opacity-90",
 
         variant === "outline" &&
-        "border border-[#e8e4dc] text-[#1a1a18] hover:bg-white",
+        "border border-border text-dark hover:bg-white",
 
         variant === "light" &&
-        "bg-white text-[#1a1a18] hover:bg-[#c8a97a]",
+        "bg-white text-dark hover:bg-accent",
 
         variant === "accent" &&
         `
-      bg-[#C8A97A]
+      bg-accent
       text-white
       border
-      border-[#C8A97A]
+      border-accent
       hover:bg-white
-      hover:text-[#C8A97A]
-      hover:border-[#C8A97A]
+      hover:text-accent
+      hover:border-accent
       `,
         variant === "link" &&
         `
     bg-transparent
     p-0
-    text-[#1a1a18]
-    hover:text-[#C8A97A]
+    text-dark
+    hover:text-accent
     hover:bg-transparent
     `,
 
         variant === "outline-light" &&
-        "border border-white/20 text-white hover:bg-white hover:text-[#1a1a18]",
+        "border border-white/20 text-white hover:bg-white hover:text-dark",
 
         className
     );

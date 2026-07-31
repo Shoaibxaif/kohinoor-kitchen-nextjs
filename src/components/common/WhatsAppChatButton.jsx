@@ -12,7 +12,7 @@ export default function WhatsAppChatButton() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat with Kohinoor Kitchens on WhatsApp"
-      className="fixed bottom-5 right-5 z-50 grid size-14 place-items-center rounded-full bg-[#25D366] text-white shadow-lg transition-transform duration-200 hover:scale-110 focus-visible:outline-[#1a1a18] sm:bottom-6 sm:right-6"
+      className="fixed bottom-5 right-5 z-50 grid size-14 place-items-center rounded-full bg-[#25D366] text-white shadow-lg transition-transform duration-200 hover:scale-110 focus-visible:outline-dark sm:bottom-6 sm:right-6"
     >
       <svg
         aria-hidden="true"

@@ -30,7 +30,7 @@ const features = [
 
 function WhyChooseUs() {
     return (
-        <section className="py-24 lg:py-32 bg-[#f7f5f0]">
+        <section className="py-24 lg:py-32 bg-cream">
             <Container>
                 <SectionHeading
                     tag="Why Choose Us"
@@ -46,7 +46,7 @@ function WhyChooseUs() {
                 bg-white
                 p-8
                 border
-                border-[#e8e4dc]
+                border-border
                 transition-all
                 duration-300
                 hover:-translate-y-1
@@ -57,7 +57,7 @@ function WhyChooseUs() {
                   text-sm
                   tracking-[0.2em]
                   uppercase
-                  text-[#c8a97a]
+                  text-accent
                 "
                             >
                                 {feature.number}
@@ -67,11 +67,8 @@ function WhyChooseUs() {
                                 className="
                   mt-4
                   text-2xl
-                  text-[#1a1a18]
+                  text-dark
                 "
-                                style={{
-                                    fontFamily: "Playfair Display",
-                                }}
                             >
                                 {feature.title}
                             </h3>
@@ -79,7 +76,7 @@ function WhyChooseUs() {
                             <p
                                 className="
                   mt-4
-                  text-[#4a4a46]
+                  text-mid
                   leading-7
                   text-sm
                 "

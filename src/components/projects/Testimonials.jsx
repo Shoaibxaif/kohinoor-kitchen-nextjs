@@ -32,7 +32,7 @@ const testimonials = [
 
 function Testimonials() {
   return (
-    <section className="bg-[#f7f5f0] py-24 lg:py-32">
+    <section className="bg-cream py-24 lg:py-32">
       <Container>
         <SectionHeading
           tag="Client Testimonials"
@@ -46,7 +46,7 @@ function Testimonials() {
               key={testimonial.id}
               className="
                 border
-                border-[#e8e4dc]
+                border-border
                 bg-white
                 p-10
                 transition-all
@@ -66,31 +66,28 @@ function Testimonials() {
                     key={index}
                     size={18}
                     aria-hidden="true"
-                    className="fill-[#C8A97A] text-[#C8A97A]"
+                    className="fill-accent text-accent"
                   />
                 ))}
               </div>
 
               {/* Review */}
-              <p className="mt-8 leading-8 text-[#6b6b66]">
+              <p className="mt-8 leading-8 text-muted">
                 “{testimonial.review}”
               </p>
 
               {/* Divider */}
-              <div className="my-8 h-px bg-[#e8e4dc]" />
+              <div className="my-8 h-px bg-border" />
 
               {/* Client */}
               <div>
                 <h3
-                  className="text-2xl text-[#1a1a18]"
-                  style={{
-                    fontFamily: "Playfair Display",
-                  }}
+                  className="text-2xl text-dark"
                 >
                   {testimonial.name}
                 </h3>
 
-                <p className="mt-2 text-sm uppercase tracking-[0.15em] text-[#C8A97A]">
+                <p className="mt-2 text-sm uppercase tracking-[0.15em] text-accent">
                   {testimonial.location}
                 </p>
               </div>

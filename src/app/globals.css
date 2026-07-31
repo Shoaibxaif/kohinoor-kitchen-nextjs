@@ -8,6 +8,17 @@
   --accent: #c8a97a;
   --white: #ffffff;
   --border: #e8e4dc;
+  --muted: #6b6b66;
+}
+
+@theme inline {
+  --color-cream: var(--cream);
+  --color-dark: var(--dark);
+  --color-mid: var(--mid);
+  --color-muted: var(--muted);
+  --color-light: var(--light);
+  --color-accent: var(--accent);
+  --color-border: var(--border);
 }
 
 @layer base {
@@ -24,6 +35,15 @@
     background: var(--cream);
     color: var(--dark);
     overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Playfair Display", serif;
   }
 
   img {

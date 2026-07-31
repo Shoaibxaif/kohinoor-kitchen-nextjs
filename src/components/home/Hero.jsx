@@ -35,16 +35,15 @@ export default function HomeHero() {
         subtitle: "South Delhi Residence",
       }}
     >
-      <div className="mt-16 grid grid-cols-3 gap-6 border-t border-[#e8e4dc] pt-8">
+      <div className="mt-16 grid grid-cols-3 gap-6 border-t border-border pt-8">
         {stats.map(([value, label]) => (
           <div key={label}>
             <h2
-              className="text-3xl font-medium text-[#1a1a18]"
-              style={{ fontFamily: "Playfair Display" }}
+              className="text-3xl font-medium text-dark"
             >
               {value}
             </h2>
-            <p className="mt-2 text-sm text-[#6b6b66]">{label}</p>
+            <p className="mt-2 text-sm text-muted">{label}</p>
           </div>
         ))}
       </div>

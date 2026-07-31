@@ -54,7 +54,7 @@ const expertise = [
 
 function Expertise() {
     return (
-        <section className="bg-[#f7f5f0] py-24 lg:py-32">
+        <section className="bg-cream py-24 lg:py-32">
             <Container>
                 <div className="grid items-center gap-20 lg:grid-cols-2">
                     {/* Image */}
@@ -80,13 +80,12 @@ function Expertise() {
               "
                         >
                             <h3
-                                className="text-4xl text-[#1a1a18]"
-                                style={{ fontFamily: "Playfair Display" }}
+                                className="text-4xl text-dark"
                             >
                                 6000+
                             </h3>
 
-                            <p className="mt-2 uppercase tracking-[0.18em] text-sm text-[#C8A97A]">
+                            <p className="mt-2 uppercase tracking-[0.18em] text-sm text-accent">
                                 Kitchens Delivered
                             </p>
                         </div>
@@ -101,7 +100,7 @@ function Expertise() {
                             italicWord="Professionals"
                         />
 
-                        <p className="mt-8 text-lg leading-8 text-[#6b6b66]">
+                        <p className="mt-8 text-lg leading-8 text-muted">
                             Every Kohinoor kitchen is the result of 18+ years of experience,
                             skilled craftsmanship, precision manufacturing, and professional
                             installation. With 6000+ kitchens delivered across Delhi NCR,
@@ -132,21 +131,18 @@ function Expertise() {
                                         >
                                             <Icon
                                                 size={24}
-                                                className="text-[#C8A97A]"
+                                                className="text-accent"
                                             />
                                         </div>
 
                                         <div>
                                             <h3
-                                                className="text-2xl text-[#1a1a18]"
-                                                style={{
-                                                    fontFamily: "Playfair Display",
-                                                }}
+                                                className="text-2xl text-dark"
                                             >
                                                 {item.title}
                                             </h3>
 
-                                            <p className="mt-2 leading-7 text-[#6b6b66]">
+                                            <p className="mt-2 leading-7 text-muted">
                                                 {item.description}
                                             </p>
                                         </div>

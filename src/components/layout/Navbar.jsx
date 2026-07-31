@@ -17,7 +17,7 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-[#e8e4dc]">
+        <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-border">
             <Container>
                 <nav className="h-20 flex items-center justify-between">
                     {/* Logo */}
@@ -41,7 +41,7 @@ function Navbar() {
                         {/* Desktop Phone */}
                         <a
                             href={`tel:${SITE.phone}`}
-                            className="hidden lg:block text-sm tracking-[0.08em] text-[#1a1a18] font-medium"
+                            className="hidden lg:block text-sm tracking-[0.08em] text-dark font-medium"
                         >
                             {SITE.phone}
                         </a>
@@ -49,7 +49,7 @@ function Navbar() {
                         {/* Mobile Toggle */}
                         <button
                             onClick={() => setIsOpen(!isOpen)}
-                            className="lg:hidden text-[#1a1a18]"
+                            className="lg:hidden text-dark"
                             aria-label="Toggle Navigation"
                             aria-expanded={isOpen}
                         >

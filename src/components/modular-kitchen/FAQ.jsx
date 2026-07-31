@@ -52,7 +52,7 @@ function FAQ() {
 
                 <div className="max-w-4xl mx-auto mt-16">
                     {faqs.map((faq, index) => (
-                        <div key={faq.question} className="border-b border-[#e8e4dc]">
+                        <div key={faq.question} className="border-b border-border">
                             <button
                                 onClick={() => setActive(active === index ? null : index)}
                                 className="
@@ -64,14 +64,14 @@ function FAQ() {
                   text-left
                 "
                             >
-                                <h3 className="text-xl text-[#1a1a18] font-medium">
+                                <h3 className="text-xl text-dark font-medium">
                                     {faq.question}
                                 </h3>
 
                                 {active === index ? (
-                                    <Minus className="text-[#C8A97A]" />
+                                    <Minus className="text-accent" />
                                 ) : (
-                                    <Plus className="text-[#C8A97A]" />
+                                    <Plus className="text-accent" />
                                 )}
                             </button>
 
@@ -79,7 +79,7 @@ function FAQ() {
                                 className={`grid transition-all duration-300 ${active === index ? "grid-rows-[1fr]" : "grid-rows-[0fr]"}`}
                             >
                                 <div className="overflow-hidden">
-                                    <p className="pb-7 text-[#6b6b66] leading-8 pr-8">{faq.answer}</p>
+                                    <p className="pb-7 text-muted leading-8 pr-8">{faq.answer}</p>
                                 </div>
                             </div>
                         </div>

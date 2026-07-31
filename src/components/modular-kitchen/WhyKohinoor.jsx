@@ -38,7 +38,7 @@ function WhyKohinoor() {
 
                 {/* Content */}
                 <div className="max-w-4xl mx-auto text-center mt-16">
-                    <p className="text-[#6b6b66] leading-8">
+                    <p className="text-muted leading-8">
                         A modular kitchen is more than cabinetry. It is a thoughtfully
                         planned cooking space with smart storage, premium kitchen materials,
                         and a layout optimized for modern living. At Kohinoor Kitchens, we
@@ -49,9 +49,9 @@ function WhyKohinoor() {
                     <div className="grid sm:grid-cols-2 gap-5 mt-12 text-left">
                         {benefits.map((item) => (
                             <div key={item} className="flex items-center gap-4">
-                                <span className="w-2 h-2 rounded-full bg-[#C8A97A]" />
+                                <span className="w-2 h-2 rounded-full bg-accent" />
 
-                                <p className="text-[#4a4a46]">{item}</p>
+                                <p className="text-mid">{item}</p>
                             </div>
                         ))}
                     </div>

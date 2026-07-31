@@ -79,10 +79,7 @@ function KitchenCategories() {
 
                             <div className="pt-5">
                                 <h3
-                                    className="text-2xl text-[#1a1a18]"
-                                    style={{
-                                        fontFamily: "Playfair Display",
-                                    }}
+                                    className="text-2xl text-dark"
                                 >
                                     {kitchen.title}
                                 </h3>

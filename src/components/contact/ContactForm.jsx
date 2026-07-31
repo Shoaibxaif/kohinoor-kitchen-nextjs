@@ -19,7 +19,7 @@ const emailTemplateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
 const emailPublicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
 
 const fieldClasses =
-  "w-full border border-[#e8e4dc] px-5 py-4 outline-none transition-colors focus:border-[#C8A97A] focus-visible:ring-2 focus-visible:ring-[#C8A97A]/40";
+  "w-full border border-border px-5 py-4 outline-none transition-colors focus:border-accent focus-visible:ring-2 focus-visible:ring-accent/40";
 const phoneHref = `tel:${SITE.phone.replace(/\s/g, "")}`;
 
 function ContactForm() {
@@ -136,7 +136,7 @@ function ContactForm() {
   };
 
   return (
-    <section id="contact-form" className="bg-[#f7f5f0] pt-24 pb-16 lg:pt-32 lg:pb-24">
+    <section id="contact-form" className="bg-cream pt-24 pb-16 lg:pt-32 lg:pb-24">
       <Container>
         <div className="grid gap-16 lg:grid-cols-[1.2fr_0.8fr]">
           <div>
@@ -146,18 +146,18 @@ function ContactForm() {
               title="Let's Build Your"
               italicWord="Dream Modular Kitchen"
             />
-            <p className="mt-6 max-w-xl leading-8 text-[#6b6b66]">
+            <p className="mt-6 max-w-xl leading-8 text-muted">
               Share your modular kitchen requirements and our design experts will contact you within 24 hours.
             </p>
 
             <form
               onSubmit={handleSubmit}
               aria-busy={submissionState === "sending"}
-              className="mt-10 space-y-8 rounded-sm border border-[#e8e4dc] bg-white p-8"
+              className="mt-10 space-y-8 rounded-sm border border-border bg-white p-8"
             >
               <div className="grid gap-5 md:grid-cols-2">
                 <label className="block">
-                  <span className="mb-2 block text-sm font-medium text-[#1a1a18]">
+                  <span className="mb-2 block text-sm font-medium text-dark">
                     Full name <span aria-hidden="true">*</span>
                   </span>
                   <input
@@ -171,7 +171,7 @@ function ContactForm() {
                 </label>
 
                 <label className="block">
-                  <span className="mb-2 block text-sm font-medium text-[#1a1a18]">
+                  <span className="mb-2 block text-sm font-medium text-dark">
                     Mobile number <span aria-hidden="true">*</span>
                   </span>
                   <input
@@ -186,7 +186,7 @@ function ContactForm() {
                 </label>
               </div>
               <label className="block">
-                <span className="mb-2 block text-sm font-medium text-[#1a1a18]">
+                <span className="mb-2 block text-sm font-medium text-dark">
                   Email address
                 </span>
                 <input
@@ -199,7 +199,7 @@ function ContactForm() {
               </label>
 
               <label className="block">
-                <span className="mb-2 block text-sm font-medium text-[#1a1a18]">
+                <span className="mb-2 block text-sm font-medium text-dark">
                   Tell us about your project
                 </span>
                 <textarea
@@ -215,11 +215,11 @@ function ContactForm() {
                   type="checkbox"
                   name="consent"
                   required
-                  className="mt-1 h-4 w-4 rounded border-[#e8e4dc] text-[#C8A97A] focus:ring-[#C8A97A]"
+                  className="mt-1 h-4 w-4 rounded border-border text-accent focus:ring-accent"
                 />
-                <span className="text-sm leading-6 text-[#4a4a46]">
+                <span className="text-sm leading-6 text-mid">
                   I agree to receive project updates from {SITE.name}. I have read and agree
-                  to the <Link href={ROUTES.PRIVACY} className="underline text-[#1a1a18]">Privacy Policy</Link>.
+                  to the <Link href={ROUTES.PRIVACY} className="underline text-dark">Privacy Policy</Link>.
                 </span>
               </label>
 
@@ -241,7 +241,7 @@ function ContactForm() {
                   <div
                     role={submissionState === "success" ? "status" : "alert"}
                     className={`mt-6 rounded-md p-5 ${submissionState === "success"
-                      ? "border border-[#C8A97A] bg-[#fdf9f3] text-[#1a1a18]"
+                      ? "border border-accent bg-[#fdf9f3] text-dark"
                       : "border border-red-200 bg-red-50 text-red-700"
                       }`}
                   >
@@ -257,7 +257,7 @@ function ContactForm() {
                 ) : null}
               </div>
 
-              <div className="flex flex-wrap gap-6 border-t text-sm text-[#6b6b66]">
+              <div className="flex flex-wrap gap-6 border-t text-sm text-muted">
                 <span>✓ Free Consultation</span>
                 <span>✓ Free Site Visit</span>
                 <span>✓ 24-Hour Response</span>
@@ -267,13 +267,13 @@ function ContactForm() {
 
           <div className="space-y-8">
 
-            <div className="border border-[#e8e4dc] bg-white p-8">
-              <h3 className="text-3xl" style={{ fontFamily: "Playfair Display" }}>
+            <div className="border border-border bg-white p-8">
+              <h3 className="text-3xl">
                 Visit Our Showroom
               </h3>
               <div className="mt-8 space-y-6">
                 <div className="flex gap-4">
-                  <MapPin aria-hidden="true" className="mt-1 shrink-0 text-[#C8A97A]" />
+                  <MapPin aria-hidden="true" className="mt-1 shrink-0 text-accent" />
 
                   <a
                     href={SITE.mapUrl}
@@ -290,7 +290,7 @@ function ContactForm() {
                 </div>
 
                 <div className="flex gap-4">
-                  <Phone aria-hidden="true" className="mt-1 text-[#C8A97A]" />
+                  <Phone aria-hidden="true" className="mt-1 text-accent" />
                   <p>
                     <a className="hover:underline" href={phoneHref}>
                       {SITE.phone}
@@ -299,14 +299,14 @@ function ContactForm() {
                 </div>
 
                 <div className="flex gap-4">
-                  <Mail aria-hidden="true" className="mt-1 text-[#C8A97A]" />
+                  <Mail aria-hidden="true" className="mt-1 text-accent" />
                   <a className="hover:underline" href={`mailto:${SITE.email}`}>
                     {SITE.email}
                   </a>
                 </div>
 
                 <div className="flex gap-4">
-                  <Clock3 aria-hidden="true" className="mt-1 text-[#C8A97A]" />
+                  <Clock3 aria-hidden="true" className="mt-1 text-accent" />
                   <p>
                     {SITE.hours.days}
                     <br />
@@ -316,7 +316,7 @@ function ContactForm() {
               </div>
             </div>
 
-            <div className="overflow-hidden border border-[#e8e4dc]">
+            <div className="overflow-hidden border border-border">
               <iframe
                 title={`${SITE.name} showroom location`}
                 src={SITE.mapEmbedUrl}

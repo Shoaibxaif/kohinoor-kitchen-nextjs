@@ -37,7 +37,7 @@ const values = [
 
 function CoreValues() {
   return (
-    <section className="bg-[#f7f5f0] py-24 lg:py-32">
+    <section className="bg-cream py-24 lg:py-32">
       <Container>
         <SectionHeading
           tag="Our Values"
@@ -55,7 +55,7 @@ function CoreValues() {
                 className="
                   group
                   border
-                  border-[#e8e4dc]
+                  border-border
                   bg-white
                   p-10
                   transition-all
@@ -72,16 +72,16 @@ function CoreValues() {
                     items-center
                     justify-center
                     rounded-full
-                    bg-[#f7f5f0]
+                    bg-cream
                     transition
                     duration-300
-                    group-hover:bg-[#C8A97A]
+                    group-hover:bg-accent
                   "
                 >
                   <Icon
                     size={30}
                     className="
-                      text-[#C8A97A]
+                      text-accent
                       transition
                       duration-300
                       group-hover:text-white
@@ -90,19 +90,16 @@ function CoreValues() {
                 </div>
 
                 <h3
-                  className="mt-8 text-2xl text-[#1a1a18]"
-                  style={{
-                    fontFamily: "Playfair Display",
-                  }}
+                  className="mt-8 text-2xl text-dark"
                 >
                   {value.title}
                 </h3>
 
-                <p className="mt-5 leading-8 text-[#6b6b66]">
+                <p className="mt-5 leading-8 text-muted">
                   {value.description}
                 </p>
 
-                <div className="mt-8 h-px w-16 bg-[#C8A97A]" />
+                <div className="mt-8 h-px w-16 bg-accent" />
               </article>
             );
           })}

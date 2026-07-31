@@ -5,7 +5,7 @@ import { ROUTES } from "@/constants/routes";
 
 function CTASection() {
     return (
-        <section className="bg-[#1a1a18] py-24 lg:py-32">
+        <section className="bg-dark py-24 lg:py-32">
             <Container>
                 <div className="max-w-4xl mx-auto text-center">
 
@@ -14,7 +14,7 @@ function CTASection() {
               text-[11px]
               uppercase
               tracking-[0.18em]
-              text-[#c8a97a]
+              text-accent
               mb-6
             "
                     >
@@ -29,9 +29,6 @@ function CTASection() {
               lg:text-6xl
               leading-tight
             "
-                        style={{
-                            fontFamily: "Playfair Display",
-                        }}
                     >
                         Ready To Create
                         <br />

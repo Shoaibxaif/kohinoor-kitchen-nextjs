@@ -29,7 +29,7 @@ function AboutSection({
                             align="left"
                         />
 
-                        <p className="mt-8 leading-8 text-[#6b6b66]">
+                        <p className="mt-8 leading-8 text-muted">
                             {description}
                         </p>
 
@@ -40,9 +40,9 @@ function AboutSection({
                                         key={point}
                                         className="flex items-start gap-4"
                                     >
-                                        <span className="mt-1 text-[#C8A97A]">✓</span>
+                                        <span className="mt-1 text-accent">✓</span>
 
-                                        <p className="text-[#4a4a46]">
+                                        <p className="text-mid">
                                             {point}
                                         </p>
                                     </div>

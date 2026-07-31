@@ -34,7 +34,7 @@ function OurStory() {
                 absolute
                 -bottom-8
                 right-8
-                bg-[#1a1a18]
+                bg-dark
                 px-10
                 py-8
                 text-white
@@ -43,12 +43,11 @@ function OurStory() {
                         >
                             <h3
                                 className="text-5xl"
-                                style={{ fontFamily: "Playfair Display" }}
                             >
                                 18+
                             </h3>
 
-                            <p className="mt-2 uppercase tracking-[0.18em] text-sm text-[#C8A97A]">
+                            <p className="mt-2 uppercase tracking-[0.18em] text-sm text-accent">
                                 Years of Excellence
                             </p>
                         </div>
@@ -63,7 +62,7 @@ function OurStory() {
                             italicWord="People"
                         />
 
-                        <p className="mt-8 text-lg leading-8 text-[#6b6b66]">
+                        <p className="mt-8 text-lg leading-8 text-muted">
                             At Kohinoor Kitchens, we believe a kitchen is more than just a
                             place to cook—it&apos;s the heart of every home. With 18+ years of
                             experience and 6000+ kitchens delivered, we design modular kitchen
@@ -71,7 +70,7 @@ function OurStory() {
                             feel of your space.
                         </p>
 
-                        <p className="mt-6 text-lg leading-8 text-[#6b6b66]">
+                        <p className="mt-6 text-lg leading-8 text-muted">
                             By combining intelligent space planning, premium materials,
                             precision craftsmanship, and timeless aesthetics, we deliver
                             modular kitchens that are as functional as they are beautiful.
@@ -94,16 +93,16 @@ function OurStory() {
                       items-center
                       justify-center
                       rounded-full
-                      bg-[#f7f5f0]
+                      bg-cream
                     "
                                     >
                                         <Check
                                             size={18}
-                                            className="text-[#C8A97A]"
+                                            className="text-accent"
                                         />
                                     </div>
 
-                                    <span className="text-[#1a1a18]">
+                                    <span className="text-dark">
                                         {item}
                                     </span>
                                 </div>

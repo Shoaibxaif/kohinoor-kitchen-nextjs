@@ -71,7 +71,7 @@ const services = [
 ];
 
 function Footer() {
-    return (<footer className="bg-[#f7f5f0] border-t border-[#e8e4dc]"> <Container> <div className="py-24">
+    return (<footer className="bg-cream border-t border-border"> <Container> <div className="py-24">
 
         <div className="grid gap-16 lg:grid-cols-[2fr_1fr_1fr_1fr]">
 
@@ -90,7 +90,7 @@ function Footer() {
                     className="
       mt-6
       max-w-lg
-      text-[#6b6b66]
+      text-muted
       leading-8
     "
                 >
@@ -105,7 +105,7 @@ function Footer() {
               text-xs
               uppercase
               tracking-[0.18em]
-              text-[#c8a97a]
+              text-accent
               mb-6
             "
                 >
@@ -121,7 +121,7 @@ function Footer() {
                                 text-[#3f3f3b]
                                 transition-all
                                 duration-300
-                                hover:text-[#C8A97A]
+                                hover:text-accent
                                 hover:translate-x-1
                                 inline-block
                                 "
@@ -142,7 +142,7 @@ function Footer() {
       text-xs
       uppercase
       tracking-[0.18em]
-      text-[#c8a97a]
+      text-accent
     "
                 >
                     Services
@@ -157,7 +157,7 @@ function Footer() {
                                 text-[#3f3f3b]
                                 transition-all
                                 duration-300
-                                hover:text-[#C8A97A]
+                                hover:text-accent
                                 hover:translate-x-1
                                 inline-block
                                 "
@@ -176,7 +176,7 @@ function Footer() {
               text-xs
               uppercase
               tracking-[0.18em]
-              text-[#c8a97a]
+              text-accent
               mb-6
             "
                 >
@@ -185,17 +185,17 @@ function Footer() {
 
                 <div className="space-y-5 text-[#3f3f3b]">
                     <div className="flex items-start gap-3">
-                        <Phone size={18} className="mt-1 text-[#C8A97A]" />
+                        <Phone size={18} className="mt-1 text-accent" />
                         <span>{SITE.phone}</span>
                     </div>
 
                     <div className="flex items-start gap-3">
-                        <Mail size={18} className="mt-1 text-[#C8A97A]" />
+                        <Mail size={18} className="mt-1 text-accent" />
                         <span>{SITE.email}</span>
                     </div>
 
                     <div className="flex items-start gap-3">
-                        <MapPin size={18} className="mt-1 flex-shrink-0 text-[#C8A97A]" />
+                        <MapPin size={18} className="mt-1 flex-shrink-0 text-accent" />
                         <div>
                             {SITE.address.map((line) => (
                                 <p key={line}>{line}</p>

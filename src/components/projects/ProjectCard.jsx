@@ -40,7 +40,7 @@ function ProjectCard({
             text-xs
             uppercase
             tracking-[0.15em]
-            text-[#1a1a18]
+            text-dark
           "
                 >
                     {layout}
@@ -64,19 +64,16 @@ function ProjectCard({
             </div>
 
             {/* Content */}
-            <div className="border border-t-0 border-[#e8e4dc] p-7">
+            <div className="border border-t-0 border-border p-7">
                 <div className="flex items-center justify-between">
                     <div>
                         <h3
-                            className="text-2xl text-[#1a1a18]"
-                            style={{
-                                fontFamily: "Playfair Display",
-                            }}
+                            className="text-2xl text-dark"
                         >
                             {title}
                         </h3>
 
-                        <p className="mt-2 text-[#6b6b66]">
+                        <p className="mt-2 text-muted">
                             {location}
                         </p>
                     </div>
@@ -87,13 +84,13 @@ function ProjectCard({
               w-12
               rounded-full
               border
-              border-[#e8e4dc]
+              border-border
               flex
               items-center
               justify-center
               transition-all
               duration-300
-              group-hover:bg-[#1a1a18]
+              group-hover:bg-dark
               group-hover:text-white
             "
                     >
@@ -107,7 +104,7 @@ function ProjectCard({
               text-xs
               uppercase
               tracking-[0.18em]
-              text-[#C8A97A]
+              text-accent
             "
                     >
                         {area}
@@ -119,8 +116,8 @@ function ProjectCard({
               text-sm
               uppercase
               tracking-[0.15em]
-              text-[#1a1a18]
-              hover:text-[#C8A97A]
+              text-dark
+              hover:text-accent
               transition-colors
             "
                     >

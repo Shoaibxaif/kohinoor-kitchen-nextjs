@@ -16,7 +16,7 @@ function FeatureGrid({
   };
 
   return (
-    <section className="py-24 lg:py-32 bg-[#f7f5f0]">
+    <section className="py-24 lg:py-32 bg-cream">
       <Container>
         <SectionHeading tag={tag} title={title} italicWord={italicWord} />
 
@@ -27,7 +27,7 @@ function FeatureGrid({
               max-w-3xl
               mx-auto
               text-center
-              text-[#6b6b66]
+              text-muted
               leading-8
             "
           >
@@ -49,7 +49,7 @@ function FeatureGrid({
               className="
                 bg-white
                 border
-                border-[#e8e4dc]
+                border-border
                 p-8
                 transition-all
                 duration-300
@@ -63,8 +63,8 @@ function FeatureGrid({
                   w-12
                   h-12
                   rounded-full
-                  bg-[#C8A97A]/10
-                  text-[#C8A97A]
+                  bg-accent/10
+                  text-accent
                   flex
                   items-center
                   justify-center
@@ -79,11 +79,8 @@ function FeatureGrid({
                 className="
                   mt-6
                   text-2xl
-                  text-[#1a1a18]
+                  text-dark
                 "
-                style={{
-                  fontFamily: "Playfair Display",
-                }}
               >
                 {item.title}
               </h3>
@@ -91,7 +88,7 @@ function FeatureGrid({
               <p
                 className="
                   mt-4
-                  text-[#6b6b66]
+                  text-muted
                   leading-7
                 "
               >

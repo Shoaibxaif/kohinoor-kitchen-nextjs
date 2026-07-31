@@ -15,13 +15,12 @@ function ProjectGrid({ projects = [], activeFilter }) {
         {filteredProjects.length === 0 ? (
           <div className="py-32 text-center">
             <h3
-              className="text-3xl text-[#1a1a18]"
-              style={{ fontFamily: "Playfair Display" }}
+              className="text-3xl text-dark"
             >
               No Projects Found
             </h3>
 
-            <p className="mt-4 text-[#6b6b66]">
+            <p className="mt-4 text-muted">
               We&apos;re continuously adding new completed projects.
             </p>
           </div>

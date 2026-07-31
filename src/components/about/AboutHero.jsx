@@ -18,7 +18,7 @@ export default function AboutHero() {
           Crafting Beautiful
           <br />
           Kitchens For{" "}
-          <span className="italic text-[#C8A97A]">Modern Living</span>
+          <span className="italic text-accent">Modern Living</span>
         </>
       }
       description="At Kohinoor Kitchens, we believe every modular kitchen should be as functional as it is beautiful. Combining thoughtful design, premium materials, and expert craftsmanship, we create custom kitchens that become the heart of every home in Delhi NCR."
@@ -36,16 +36,15 @@ export default function AboutHero() {
           "Every kitchen is thoughtfully designed, expertly manufactured, and professionally installed to deliver exceptional quality.",
       }}
     >
-      <div className="mt-16 grid grid-cols-3 gap-8 border-t border-[#e8e4dc] pt-10">
+      <div className="mt-16 grid grid-cols-3 gap-8 border-t border-border pt-10">
         {stats.map(([value, label]) => (
           <div key={label}>
             <h2
-              className="text-4xl text-[#1a1a18]"
-              style={{ fontFamily: "Playfair Display" }}
+              className="text-4xl text-dark"
             >
               {value}
             </h2>
-            <p className="mt-2 text-sm text-[#6b6b66]">{label}</p>
+            <p className="mt-2 text-sm text-muted">{label}</p>
           </div>
         ))}
       </div>

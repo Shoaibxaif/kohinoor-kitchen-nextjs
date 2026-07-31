@@ -47,7 +47,7 @@ const accessories = [
 
 function Accessories() {
     return (
-        <section className="py-24 lg:py-32 bg-[#f7f5f0]">
+        <section className="py-24 lg:py-32 bg-cream">
             <Container>
                 <SectionHeading
                     tag="Smart Storage Accessories"
@@ -63,7 +63,7 @@ function Accessories() {
                 group
                 bg-white
                 border
-                border-[#e8e4dc]
+                border-border
                 overflow-hidden
                 transition-all
                 duration-500
@@ -88,15 +88,12 @@ function Accessories() {
 
                             <div className="p-6">
                                 <h3
-                                    className="text-2xl text-[#1a1a18]"
-                                    style={{
-                                        fontFamily: "Playfair Display",
-                                    }}
+                                    className="text-2xl text-dark"
                                 >
                                     {item.title}
                                 </h3>
 
-                                <p className="mt-4 text-[#6b6b66] leading-7">
+                                <p className="mt-4 text-muted leading-7">
                                     {item.description}
                                 </p>
                             </div>

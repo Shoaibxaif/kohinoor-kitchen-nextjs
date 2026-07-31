@@ -84,14 +84,14 @@ function MegaMenu({ isOpen }) {
                 }
     `}
         >
-            <div className="w-[920px] bg-white border border-[#e8e4dc] shadow-2xl">
-                <div className="h-[2px] bg-[#C8A97A]" />
+            <div className="w-[920px] bg-white border border-border shadow-2xl">
+                <div className="h-[2px] bg-accent" />
 
                 <div className="grid grid-cols-3">
                     {/* Left */}
 
-                    <div className="p-8 border-r border-[#e8e4dc] flex flex-col">
-                        <p className="mb-6 text-xs uppercase tracking-[0.18em] text-[#C8A97A]">
+                    <div className="p-8 border-r border-border flex flex-col">
+                        <p className="mb-6 text-xs uppercase tracking-[0.18em] text-accent">
                             Kitchen Layouts
                         </p>
 
@@ -102,9 +102,9 @@ function MegaMenu({ isOpen }) {
                                     href={item.path}
                                     className="
           block
-          text-[#4a4a46]
+          text-mid
           transition-colors
-          hover:text-[#C8A97A]
+          hover:text-accent
         "
                                 >
                                     {item.label}
@@ -122,7 +122,7 @@ function MegaMenu({ isOpen }) {
       text-sm
       uppercase
       tracking-[0.15em]
-      text-[#C8A97A]
+      text-accent
       transition-all
       hover:gap-3
     "
@@ -132,8 +132,8 @@ function MegaMenu({ isOpen }) {
                         </Link>
                     </div>
 
-                    <div className="p-8 border-r border-[#e8e4dc]">
-                        <p className="mb-6 text-xs uppercase tracking-[0.18em] text-[#C8A97A]">
+                    <div className="p-8 border-r border-border">
+                        <p className="mb-6 text-xs uppercase tracking-[0.18em] text-accent">
                             Our Services
                         </p>
 
@@ -144,9 +144,9 @@ function MegaMenu({ isOpen }) {
                                     href={item.path}
                                     className="
           block
-          text-[#4a4a46]
+          text-mid
           transition-colors
-          hover:text-[#C8A97A]
+          hover:text-accent
         "
                                 >
                                     {item.label}
@@ -164,7 +164,7 @@ function MegaMenu({ isOpen }) {
       text-sm
       uppercase
       tracking-[0.15em]
-      text-[#C8A97A]
+      text-accent
       transition-all
       hover:gap-3
     "
@@ -177,11 +177,11 @@ function MegaMenu({ isOpen }) {
                     {/* Right */}
 
                     <div className="p-8 flex flex-col">
-                        <p className="mb-6 text-xs uppercase tracking-[0.18em] text-[#C8A97A]">
+                        <p className="mb-6 text-xs uppercase tracking-[0.18em] text-accent">
                             Why Kohinoor
                         </p>
 
-                        <div className="space-y-4 text-[#6b6b66]">
+                        <div className="space-y-4 text-muted">
                             <p>✓ 18+ Years Experience</p>
 
                             <p>✓ Factory Manufactured</p>
@@ -205,7 +205,7 @@ function MegaMenu({ isOpen }) {
       text-sm
       uppercase
       tracking-[0.15em]
-      text-[#C8A97A]
+      text-accent
       transition-all
       hover:gap-3
     "

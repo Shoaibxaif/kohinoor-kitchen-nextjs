@@ -12,7 +12,7 @@ export default function PrivacyPage() {
                     italicWord="Matters"
                 />
 
-                <div className="prose prose-lg max-w-4xl text-[#4a4a46]">
+                <div className="prose prose-lg max-w-4xl text-mid">
                     <p>
                         Kohinoor Kitchens collects contact information such as name, phone number, email, and city location when you submit an enquiry.
                         This information is used only to respond to your request, provide quotations, and follow up on your project.
@@ -37,7 +37,7 @@ export default function PrivacyPage() {
 
                     <h2>Contact</h2>
                     <p>
-                        If you have questions about this policy, please contact us at <a href="mailto:contact@kohinoorinterior.in" className="text-[#C8A97A] underline">contact@kohinoorinterior.in</a>.
+                        If you have questions about this policy, please contact us at <a href="mailto:contact@kohinoorinterior.in" className="text-accent underline">contact@kohinoorinterior.in</a>.
                     </p>
                 </div>
             </Container>

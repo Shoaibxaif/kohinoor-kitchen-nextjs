@@ -91,7 +91,7 @@ function FeaturedProjects() {
                     text-xs
                     uppercase
                     tracking-[0.18em]
-                    text-[#c8a97a]
+                    text-accent
                   "
                                     >
                                         {project.location}
@@ -101,17 +101,14 @@ function FeaturedProjects() {
                                         className="
                     mt-3
                     text-2xl
-                    text-[#1a1a18]
+                    text-dark
                   "
-                                        style={{
-                                            fontFamily: "Playfair Display",
-                                        }}
                                     >
                                         {project.title}
                                     </h3>
 
                                     <div className="flex items-center justify-between mt-5">
-                                        <span className="text-[#4a4a46]">
+                                        <span className="text-mid">
                                             {project.type}
                                         </span>
 
