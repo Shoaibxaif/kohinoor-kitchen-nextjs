@@ -60,12 +60,12 @@ import peninsualGallery4 from "@/assets/images/layouts/peninsula/gallery-4.png";
 
 // Storage Solutions
 
-import magicCorner from "@/assets/images/accessories/magic-corner.png";
-import pantry from "@/assets/images/accessories/pantry.png";
-import bottlePullout from "@/assets/images/accessories/bottlePullout.png";
-import cutlery from "@/assets/images/accessories/cutlery.png";
-import softClose from "@/assets/images/accessories/softClose.png";
-import carousel from "@/assets/images/accessories/carousel.png";
+import magicCorner from "@/assets/images/accessories/magic-corner.webp";
+import pantry from "@/assets/images/accessories/pantry.webp";
+import bottlePullout from "@/assets/images/accessories/bottlePullout.webp";
+import cutlery from "@/assets/images/accessories/cutlery.webp";
+import softClose from "@/assets/images/accessories/softClose.webp";
+import carousel from "@/assets/images/accessories/carousel.webp";
 
 export const kitchenImages = {
   lShaped: {

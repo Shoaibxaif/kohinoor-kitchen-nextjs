@@ -1,13 +1,16 @@
 import Image from "next/image";
 import Container from "@/components/common/Container";
 import SectionHeading from "@/components/common/SectionHeading";
+import { kitchenImages } from "@/data/kitchenImages";
 
-import magicCorner from "@/assets/images/accessories/magic-corner.png";
-import pantry from "@/assets/images/accessories/pantry.png";
-import bottlePullout from "@/assets/images/accessories/bottlePullout.png";
-import cutlery from "@/assets/images/accessories/cutlery.png";
-import softClose from "@/assets/images/accessories/softClose.png";
-import carousel from "@/assets/images/accessories/magic-corner.png";
+const {
+    magicCorner,
+    pantry,
+    bottlePullout,
+    cutlery,
+    softClose,
+    carousel,
+} = kitchenImages.storage;
 
 const accessories = [
     {
