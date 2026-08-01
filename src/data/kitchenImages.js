@@ -1,7 +1,7 @@
 // L-Shaped
 
-import lHero from "@/assets/images/layouts/l-shaped/hero.jpg";
-import lIntro from "@/assets/images/layouts/l-shaped/intro.jpg";
+import lHero from "@/assets/images/layouts/l-shaped/hero.webp";
+import lIntro from "@/assets/images/layouts/l-shaped/intro.webp";
 
 import lGallery1 from "@/assets/images/layouts/l-shaped/gallery-1.jpg";
 import lGallery2 from "@/assets/images/layouts/l-shaped/gallery-2.jpg";
@@ -22,7 +22,7 @@ import uGallery4 from "@/assets/images/layouts/u-shaped/gallery-4.png";
 // Island
 
 import islandHero from "@/assets/images/layouts/island/hero.webp";
-import islandBlueprint from "@/assets/images/layouts/island/intro.webp";
+import islandAbout from "@/assets/images/layouts/island/about.webp";
 import islandGallery1 from "@/assets/images/layouts/island/gallery-1.webp";
 import islandGallery2 from "@/assets/images/layouts/island/gallery-2.webp";
 import islandGallery3 from "@/assets/images/layouts/island/gallery-3.webp";
@@ -91,7 +91,7 @@ export const kitchenImages = {
 
   island: {
     hero: islandHero,
-    blueprint: islandBlueprint,
+    blueprint: islandAbout,
     gallery1: islandGallery1,
     gallery2: islandGallery2,
     gallery3: islandGallery3,
