@@ -14,6 +14,12 @@ export const SITE = {
     days: "Mon–Sat",
     time: "10 AM–7 PM",
   },
+  social: {
+    instagram: "https://www.instagram.com/kohinoor_modular_kitchen_/",
+    facebook:
+      "https://www.facebook.com/people/Kohinoor-Modular-Kitchen/61573970993168/",
+    youtube: "https://www.youtube.com/@KohinoorModularKitchen",
+  },
   mapUrl:
     "https://www.google.com/maps/search/?api=1&query=Kohinoor%20Modular%20Kitchen%2C%20G-396%2C%20Shaheed%20Nagar%2C%20Ghaziabad%2C%20Uttar%20Pradesh%20201006",
   mapEmbedUrl:

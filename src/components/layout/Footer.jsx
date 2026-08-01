@@ -70,10 +70,25 @@ const services = [
     }
 ];
 
+const socialLinks = [
+    {
+        label: "Instagram",
+        url: SITE.social.instagram,
+    },
+    {
+        label: "Facebook",
+        url: SITE.social.facebook,
+    },
+    {
+        label: "YouTube",
+        url: SITE.social.youtube,
+    },
+];
+
 function Footer() {
     return (<footer className="bg-cream border-t border-border"> <Container> <div className="py-24">
 
-        <div className="grid gap-16 lg:grid-cols-[2fr_1fr_1fr_1fr]">
+        <div className="grid gap-16 lg:grid-cols-[2fr_1fr_1fr_1fr_1fr]">
 
             {/* Brand */}
             <div>
@@ -202,6 +217,33 @@ function Footer() {
                             ))}
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div>
+                <h3
+                    className="
+              mb-4
+              text-xs
+              uppercase
+              tracking-[0.18em]
+              text-accent
+            "
+                >
+                    Follow Us
+                </h3>
+                <div className="flex flex-col gap-3 text-[#3f3f3b]">
+                    {socialLinks.map((social) => (
+                        <a
+                            key={social.label}
+                            href={social.url}
+                            target="_blank"
+                            rel="noreferrer noopener"
+                            className="transition-all duration-300 hover:text-accent"
+                        >
+                            {social.label}
+                        </a>
+                    ))}
                 </div>
             </div>
 
