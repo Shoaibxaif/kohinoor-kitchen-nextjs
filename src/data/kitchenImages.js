@@ -46,13 +46,12 @@ import straightGallery4 from "@/assets/images/layouts/straight/gallery-4.webp";
 
 // Peninsula
 
-import peninsulaHero from "@/assets/images/layouts/peninsula/hero.jpg";
-import peninsulaIntro from "@/assets/images/layouts/peninsula/intro.jpg";
-import peninsulaBlueprint from "@/assets/images/layouts/peninsula/blueprint.svg";
-import peninsualGallery1 from "@/assets/images/layouts/peninsula/gallery-1.png";
-import peninsualGallery2 from "@/assets/images/layouts/peninsula/gallery-2.png";
-import peninsualGallery3 from "@/assets/images/layouts/peninsula/gallery-3.png";
-import peninsualGallery4 from "@/assets/images/layouts/peninsula/gallery-4.png";
+import peninsulaHero from "@/assets/images/layouts/peninsula/hero.webp";
+import peninsulaAbout from "@/assets/images/layouts/peninsula/about.webp";
+import peninsualGallery1 from "@/assets/images/layouts/peninsula/gallery-1.webp";
+import peninsualGallery2 from "@/assets/images/layouts/peninsula/gallery-2.webp";
+import peninsualGallery3 from "@/assets/images/layouts/peninsula/gallery-3.webp";
+import peninsualGallery4 from "@/assets/images/layouts/peninsula/gallery-4.webp";
 
 // Storage Solutions
 
@@ -111,8 +110,7 @@ export const kitchenImages = {
 
   peninsula: {
     hero: peninsulaHero,
-    intro: peninsulaIntro,
-    blueprint: peninsulaBlueprint,
+    blueprint: peninsulaAbout,
     gallery1: peninsualGallery1,
     gallery2: peninsualGallery2,
     gallery3: peninsualGallery3,
