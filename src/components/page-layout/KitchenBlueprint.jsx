@@ -10,8 +10,10 @@ function KitchenBlueprint({
     image,
     points = [],
 }) {
+    const isPortrait = image?.height > image?.width;
+
     return (
-        <section className="py-24 lg:py-32 bg-white">
+        <section>
             <Container>
                 <SectionHeading tag={tag} title={title} italicWord={italicWord} />
 
@@ -34,21 +36,16 @@ function KitchenBlueprint({
                     {/* Blueprint */}
 
                     <div
-                        className="
-              relative
-              bg-cream
-              border
-              border-border
-              p-10
-            "
-                        style={{ minHeight: 320 }}
+                        className={
+                            `relative bg-cream overflow-hidden max-h-[520px] md:max-h-[600px] ${isPortrait ? "aspect-[5/7]" : "aspect-[16/9]"}`
+                        }
                     >
                         <Image
                             src={image}
                             alt={title}
                             fill
                             className="object-contain"
-                            sizes="(min-width: 1024px) 50vw, 100vw"
+                            sizes="(min-width: 1024px) 50vw, 80vw"
                         />
                     </div>
 
