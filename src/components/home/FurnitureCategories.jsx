@@ -2,12 +2,12 @@ import Image from "next/image";
 import SectionHeading from "@/components/common/SectionHeading";
 import Container from "@/components/common/Container";
 
-import wardrobeImg from "@/assets/images/furniture/wardrobe.jpg";
-import bedImg from "@/assets/images/furniture/bed.jpg";
-import sofaImg from "@/assets/images/furniture/sofa.jpg";
-import tvPanelImg from "@/assets/images/furniture/tv-panel.jpg";
-import chairImg from "@/assets/images/furniture/chair.jpg";
-import diningImg from "@/assets/images/furniture/dining.jpg";
+import wardrobeImg from "@/assets/images/furniture/wardrobe.webp";
+import bedImg from "@/assets/images/furniture/bed.webp";
+import sofaImg from "@/assets/images/furniture/sofa.webp";
+import tvPanelImg from "@/assets/images/furniture/tv-panel.webp";
+import chairImg from "@/assets/images/furniture/chair.webp";
+import diningImg from "@/assets/images/furniture/dining.webp";
 
 import Link from "next/link";
 import { ROUTES } from "@/constants/routes";

@@ -6,9 +6,9 @@ import SectionHeading from "@/components/common/SectionHeading";
 import Button from "@/components/common/Button";
 import { ROUTES } from "@/constants/routes";
 import Link from "next/link";
-import project1 from "@/assets/images/layouts/l-shaped/gallery-2.jpg";
-import project2 from "@/assets/images/layouts/island/gallery-2.png";
-import project3 from "@/assets/images/layouts/parallel/gallery-2.png";
+import project1 from "@/assets/images/layouts/l-shaped/gallery-1.webp";
+import project2 from "@/assets/images/layouts/island/gallery-1.webp";
+import project3 from "@/assets/images/layouts/parallel/gallery-1.webp";
 
 
 const projects = [

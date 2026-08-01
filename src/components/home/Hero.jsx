@@ -1,5 +1,5 @@
 import Hero from "@/components/common/Hero";
-import heroImage from "@/assets/images/hero-kitchen.jpg";
+import heroImage from "@/assets/images/home/hero.webp";
 import { ROUTES } from "@/constants/routes";
 
 const stats = [

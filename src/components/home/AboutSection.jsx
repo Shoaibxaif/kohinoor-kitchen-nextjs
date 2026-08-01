@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Container from "@/components/common/Container";
-import kitchenImage from "@/assets/images/about-kitchen.jpg";
+import kitchenImage from "@/assets/images/home/about.webp";
 import Button from "@/components/common/Button";
 import { ROUTES } from "@/constants/routes";
 

@@ -1,12 +1,12 @@
 import Image from "next/image";
 import SectionHeading from "@/components/common/SectionHeading";
 import Container from "@/components/common/Container";
-import img1 from "@/assets/images/layouts/l-shaped/gallery-1.jpg";
-import img2 from "@/assets/images/layouts/u-shaped/gallery-1.png";
-import img3 from "@/assets/images/layouts/parallel/gallery-1.png";
-import img4 from "@/assets/images/layouts/island/gallery-1.png";
-import img5 from "@/assets/images/layouts/peninsula/gallery-1.png";
-import img6 from "@/assets/images/layouts/straight/gallery-1.png";
+import img1 from "@/assets/images/layouts/l-shaped/gallery-1.webp";
+import img2 from "@/assets/images/layouts/u-shaped/gallery-1.webp";
+import img3 from "@/assets/images/layouts/parallel/gallery-1.webp";
+import img4 from "@/assets/images/layouts/island/gallery-1.webp";
+import img5 from "@/assets/images/layouts/peninsula/gallery-1.webp";
+import img6 from "@/assets/images/layouts/straight/gallery-1.webp";
 import Link from "next/link";
 import { ROUTES } from "@/constants/routes";
 
