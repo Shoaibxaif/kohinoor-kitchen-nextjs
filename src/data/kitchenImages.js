@@ -1,13 +1,12 @@
 // L-Shaped
 
 import lHero from "@/assets/images/layouts/l-shaped/hero.webp";
-import lIntro from "@/assets/images/layouts/l-shaped/intro.webp";
 
-import lGallery1 from "@/assets/images/layouts/l-shaped/gallery-1.jpg";
-import lGallery2 from "@/assets/images/layouts/l-shaped/gallery-2.jpg";
-import lGallery3 from "@/assets/images/layouts/l-shaped/gallery-3.jpg";
-import lGallery4 from "@/assets/images/layouts/l-shaped/gallery-4.jpg";
-import lBlueprint from "@/assets/images/layouts/l-shaped/blueprint.svg";
+import lGallery1 from "@/assets/images/layouts/l-shaped/gallery-1.webp";
+import lGallery2 from "@/assets/images/layouts/l-shaped/gallery-2.webp";
+import lGallery3 from "@/assets/images/layouts/l-shaped/gallery-3.webp";
+import lGallery4 from "@/assets/images/layouts/l-shaped/gallery-4.webp";
+import lAbout from "@/assets/images/layouts/l-shaped/about.webp";
 
 // U-Shaped
 
@@ -70,9 +69,7 @@ import carousel from "@/assets/images/accessories/carousel.webp";
 export const kitchenImages = {
   lShaped: {
     hero: lHero,
-    intro: lIntro,
-    blueprint: lBlueprint,
-
+    blueprint: lAbout,
     gallery1: lGallery1,
     gallery2: lGallery2,
     gallery3: lGallery3,
