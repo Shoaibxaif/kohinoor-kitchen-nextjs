@@ -37,13 +37,12 @@ import parallelGallery4 from "@/assets/images/layouts/parallel/gallery-4.webp";
 
 // Straight
 
-import straightHero from "@/assets/images/layouts/straight/hero.jpg";
-import straightIntro from "@/assets/images/layouts/straight/intro.jpg";
-import straightBlueprint from "@/assets/images/layouts/straight/blueprint.svg";
-import straightGallery1 from "@/assets/images/layouts/straight/gallery-1.png";
-import straightGallery2 from "@/assets/images/layouts/straight/gallery-2.png";
-import straightGallery3 from "@/assets/images/layouts/straight/gallery-3.png";
-import straightGallery4 from "@/assets/images/layouts/straight/gallery-4.png";
+import straightHero from "@/assets/images/layouts/straight/hero.webp";
+import straightAbout from "@/assets/images/layouts/straight/about.webp";
+import straightGallery1 from "@/assets/images/layouts/straight/gallery-1.webp";
+import straightGallery2 from "@/assets/images/layouts/straight/gallery-2.webp";
+import straightGallery3 from "@/assets/images/layouts/straight/gallery-3.webp";
+import straightGallery4 from "@/assets/images/layouts/straight/gallery-4.webp";
 
 // Peninsula
 
@@ -103,8 +102,7 @@ export const kitchenImages = {
 
   straight: {
     hero: straightHero,
-    intro: straightIntro,
-    blueprint: straightBlueprint,
+    blueprint: straightAbout,
     gallery1: straightGallery1,
     gallery2: straightGallery2,
     gallery3: straightGallery3,
