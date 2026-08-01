@@ -28,13 +28,12 @@ import islandGallery4 from "@/assets/images/layouts/island/gallery-4.webp";
 
 // Parallel
 
-import parallelHero from "@/assets/images/layouts/parallel/hero.jpg";
-import parallelIntro from "@/assets/images/layouts/parallel/intro.jpg";
-import parallelBlueprint from "@/assets/images/layouts/parallel/blueprint.svg";
-import parallelGallery1 from "@/assets/images/layouts/parallel/gallery-1.png";
-import parallelGallery2 from "@/assets/images/layouts/parallel/gallery-2.png";
-import parallelGallery3 from "@/assets/images/layouts/parallel/gallery-3.png";
-import parallelGallery4 from "@/assets/images/layouts/parallel/gallery-4.png";
+import parallelHero from "@/assets/images/layouts/parallel/hero.webp";
+import parallelAbout from "@/assets/images/layouts/parallel/about.webp";
+import parallelGallery1 from "@/assets/images/layouts/parallel/gallery-1.webp";
+import parallelGallery2 from "@/assets/images/layouts/parallel/gallery-2.webp";
+import parallelGallery3 from "@/assets/images/layouts/parallel/gallery-3.webp";
+import parallelGallery4 from "@/assets/images/layouts/parallel/gallery-4.webp";
 
 // Straight
 
@@ -95,8 +94,7 @@ export const kitchenImages = {
 
   parallel: {
     hero: parallelHero,
-    intro: parallelIntro,
-    blueprint: parallelBlueprint,
+    blueprint: parallelAbout,
     gallery1: parallelGallery1,
     gallery2: parallelGallery2,
     gallery3: parallelGallery3,
