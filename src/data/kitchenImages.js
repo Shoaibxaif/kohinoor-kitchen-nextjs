@@ -10,13 +10,12 @@ import lAbout from "@/assets/images/layouts/l-shaped/about.webp";
 
 // U-Shaped
 
-import uHero from "@/assets/images/layouts/u-shaped/hero.jpg";
-import uIntro from "@/assets/images/layouts/u-shaped/intro.jpg";
-import uBlueprint from "@/assets/images/layouts/u-shaped/blueprint.svg";
-import uGallery1 from "@/assets/images/layouts/u-shaped/gallery-1.png";
-import uGallery2 from "@/assets/images/layouts/u-shaped/gallery-2.png";
-import uGallery3 from "@/assets/images/layouts/u-shaped/gallery-3.png";
-import uGallery4 from "@/assets/images/layouts/u-shaped/gallery-4.png";
+import uHero from "@/assets/images/layouts/u-shaped/hero.webp";
+import uAbout from "@/assets/images/layouts/u-shaped/about.webp";
+import uGallery1 from "@/assets/images/layouts/u-shaped/gallery-1.webp";
+import uGallery2 from "@/assets/images/layouts/u-shaped/gallery-2.webp";
+import uGallery3 from "@/assets/images/layouts/u-shaped/gallery-3.webp";
+import uGallery4 from "@/assets/images/layouts/u-shaped/gallery-4.webp";
 
 // Island
 
@@ -78,8 +77,7 @@ export const kitchenImages = {
 
   uShaped: {
     hero: uHero,
-    intro: uIntro,
-    blueprint: uBlueprint,
+    blueprint: uAbout,
     gallery1: uGallery1,
     gallery2: uGallery2,
     gallery3: uGallery3,
