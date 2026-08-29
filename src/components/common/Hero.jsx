@@ -130,7 +130,7 @@ export default function Hero({
   }
 
   return (
-    <section className="relative h-[70vh] min-h-[600px] overflow-hidden">
+    <section className="relative min-h-[600px] overflow-hidden py-24 lg:h-[70vh] lg:py-0">
       <Image
         fill
         src={image?.src ?? image}
