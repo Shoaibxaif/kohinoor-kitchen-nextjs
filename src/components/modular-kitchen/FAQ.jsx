@@ -10,31 +10,31 @@ const faqs = [
     {
         question: "How much does a modular kitchen cost in Delhi NCR?",
         answer:
-            "Costs vary based on kitchen size, materials, finish, accessories, and hardware brands. Our premium modular kitchens in Delhi NCR typically start from ₹1.5 lakh, with tailored quotations after a detailed design consultation.",
+            "Pricing for modular kitchens is personalized based on your specific layout, chosen materials, finishes, and hardware selections. We offer tailored quotes following an initial design consultation to ensure the solution perfectly fits your needs.",
     },
     {
         question: "Which material is best for a modular kitchen?",
         answer:
-            "HDHMR board and marine plywood are top choices for modular kitchen cabinets due to their moisture resistance, strength, and long-term durability.",
+            "For superior longevity and performance, we recommend HDHMR boards and BWP (Boiling Water Proof) grade plywood. These premium materials are specifically engineered to offer exceptional moisture resistance and structural integrity, making them the gold standard for high-quality modular kitchen cabinetry.",
     },
     {
         question: "How long does modular kitchen installation take?",
         answer:
-            "A complete installation usually takes 3–6 weeks after final design approval, including manufacturing, delivery, and expert on-site installation.",
+            "Once the final design is approved, we typically complete the installation within 1-2 weeks, ensuring a seamless process that includes professional manufacturing, efficient delivery, and expert on-site assembly.",
     },
     {
         question: "Do you offer free design consultation for modular kitchens?",
         answer:
-            "Yes. We offer a complimentary modular kitchen consultation and site visit to understand your space, cooking habits, and design preferences.",
+            "Yes, we provide a complimentary design consultation and site visit to better understand your space, cooking habits, and design preferences. This service is included as part of your final project order.",
     },
     {
         question: "Which hardware brands do you use in your kitchens?",
-        answer: "We use premium hardware brands such as Hafele, Hettich, Blum, and Ebco to ensure smooth operation and long-lasting performance.",
+        answer: "To guarantee effortless functionality and enduring quality, we integrate top-tier hardware from industry-leading brands, including Hafele, Hettich, Blum, Ebco, Ozone, and Korraline.",
     },
     {
         question: "Do Kohinoor modular kitchens come with a warranty?",
         answer:
-            "Yes. Every modular kitchen includes a 1-year manufacturer warranty and dedicated after-sales support for peace of mind.",
+            "Yes, Every kitchen includes a 1-year service warranty and a 7-year hardware warranty, subject to terms and conditions.",
     },
 ];
 

@@ -279,1096 +279,121 @@ export const kitchenLayouts = {
     },
   },
   uShaped: {
-  hero: {
-  subtitle: "Luxury Modular Kitchens",
-  title: "U-Shaped Modular Kitchen Design",
-  description:
-    "Explore luxury U-shaped modular kitchens in Delhi NCR designed for maximum workspace, smart storage, and effortless cooking in large homes.",
-  image: kitchenImages.uShaped.hero,
-  buttonText: "Get Free Consultation",
-  buttonLink: "/contact",
-},
-  quickFacts: {
-  tag: "Quick Overview",
-  title: "Everything At",
-  italicWord: "A Glance",
-
-  facts: [
-    {
-      icon: Home,
-      label: "Best For",
-      value: "Large Homes",
-      description: "Perfect for spacious apartments, villas, and family homes.",
-    },
-    {
-      icon: LayoutGrid,
-      label: "Layout Type",
-      value: "U-Shaped",
-      description: "Three-sided countertop for maximum efficiency.",
-    },
-    {
-      icon: Boxes,
-      label: "Storage",
-      value: "Very High",
-      description: "Maximum cabinets and countertop space.",
-    },
-    {
-      icon: Workflow,
-      label: "Workflow",
-      value: "Excellent",
-      description: "Minimal movement with an optimized work triangle.",
-    },
-  ],
-},
- blueprint: {
-  tag: "Kitchen Blueprint",
-
-  title: "Understanding The",
-
-  italicWord: "Layout",
-
-  description:
-    "The U-shaped kitchen surrounds the user on three sides, offering generous workspace, exceptional storage, and an uninterrupted cooking workflow.",
-
-  image: kitchenImages.uShaped.blueprint,
-
-  points: [
-    {
-      title: "Maximum Workspace",
+    hero: {
+      subtitle: "Luxury Modular Kitchens",
+      title: "U-Shaped Modular Kitchen Design",
       description:
-        "Three countertops provide dedicated preparation, cooking, and cleaning zones.",
+        "Explore luxury U-shaped modular kitchens in Delhi NCR designed for maximum workspace, smart storage, and effortless cooking in large homes.",
+      image: kitchenImages.uShaped.hero,
+      buttonText: "Get Free Consultation",
+      buttonLink: "/contact",
     },
-    {
-      title: "Exceptional Storage",
-      description:
-        "Multiple base and wall cabinets maximize storage capacity.",
-    },
-    {
-      title: "Efficient Work Triangle",
-      description:
-        "Keeps the sink, hob, and refrigerator within comfortable reach.",
-    },
-    {
-      title: "Perfect for Multiple Users",
-      description:
-        "Enough room for two or more people to cook simultaneously.",
-    },
-  ],
-},  
-  benefits: {
-  tag: "Benefits",
-  title: "Why Homeowners",
-  italicWord: "Love It",
+    quickFacts: {
+      tag: "Quick Overview",
+      title: "Everything At",
+      italicWord: "A Glance",
 
-  description:
-    "One of the most efficient layouts for serious home cooks and large families.",
-
-  items: [
-    {
-      title: "Largest Countertop Area",
-      description: "More preparation space than any other kitchen layout.",
-    },
-    {
-      title: "Maximum Storage",
-      description: "Ideal for storing cookware, groceries, and appliances.",
-    },
-    {
-      title: "Highly Functional",
-      description: "Everything remains within easy reach while cooking.",
-    },
-    {
-      title: "Separate Work Zones",
-      description: "Cooking, cleaning, and preparation happen independently.",
-    },
-    {
-      title: "Luxury Appearance",
-      description: "Creates a premium, fully equipped kitchen environment.",
-    },
-    {
-      title: "Perfect for Families",
-      description: "Comfortably accommodates multiple people working together.",
-    },
-  ],
-},
-  storage: {
-      tag: "Smart Storage",
-
-      title: "Intelligent",
-
-      italicWord: "Solutions",
-
-      description:
-        "Every Kohinoor kitchen is equipped with premium storage accessories that maximize space, improve organization, and enhance everyday convenience.",
-
-      items: [
+      facts: [
         {
-          title: "Magic Corner",
-          image: kitchenImages.storage.magicCorner,
+          icon: Home,
+          label: "Best For",
+          value: "Large Homes",
           description:
-            "Transform blind corner cabinets into fully accessible storage with smooth pull-out shelves.",
+            "Perfect for spacious apartments, villas, and family homes.",
         },
         {
-          title: "Tall Pantry Unit",
-          image: kitchenImages.storage.pantry,
-          description:
-            "A spacious vertical pantry that keeps groceries, jars, and dry ingredients neatly organized.",
+          icon: LayoutGrid,
+          label: "Layout Type",
+          value: "U-Shaped",
+          description: "Three-sided countertop for maximum efficiency.",
         },
         {
-          title: "Bottle Pull-Out",
-          image: kitchenImages.storage.bottlePullout,
-          description:
-            "Store oils, spices, sauces, and condiments in a slim pull-out unit for quick access.",
+          icon: Boxes,
+          label: "Storage",
+          value: "Very High",
+          description: "Maximum cabinets and countertop space.",
         },
         {
-          title: "Cutlery Organizer",
-          image: kitchenImages.storage.cutlery,
-          description:
-            "Custom drawer organizers keep cutlery and kitchen tools neatly arranged.",
-        },
-        {
-          title: "Soft Close Drawers",
-          image: kitchenImages.storage.softClose,
-          description:
-            "Premium soft-close channels ensure silent, smooth, and long-lasting drawer operation.",
-        },
-        {
-          title: "Carousel Corner Unit",
-          image: kitchenImages.storage.carousel,
-          description:
-            "Rotating shelves provide effortless access to cookware stored deep inside corner cabinets.",
+          icon: Workflow,
+          label: "Workflow",
+          value: "Excellent",
+          description: "Minimal movement with an optimized work triangle.",
         },
       ],
     },
-  gallery: {
-  tag: "Featured Projects",
-  title: "Luxury",
-  italicWord: "Spaces",
+    blueprint: {
+      tag: "Kitchen Blueprint",
 
-  projects: [
-    {
-      title: "Modern White U-Shaped Kitchen",
-      location: "Delhi NCR",
-      image: kitchenImages.uShaped.gallery1,
-    },
-    {
-      title: "Premium Wooden Kitchen",
-      location: "Delhi",
-      image: kitchenImages.uShaped.gallery2,
-    },
-    {
-      title: "Matte Grey Kitchen",
-      location: "Gurugram",
-      image: kitchenImages.uShaped.gallery3,
-    },
-    {
-      title: "Luxury Family Kitchen",
-      location: "Noida",
-      image: kitchenImages.uShaped.gallery4,
-    },
-  ],
-},
-  faq: {
-  tag: "Frequently Asked Questions",
+      title: "Understanding The",
 
-  title: "Everything You Need",
-
-  italicWord: "To Know",
-
-  items: [
-    {
-      question: "Is a U-Shaped kitchen suitable for every home?",
-      answer:
-        "A U-shaped kitchen is best suited for medium to large kitchens where there is enough space to create three functional work zones. It offers excellent efficiency without making the space feel cramped.",
-    },
-    {
-      question: "What are the advantages of a U-Shaped modular kitchen?",
-      answer:
-        "A U-shaped kitchen provides maximum countertop space, abundant storage, an efficient work triangle, and separate zones for cooking, preparation, and cleaning, making it ideal for frequent cooking and larger families.",
-    },
-    {
-      question: "Can a U-Shaped kitchen include a breakfast counter or island?",
-      answer:
-        "Yes. If the kitchen has sufficient floor space, one side of the U-shaped layout can be extended into a breakfast counter, or an island can be added while maintaining comfortable circulation space.",
-    },
-    {
-      question: "How much space is required for a U-Shaped kitchen?",
-      answer:
-        "For comfortable movement and functionality, a U-shaped kitchen generally requires a medium to large room with at least 8–10 feet of width, depending on the cabinet depth and appliance placement.",
-    },
-    {
-      question: "Which materials are recommended for a U-Shaped modular kitchen?",
-      answer:
-        "HDHMR, Marine Plywood, and BWP-grade plywood are excellent choices due to their strength, moisture resistance, and long-term durability. Pairing them with premium hardware ensures smooth everyday performance.",
-    },
-    {
-      question: "What is the starting cost of a U-Shaped modular kitchen?",
-      answer:
-        "The cost depends on the kitchen size, cabinet materials, finishes, hardware, and storage accessories. A premium U-shaped modular kitchen typically starts from around ₹3.5 lakhs, with customized quotations provided after design consultation.",
-    },
-  ],
-},
-},
-parallel:{
-  hero: {
-  subtitle: "Luxury Modular Kitchens",
-  title: "Parallel Modular Kitchen Design",
-  description:
-    "Upgrade to a functional parallel modular kitchen in Delhi NCR with dual work zones, optimized storage, and a sleek modern finish for compact homes.",
-  image: kitchenImages.parallel.hero,
-  buttonText: "Get Free Consultation",
-  buttonLink: "/contact",
-},
-quickFacts: {
-  tag: "Quick Overview",
-  title: "Everything At",
-  italicWord: "A Glance",
-
-  facts: [
-    {
-      icon: Home,
-      label: "Best For",
-      value: "Apartments & Villas",
-      description: "Perfect for narrow and rectangular kitchen spaces.",
-    },
-    {
-      icon: LayoutGrid,
-      label: "Layout Type",
-      value: "Parallel",
-      description: "Two parallel countertops facing each other.",
-    },
-    {
-      icon: Boxes,
-      label: "Storage",
-      value: "Very High",
-      description: "Cabinets on both sides maximize storage capacity.",
-    },
-    {
-      icon: Workflow,
-      label: "Workflow",
-      value: "Excellent",
-      description: "Minimal walking distance between work zones.",
-    },
-  ],
-},
-blueprint: {
-  tag: "Kitchen Blueprint",
-
-  title: "Understanding The",
-
-  italicWord: "Layout",
-
-  description:
-    "The parallel kitchen layout features two opposing countertops that create an efficient work triangle while maximizing storage and countertop space.",
-
-  image: kitchenImages.parallel.blueprint,
-
-  points: [
-    {
-      title: "Dual Workstations",
-      description:
-        "Separate preparation and cooking areas improve efficiency.",
-    },
-    {
-      title: "Optimized Workflow",
-      description:
-        "The sink, hob, and refrigerator remain within easy reach.",
-    },
-    {
-      title: "Maximum Storage",
-      description:
-        "Cabinets on both sides provide exceptional storage capacity.",
-    },
-    {
-      title: "Ideal for Compact Spaces",
-      description:
-        "Perfect for apartments and homes with narrow kitchen layouts.",
-    },
-  ],
-},
-storage: {
-      tag: "Smart Storage",
-
-      title: "Intelligent",
-
-      italicWord: "Solutions",
+      italicWord: "Layout",
 
       description:
-        "Every Kohinoor kitchen is equipped with premium storage accessories that maximize space, improve organization, and enhance everyday convenience.",
+        "The U-shaped kitchen surrounds the user on three sides, offering generous workspace, exceptional storage, and an uninterrupted cooking workflow.",
 
-      items: [
+      image: kitchenImages.uShaped.blueprint,
+
+      points: [
         {
-          title: "Magic Corner",
-          image: kitchenImages.storage.magicCorner,
+          title: "Maximum Workspace",
           description:
-            "Transform blind corner cabinets into fully accessible storage with smooth pull-out shelves.",
+            "Three countertops provide dedicated preparation, cooking, and cleaning zones.",
         },
         {
-          title: "Tall Pantry Unit",
-          image: kitchenImages.storage.pantry,
+          title: "Exceptional Storage",
           description:
-            "A spacious vertical pantry that keeps groceries, jars, and dry ingredients neatly organized.",
+            "Multiple base and wall cabinets maximize storage capacity.",
         },
         {
-          title: "Bottle Pull-Out",
-          image: kitchenImages.storage.bottlePullout,
+          title: "Efficient Work Triangle",
           description:
-            "Store oils, spices, sauces, and condiments in a slim pull-out unit for quick access.",
+            "Keeps the sink, hob, and refrigerator within comfortable reach.",
         },
         {
-          title: "Cutlery Organizer",
-          image: kitchenImages.storage.cutlery,
+          title: "Perfect for Multiple Users",
           description:
-            "Custom drawer organizers keep cutlery and kitchen tools neatly arranged.",
-        },
-        {
-          title: "Soft Close Drawers",
-          image: kitchenImages.storage.softClose,
-          description:
-            "Premium soft-close channels ensure silent, smooth, and long-lasting drawer operation.",
-        },
-        {
-          title: "Carousel Corner Unit",
-          image: kitchenImages.storage.carousel,
-          description:
-            "Rotating shelves provide effortless access to cookware stored deep inside corner cabinets.",
+            "Enough room for two or more people to cook simultaneously.",
         },
       ],
     },
-benefits: {
-  tag: "Benefits",
-
-  title: "Why Homeowners",
-
-  italicWord: "Love It",
-
-  description:
-    "One of the most practical kitchen layouts, designed for efficiency, organization, and everyday convenience.",
-
-  items: [
-    {
-      title: "Efficient Workflow",
-      description:
-        "Opposite counters reduce unnecessary movement while cooking.",
-    },
-    {
-      title: "Ample Counter Space",
-      description:
-        "Dedicated areas for preparation, cooking, and cleaning.",
-    },
-    {
-      title: "Maximum Storage",
-      description:
-        "Base and wall cabinets on both sides provide abundant storage.",
-    },
-    {
-      title: "Easy Organization",
-      description:
-        "Separate work zones keep the kitchen neat and clutter-free.",
-    },
-    {
-      title: "Modern Appearance",
-      description:
-        "Creates a clean, symmetrical, and contemporary kitchen design.",
-    },
-    {
-      title: "Suitable for Daily Cooking",
-      description:
-        "Perfect for families who cook frequently and need efficient space.",
-    },
-  ],
-},
-gallery: {
-  tag: "Featured Projects",
-
-  title: "Elegant",
-
-  italicWord: "Interiors",
-
-  projects: [
-    {
-      title: "Modern White Parallel Kitchen",
-      location: "Delhi NCR",
-      image: kitchenImages.parallel.gallery1,
-    },
-    {
-      title: "Premium Wooden Parallel Kitchen",
-      location: "Delhi",
-      image: kitchenImages.parallel.gallery2,
-    },
-    {
-      title: "Matte Grey Parallel Kitchen",
-      location: "Gurugram",
-      image: kitchenImages.parallel.gallery3,
-    },
-    {
-      title: "Luxury Contemporary Kitchen",
-      location: "Noida",
-      image: kitchenImages.parallel.gallery4,
-    },
-  ],
-},faq: {
-  tag: "Frequently Asked Questions",
-
-  title: "Everything You Need",
-
-  italicWord: "To Know",
-
-  items: [
-    {
-      question: "Is a parallel kitchen suitable for small homes?",
-      answer:
-        "Yes. A parallel kitchen is one of the best layouts for compact and medium-sized homes because it efficiently utilizes narrow spaces while providing generous storage and countertop areas.",
-    },
-    {
-      question: "What are the advantages of a parallel modular kitchen?",
-      answer:
-        "It offers an excellent work triangle, dedicated cooking and preparation zones, maximum storage on both sides, and a highly organized workflow for everyday cooking.",
-    },
-    {
-      question: "How much space is required for a parallel kitchen?",
-      answer:
-        "A comfortable parallel kitchen typically requires at least 4–5 feet of clearance between the two countertops, ensuring smooth movement and easy access.",
-    },
-    {
-      question: "Can a parallel kitchen include a dining or breakfast counter?",
-      answer:
-        "Yes. In larger homes, one end of the parallel layout can be extended into a breakfast counter or connected to the dining area for added functionality.",
-    },
-    {
-      question: "Which materials are recommended for a parallel modular kitchen?",
-      answer:
-        "HDHMR, Marine Plywood, and BWP-grade plywood paired with premium hardware provide excellent durability, moisture resistance, and long-lasting performance.",
-    },
-    {
-      question: "What is the starting cost of a parallel modular kitchen?",
-      answer:
-        "The cost depends on the kitchen size, finishes, materials, hardware, and accessories. A premium parallel modular kitchen generally starts from around ₹2.8 lakhs.",
-    },
-  ],
-},
-},
-island:{
-  hero: {
-  subtitle: "Luxury Modular Kitchens",
-
-  title: "Island Modular Kitchen Design",
-
-  description:
-    "Create a luxurious island modular kitchen in Delhi NCR with a central workspace, premium storage, and stylish open-plan living for modern homes.",
-
-  image: kitchenImages.island.hero,
-
-  buttonText: "Get Free Consultation",
-
-  buttonLink: "/contact",
-},
-quickFacts: {
-  tag: "Quick Overview",
-
-  title: "Everything At",
-
-  italicWord: "A Glance",
-
-  facts: [
-    {
-      icon: Home,
-      label: "Best For",
-      value: "Luxury Villas",
-      description: "Perfect for spacious homes and open-plan living.",
-    },
-    {
-      icon: LayoutGrid,
-      label: "Layout Type",
-      value: "Island Kitchen",
-      description: "Central island with surrounding workspace.",
-    },
-    {
-      icon: Boxes,
-      label: "Storage",
-      value: "Maximum",
-      description: "Island cabinets add significant storage.",
-    },
-    {
-      icon: Workflow,
-      label: "Lifestyle",
-      value: "Luxury Living",
-      description: "Cooking, dining, and entertaining together.",
-    },
-  ],
-},
-blueprint: {
-  tag: "Kitchen Blueprint",
-
-  title: "Understanding The",
-
-  italicWord: "Layout",
-
-  description:
-    "The island kitchen introduces a multifunctional central workspace while maintaining an efficient work triangle around the sink, hob, and refrigerator.",
-
-  image: kitchenImages.island.blueprint,
-
-  points: [
-    {
-      title: "Central Island Workspace",
-      description:
-        "Provides additional preparation, serving, and dining space.",
-    },
-    {
-      title: "Efficient Work Triangle",
-      description:
-        "The sink, cooktop, and refrigerator remain easily accessible.",
-    },
-    {
-      title: "Perfect for Entertaining",
-      description:
-        "Guests can interact while cooking without interrupting workflow.",
-    },
-    {
-      title: "Additional Storage",
-      description:
-        "The island incorporates deep drawers and hidden cabinets.",
-    },
-  ],
-},
-benefits: {
-  tag: "Benefits",
-
-  title: "Why Homeowners",
-
-  italicWord: "Love It",
-
-  description:
-    "A statement kitchen that combines luxury aesthetics with exceptional functionality.",
-
-  items: [
-    {
-      title: "Luxury Appearance",
-      description:
-        "Creates a premium centerpiece for modern homes.",
-    },
-    {
-      title: "More Counter Space",
-      description:
-        "Ideal for meal preparation and serving.",
-    },
-    {
-      title: "Extra Storage",
-      description:
-        "The island provides additional drawers and cabinets.",
-    },
-    {
-      title: "Perfect for Socializing",
-      description:
-        "Family and guests can gather around the island comfortably.",
-    },
-    {
-      title: "Flexible Seating",
-      description:
-        "Can be designed as a breakfast counter or dining extension.",
-    },
-    {
-      title: "Highly Functional",
-      description:
-        "Supports cooking, dining, working, and entertaining in one space.",
-    },
-  ],
-},
-storage: {
-      tag: "Smart Storage",
-
-      title: "Intelligent",
-
-      italicWord: "Solutions",
+    benefits: {
+      tag: "Benefits",
+      title: "Why Homeowners",
+      italicWord: "Love It",
 
       description:
-        "Every Kohinoor kitchen is equipped with premium storage accessories that maximize space, improve organization, and enhance everyday convenience.",
+        "One of the most efficient layouts for serious home cooks and large families.",
 
       items: [
         {
-          title: "Magic Corner",
-          image: kitchenImages.storage.magicCorner,
-          description:
-            "Transform blind corner cabinets into fully accessible storage with smooth pull-out shelves.",
+          title: "Largest Countertop Area",
+          description: "More preparation space than any other kitchen layout.",
         },
         {
-          title: "Tall Pantry Unit",
-          image: kitchenImages.storage.pantry,
-          description:
-            "A spacious vertical pantry that keeps groceries, jars, and dry ingredients neatly organized.",
+          title: "Maximum Storage",
+          description: "Ideal for storing cookware, groceries, and appliances.",
         },
         {
-          title: "Bottle Pull-Out",
-          image: kitchenImages.storage.bottlePullout,
-          description:
-            "Store oils, spices, sauces, and condiments in a slim pull-out unit for quick access.",
+          title: "Highly Functional",
+          description: "Everything remains within easy reach while cooking.",
         },
         {
-          title: "Cutlery Organizer",
-          image: kitchenImages.storage.cutlery,
+          title: "Separate Work Zones",
           description:
-            "Custom drawer organizers keep cutlery and kitchen tools neatly arranged.",
+            "Cooking, cleaning, and preparation happen independently.",
         },
         {
-          title: "Soft Close Drawers",
-          image: kitchenImages.storage.softClose,
-          description:
-            "Premium soft-close channels ensure silent, smooth, and long-lasting drawer operation.",
+          title: "Luxury Appearance",
+          description: "Creates a premium, fully equipped kitchen environment.",
         },
         {
-          title: "Carousel Corner Unit",
-          image: kitchenImages.storage.carousel,
+          title: "Perfect for Families",
           description:
-            "Rotating shelves provide effortless access to cookware stored deep inside corner cabinets.",
+            "Comfortably accommodates multiple people working together.",
         },
       ],
     },
-gallery: {
-  tag: "Featured Projects",
-
-  title: "Luxury",
-
-  italicWord: "Interiors",
-
-  projects: [
-    {
-      title: "Modern White Island Kitchen",
-      location: "Delhi NCR",
-      image: kitchenImages.island.gallery1,
-    },
-    {
-      title: "Walnut Luxury Island Kitchen",
-      location: "Delhi",
-      image: kitchenImages.island.gallery2,
-    },
-    {
-      title: "Contemporary Black Island Kitchen",
-      location: "Gurugram",
-      image: kitchenImages.island.gallery3,
-    },
-    {
-      title: "Luxury Open-Plan Kitchen",
-      location: "Noida",
-      image: kitchenImages.island.gallery4,
-    },
-  ],
-},
-faq: {
-  tag: "Frequently Asked Questions",
-
-  title: "Everything You Need",
-
-  italicWord: "To Know",
-
-  items: [
-    {
-      question: "How much space is required for an island kitchen?",
-      answer:
-        "An island kitchen works best in medium to large homes where there is enough clearance around the island for comfortable movement. Typically, at least 3–4 feet of circulation space is recommended on all sides.",
-    },
-    {
-      question: "Can an island include a sink or cooktop?",
-      answer:
-        "Yes. Depending on the design, the island can accommodate a sink, cooktop, breakfast counter, or additional storage, making it a highly versatile workspace.",
-    },
-    {
-      question: "Is an island kitchen suitable for apartments?",
-      answer:
-        "It depends on the available floor space. Larger apartments with open-plan layouts can comfortably accommodate an island kitchen, while compact apartments may benefit from alternative layouts.",
-    },
-    {
-      question: "What are the advantages of an island kitchen?",
-      answer:
-        "Island kitchens offer additional workspace, enhanced storage, flexible seating, and a social cooking environment, making them ideal for modern lifestyles and entertaining guests.",
-    },
-    {
-      question: "Which materials are recommended for an island kitchen?",
-      answer:
-        "HDHMR, Marine Plywood, BWP-grade plywood, premium quartz countertops, and high-quality hardware ensure durability, moisture resistance, and long-lasting performance.",
-    },
-    {
-      question: "What is the starting cost of an island modular kitchen?",
-      answer:
-        "The overall cost depends on the kitchen size, island dimensions, materials, finishes, appliances, and accessories. Premium island kitchens generally start from around ₹5 lakhs.",
-    },
-  ],
-},
-
-},
-straight: {
-  hero: {
-  subtitle: "Luxury Modular Kitchens",
-
-  title: "Straight Modular Kitchen Design",
-
-  description:
-    "Choose a space-saving straight modular kitchen in Delhi NCR for compact homes, smart vertical storage, and a clean contemporary style.",
-
-  image: kitchenImages.straight.hero,
-
-  buttonText: "Get Free Consultation",
-
-  buttonLink: "/contact",
-},
-quickFacts: {
-  tag: "Quick Overview",
-
-  title: "Everything At",
-
-  italicWord: "A Glance",
-
-  facts: [
-    {
-      icon: Home,
-      label: "Best For",
-      value: "Apartments & Studios",
-      description: "Ideal for compact homes and urban living.",
-    },
-    {
-      icon: LayoutGrid,
-      label: "Layout Type",
-      value: "Straight",
-      description: "Single-wall modular kitchen.",
-    },
-    {
-      icon: Boxes,
-      label: "Storage",
-      value: "Moderate",
-      description: "Optimized vertical storage solutions.",
-    },
-    {
-      icon: Workflow,
-      label: "Workflow",
-      value: "Simple",
-      description: "Everything within a single linear workspace.",
-    },
-  ],
-},blueprint: {
-  tag: "Kitchen Blueprint",
-
-  title: "Understanding The",
-
-  italicWord: "Layout",
-
-  description:
-    "A straight kitchen arranges all cabinets, appliances, and workstations along a single wall, creating a clean, efficient, and space-saving cooking environment.",
-
-  image: kitchenImages.straight.blueprint,
-
-  points: [
-    {
-      title: "Single Wall Layout",
-      description:
-        "All kitchen elements are aligned on one wall for maximum space efficiency.",
-    },
-    {
-      title: "Easy Workflow",
-      description:
-        "Cooking, preparation, and cleaning zones are organized in a continuous sequence.",
-    },
-    {
-      title: "Smart Vertical Storage",
-      description:
-        "Wall cabinets and tall units maximize storage without occupying additional floor space.",
-    },
-    {
-      title: "Ideal for Compact Homes",
-      description:
-        "A practical solution for apartments, studios, and open-plan living spaces.",
-    },
-  ],
-},
-storage: {
-      tag: "Smart Storage",
-
-      title: "Intelligent",
-
-      italicWord: "Solutions",
-
-      description:
-        "Every Kohinoor kitchen is equipped with premium storage accessories that maximize space, improve organization, and enhance everyday convenience.",
-
-      items: [
-        {
-          title: "Magic Corner",
-          image: kitchenImages.storage.magicCorner,
-          description:
-            "Transform blind corner cabinets into fully accessible storage with smooth pull-out shelves.",
-        },
-        {
-          title: "Tall Pantry Unit",
-          image: kitchenImages.storage.pantry,
-          description:
-            "A spacious vertical pantry that keeps groceries, jars, and dry ingredients neatly organized.",
-        },
-        {
-          title: "Bottle Pull-Out",
-          image: kitchenImages.storage.bottlePullout,
-          description:
-            "Store oils, spices, sauces, and condiments in a slim pull-out unit for quick access.",
-        },
-        {
-          title: "Cutlery Organizer",
-          image: kitchenImages.storage.cutlery,
-          description:
-            "Custom drawer organizers keep cutlery and kitchen tools neatly arranged.",
-        },
-        {
-          title: "Soft Close Drawers",
-          image: kitchenImages.storage.softClose,
-          description:
-            "Premium soft-close channels ensure silent, smooth, and long-lasting drawer operation.",
-        },
-        {
-          title: "Carousel Corner Unit",
-          image: kitchenImages.storage.carousel,
-          description:
-            "Rotating shelves provide effortless access to cookware stored deep inside corner cabinets.",
-        },
-      ],
-    },
-benefits: {
-  tag: "Benefits",
-
-  title: "Why Homeowners",
-
-  italicWord: "Love It",
-
-  description:
-    "A clean, practical kitchen layout that makes the most of limited space without compromising functionality.",
-
-  items: [
-    {
-      title: "Space Saving",
-      description:
-        "Perfect for compact homes where every square foot matters.",
-    },
-    {
-      title: "Simple Workflow",
-      description:
-        "Everything is positioned within easy reach along one wall.",
-    },
-    {
-      title: "Modern Appearance",
-      description:
-        "Creates a sleek, uncluttered look that complements contemporary interiors.",
-    },
-    {
-      title: "Affordable",
-      description:
-        "Requires fewer cabinets and countertops than larger layouts.",
-    },
-    {
-      title: "Easy Maintenance",
-      description:
-        "A linear layout makes cleaning and maintenance quick and convenient.",
-    },
-    {
-      title: "Open Living",
-      description:
-        "Blends seamlessly with dining and living spaces in open-plan homes.",
-    },
-  ],
-},
-gallery: {
-  tag: "Featured Projects",
-
-  title: "Elegant",
-
-  italicWord: "Designs",
-
-  projects: [
-    {
-      title: "Modern White Straight Kitchen",
-      location: "Delhi NCR",
-      image: kitchenImages.straight.gallery1,
-    },
-    {
-      title: "Premium Wooden Straight Kitchen",
-      location: "Delhi",
-      image: kitchenImages.straight.gallery2,
-    },
-    {
-      title: "Minimal Grey Straight Kitchen",
-      location: "Gurugram",
-      image: kitchenImages.straight.gallery3,
-    },
-    {
-      title: "Luxury Compact Kitchen",
-      location: "Noida",
-      image: kitchenImages.straight.gallery4,
-    },
-  ],
-},
-faq: {
-  tag: "Frequently Asked Questions",
-
-  title: "Everything You Need",
-
-  italicWord: "To Know",
-
-  items: [
-    {
-      question: "Is a straight kitchen suitable for small homes?",
-      answer:
-        "Yes. A straight kitchen is specifically designed for compact homes, apartments, and studio spaces, offering an efficient layout without occupying excessive floor area.",
-    },
-    {
-      question: "Can a straight kitchen provide sufficient storage?",
-      answer:
-        "Absolutely. Tall pantry units, wall cabinets, and smart storage accessories help maximize vertical storage while keeping the kitchen organized.",
-    },
-    {
-      question: "What are the advantages of a straight modular kitchen?",
-      answer:
-        "Straight kitchens are space-efficient, cost-effective, easy to maintain, and blend seamlessly into modern open-plan living spaces.",
-    },
-    {
-      question: "Which materials are recommended for a straight modular kitchen?",
-      answer:
-        "HDHMR, Marine Plywood, and BWP-grade plywood combined with premium hardware ensure long-lasting durability and moisture resistance.",
-    },
-    {
-      question: "Can a straight kitchen include premium accessories?",
-      answer:
-        "Yes. Features like bottle pull-outs, cutlery organizers, soft-close drawers, tall pantry units, and pull-out baskets can all be incorporated depending on the available space.",
-    },
-    {
-      question: "What is the starting cost of a straight modular kitchen?",
-      answer:
-        "The cost depends on the kitchen size, materials, finishes, hardware, and accessories. A premium straight modular kitchen generally starts from around ₹1.8 lakhs.",
-    },
-  ],
-},
-},
-peninsula:{
-  hero: {
-  subtitle: "Luxury Modular Kitchens",
-
-  title: "Peninsula Modular Kitchen Design",
-
-  description:
-    "Discover elegant peninsula modular kitchens in Delhi NCR that combine extra workspace, smart storage, and casual dining in one modern layout.",
-
-  image: kitchenImages.peninsula.hero,
-
-  buttonText: "Get Free Consultation",
-
-  buttonLink: "/contact",
-},
-quickFacts: {
-  tag: "Quick Overview",
-
-  title: "Everything At",
-
-  italicWord: "A Glance",
-
-  facts: [
-    {
-      icon: Home,
-      label: "Best For",
-      value: "Medium to Large Homes",
-      description: "Perfect for open-plan apartments and family homes.",
-    },
-    {
-      icon: LayoutGrid,
-      label: "Layout Type",
-      value: "Peninsula",
-      description: "Connected island extension.",
-    },
-    {
-      icon: Boxes,
-      label: "Storage",
-      value: "Very High",
-      description: "Additional cabinets beneath the peninsula.",
-    },
-    {
-      icon: Workflow,
-      label: "Lifestyle",
-      value: "Open Living",
-      description: "Ideal for cooking and social interaction.",
-    },
-  ],
-},
-blueprint: {
-  tag: "Kitchen Blueprint",
-
-  title: "Understanding The",
-
-  italicWord: "Layout",
-
-  description:
-    "A peninsula kitchen extends the countertop from one side, creating additional workspace, storage, and seating while maintaining an efficient work triangle.",
-
-  image: kitchenImages.peninsula.blueprint,
-
-  points: [
-    {
-      title: "Connected Peninsula",
-      description:
-        "Unlike an island, the peninsula is attached to the main cabinetry, making it suitable for smaller spaces.",
-    },
-    {
-      title: "Additional Workspace",
-      description:
-        "Provides extra room for food preparation, serving, or dining.",
-    },
-    {
-      title: "Efficient Work Triangle",
-      description:
-        "Maintains comfortable access between the sink, hob, and refrigerator.",
-    },
-    {
-      title: "Perfect Social Space",
-      description:
-        "Creates a natural gathering point for family meals and entertaining guests.",
-    },
-  ],
-},
-benefits: {
-  tag: "Benefits",
-
-  title: "Why Homeowners",
-
-  italicWord: "Love It",
-
-  description:
-    "The perfect balance between space efficiency and luxurious open-plan living.",
-
-  items: [
-    {
-      title: "More Counter Space",
-      description:
-        "Adds valuable preparation and serving space without needing a separate island.",
-    },
-    {
-      title: "Extra Storage",
-      description:
-        "Additional cabinets beneath the peninsula maximize storage.",
-    },
-    {
-      title: "Open Layout",
-      description:
-        "Creates a seamless connection between the kitchen and living area.",
-    },
-    {
-      title: "Breakfast Counter",
-      description:
-        "Comfortably accommodates bar seating for casual dining.",
-    },
-    {
-      title: "Efficient Workflow",
-      description:
-        "Keeps cooking, cleaning, and preparation zones within easy reach.",
-    },
-    {
-      title: "Modern Luxury",
-      description:
-        "Combines contemporary aesthetics with practical functionality.",
-    },
-  ],
-},
-storage: {
+    storage: {
       tag: "Smart Storage",
 
       title: "Intelligent",
@@ -1418,74 +443,1057 @@ storage: {
       ],
     },
     gallery: {
-  tag: "Featured Projects",
+      tag: "Featured Projects",
+      title: "Luxury",
+      italicWord: "Spaces",
 
-  title: "Luxury",
+      projects: [
+        {
+          title: "Modern White U-Shaped Kitchen",
+          location: "Delhi NCR",
+          image: kitchenImages.uShaped.gallery1,
+        },
+        {
+          title: "Premium Wooden Kitchen",
+          location: "Delhi",
+          image: kitchenImages.uShaped.gallery2,
+        },
+        {
+          title: "Matte Grey Kitchen",
+          location: "Gurugram",
+          image: kitchenImages.uShaped.gallery3,
+        },
+        {
+          title: "Luxury Family Kitchen",
+          location: "Noida",
+          image: kitchenImages.uShaped.gallery4,
+        },
+      ],
+    },
+    faq: {
+      tag: "Frequently Asked Questions",
 
-  italicWord: "Spaces",
+      title: "Everything You Need",
 
-  projects: [
-    {
-      title: "Modern White Peninsula Kitchen",
-      location: "Delhi NCR",
-      image: kitchenImages.peninsula.gallery1,
-    },
-    {
-      title: "Walnut Peninsula Kitchen",
-      location: "Delhi",
-      image: kitchenImages.peninsula.gallery2,
-    },
-    {
-      title: "Contemporary Grey Peninsula Kitchen",
-      location: "Gurugram",
-      image: kitchenImages.peninsula.gallery3,
-    },
-    {
-      title: "Luxury Open Peninsula Kitchen",
-      location: "Noida",
-      image: kitchenImages.peninsula.gallery4,
-    },
-  ],
-},
-faq: {
-  tag: "Frequently Asked Questions",
+      italicWord: "To Know",
 
-  title: "Everything You Need",
+      items: [
+        {
+          question: "Are U-shaped kitchens ideal for every home?",
+          answer:
+            "While highly efficient and organized, this layout is best suited for medium to large kitchens, as it requires ample room to accommodate three distinct work zones comfortably.",
+        },
+        {
+          question: "What are the advantages of a U-Shaped modular kitchen?",
+          answer:
+            "A U-shaped kitchen provides maximum countertop space, abundant storage, an efficient work triangle, and separate zones for cooking, preparation, and cleaning, making it ideal for frequent cooking and larger families.",
+        },
+        {
+          question:
+            "Can a U-Shaped kitchen include a breakfast counter or island?",
+          answer:
+            "Yes, If the kitchen has sufficient floor space, one side of the U-shaped layout can be extended into a breakfast counter, or an island can be added while maintaining comfortable circulation space.",
+        },
+        {
+          question: "How much space is required for a U-Shaped kitchen?",
+          answer:
+            "To ensure optimal flow and functionality, U-shaped kitchens work best in medium-to-large spaces. A minimum width of 8–15 feet is typically recommended, though the precise requirement depends on your choice of cabinets and appliance layout.",
+        },
+        {
+          question:
+            "Which materials are recommended for a U-Shaped modular kitchen?",
+          answer:
+            "For superior longevity and performance, we recommend HDHMR boards and BWP (Boiling Water Proof) grade plywood. These premium materials are specifically engineered to offer exceptional moisture resistance and structural integrity, making them the gold standard for high-quality modular kitchen cabinetry.",
+        },
+        {
+          question: "What is the starting cost of a U-Shaped modular kitchen?",
+          answer:
+            "The cost depends on the kitchen size, layout, selected materials, finishes, hardware, and accessories. Following an initial design consultation, we provide a detailed quote that suits your requirements and space.",
+        },
+      ],
+    },
+  },
+  parallel: {
+    hero: {
+      subtitle: "Luxury Modular Kitchens",
+      title: "Parallel Modular Kitchen Design",
+      description:
+        "Upgrade to a functional parallel modular kitchen in Delhi NCR with dual work zones, optimized storage, and a sleek modern finish for compact homes.",
+      image: kitchenImages.parallel.hero,
+      buttonText: "Get Free Consultation",
+      buttonLink: "/contact",
+    },
+    quickFacts: {
+      tag: "Quick Overview",
+      title: "Everything At",
+      italicWord: "A Glance",
 
-  italicWord: "To Know",
+      facts: [
+        {
+          icon: Home,
+          label: "Best For",
+          value: "Apartments & Villas",
+          description: "Perfect for narrow and rectangular kitchen spaces.",
+        },
+        {
+          icon: LayoutGrid,
+          label: "Layout Type",
+          value: "Parallel",
+          description: "Two parallel countertops facing each other.",
+        },
+        {
+          icon: Boxes,
+          label: "Storage",
+          value: "Very High",
+          description: "Cabinets on both sides maximize storage capacity.",
+        },
+        {
+          icon: Workflow,
+          label: "Workflow",
+          value: "Excellent",
+          description: "Minimal walking distance between work zones.",
+        },
+      ],
+    },
+    blueprint: {
+      tag: "Kitchen Blueprint",
 
-  items: [
-    {
-      question: "What is the difference between a peninsula kitchen and an island kitchen?",
-      answer:
-        "A peninsula kitchen features a countertop extension connected to the main cabinetry, while an island is completely freestanding. Peninsulas require less space and are ideal for medium-sized homes.",
+      title: "Understanding The",
+
+      italicWord: "Layout",
+
+      description:
+        "The parallel kitchen layout features two opposing countertops that create an efficient work triangle while maximizing storage and countertop space.",
+
+      image: kitchenImages.parallel.blueprint,
+
+      points: [
+        {
+          title: "Dual Workstations",
+          description:
+            "Separate preparation and cooking areas improve efficiency.",
+        },
+        {
+          title: "Optimized Workflow",
+          description:
+            "The sink, hob, and refrigerator remain within easy reach.",
+        },
+        {
+          title: "Maximum Storage",
+          description:
+            "Cabinets on both sides provide exceptional storage capacity.",
+        },
+        {
+          title: "Ideal for Compact Spaces",
+          description:
+            "Perfect for apartments and homes with narrow kitchen layouts.",
+        },
+      ],
     },
-    {
-      question: "Is a peninsula kitchen suitable for small homes?",
-      answer:
-        "Yes. A peninsula kitchen offers many of the benefits of an island, such as additional workspace and seating, while fitting comfortably into homes with limited floor space.",
+    storage: {
+      tag: "Smart Storage",
+
+      title: "Intelligent",
+
+      italicWord: "Solutions",
+
+      description:
+        "Every Kohinoor kitchen is equipped with premium storage accessories that maximize space, improve organization, and enhance everyday convenience.",
+
+      items: [
+        {
+          title: "Magic Corner",
+          image: kitchenImages.storage.magicCorner,
+          description:
+            "Transform blind corner cabinets into fully accessible storage with smooth pull-out shelves.",
+        },
+        {
+          title: "Tall Pantry Unit",
+          image: kitchenImages.storage.pantry,
+          description:
+            "A spacious vertical pantry that keeps groceries, jars, and dry ingredients neatly organized.",
+        },
+        {
+          title: "Bottle Pull-Out",
+          image: kitchenImages.storage.bottlePullout,
+          description:
+            "Store oils, spices, sauces, and condiments in a slim pull-out unit for quick access.",
+        },
+        {
+          title: "Cutlery Organizer",
+          image: kitchenImages.storage.cutlery,
+          description:
+            "Custom drawer organizers keep cutlery and kitchen tools neatly arranged.",
+        },
+        {
+          title: "Soft Close Drawers",
+          image: kitchenImages.storage.softClose,
+          description:
+            "Premium soft-close channels ensure silent, smooth, and long-lasting drawer operation.",
+        },
+        {
+          title: "Carousel Corner Unit",
+          image: kitchenImages.storage.carousel,
+          description:
+            "Rotating shelves provide effortless access to cookware stored deep inside corner cabinets.",
+        },
+      ],
     },
-    {
-      question: "Can a peninsula be used as a breakfast counter?",
-      answer:
-        "Absolutely. The extended countertop can accommodate bar stools, making it ideal for casual dining, quick meals, or entertaining guests.",
+    benefits: {
+      tag: "Benefits",
+
+      title: "Why Homeowners",
+
+      italicWord: "Love It",
+
+      description:
+        "One of the most practical kitchen layouts, designed for efficiency, organization, and everyday convenience.",
+
+      items: [
+        {
+          title: "Efficient Workflow",
+          description:
+            "Opposite counters reduce unnecessary movement while cooking.",
+        },
+        {
+          title: "Ample Counter Space",
+          description:
+            "Dedicated areas for preparation, cooking, and cleaning.",
+        },
+        {
+          title: "Maximum Storage",
+          description:
+            "Base and wall cabinets on both sides provide abundant storage.",
+        },
+        {
+          title: "Easy Organization",
+          description:
+            "Separate work zones keep the kitchen neat and clutter-free.",
+        },
+        {
+          title: "Modern Appearance",
+          description:
+            "Creates a clean, symmetrical, and contemporary kitchen design.",
+        },
+        {
+          title: "Suitable for Daily Cooking",
+          description:
+            "Perfect for families who cook frequently and need efficient space.",
+        },
+      ],
     },
-    {
-      question: "What are the advantages of a peninsula kitchen?",
-      answer:
-        "It provides extra countertop space, increased storage, better workflow, and a seamless connection between the kitchen and living areas, making it highly functional and visually appealing.",
+    gallery: {
+      tag: "Featured Projects",
+
+      title: "Elegant",
+
+      italicWord: "Interiors",
+
+      projects: [
+        {
+          title: "Modern White Parallel Kitchen",
+          location: "Delhi NCR",
+          image: kitchenImages.parallel.gallery1,
+        },
+        {
+          title: "Premium Wooden Parallel Kitchen",
+          location: "Delhi",
+          image: kitchenImages.parallel.gallery2,
+        },
+        {
+          title: "Matte Grey Parallel Kitchen",
+          location: "Gurugram",
+          image: kitchenImages.parallel.gallery3,
+        },
+        {
+          title: "Luxury Contemporary Kitchen",
+          location: "Noida",
+          image: kitchenImages.parallel.gallery4,
+        },
+      ],
     },
-    {
-      question: "Which materials are recommended for a peninsula modular kitchen?",
-      answer:
-        "HDHMR, Marine Plywood, BWP-grade plywood, premium quartz countertops, and high-quality hardware ensure durability, moisture resistance, and long-term performance.",
+    faq: {
+      tag: "Frequently Asked Questions",
+
+      title: "Everything You Need",
+
+      italicWord: "To Know",
+
+      items: [
+        {
+          question: "Is a parallel kitchen suitable for small homes?",
+          answer:
+            "Yes. A parallel kitchen is one of the best layouts for compact and medium-sized homes because it efficiently utilizes narrow spaces while providing generous storage and countertop areas.",
+        },
+        {
+          question: "What are the advantages of a parallel modular kitchen?",
+          answer:
+            "It offers an excellent work triangle, dedicated cooking and preparation zones, maximum storage on both sides, and a highly organized workflow for everyday cooking.",
+        },
+        {
+          question: "How much space is required for a parallel kitchen?",
+          answer:
+            "A comfortable parallel kitchen typically requires at least 8–10 feet of clearance between the two countertops, ensuring smooth movement and easy access.",
+        },
+        {
+          question:
+            "Can a parallel kitchen include a dining or breakfast counter?",
+          answer:
+            "Yes. In larger homes, one end of the parallel layout can be extended into a breakfast counter or connected to the dining area for added functionality.",
+        },
+        {
+          question:
+            "Which materials are recommended for a parallel modular kitchen?",
+          answer:
+            "HDHMR, Marine Plywood, and BWP-grade plywood paired with premium hardware provide excellent durability, moisture resistance, and long-lasting performance.",
+        },
+        {
+          question: "What is the starting cost of a parallel modular kitchen?",
+          answer:
+            "The cost depends on the kitchen size, layout, selected materials, finishes, hardware, and accessories. Following an initial design consultation, we provide a detailed quote that suits your requirements and space.",
+        },
+      ],
     },
-    {
-      question: "What is the starting cost of a peninsula modular kitchen?",
-      answer:
-        "The cost depends on the layout, materials, finishes, accessories, and appliances. A premium peninsula kitchen generally starts from around ₹4 lakhs.",
+  },
+  island: {
+    hero: {
+      subtitle: "Luxury Modular Kitchens",
+
+      title: "Island Modular Kitchen Design",
+
+      description:
+        "Create a luxurious island modular kitchen in Delhi NCR with a central workspace, premium storage, and stylish open-plan living for modern homes.",
+
+      image: kitchenImages.island.hero,
+
+      buttonText: "Get Free Consultation",
+
+      buttonLink: "/contact",
     },
-  ],
-},
-}
+    quickFacts: {
+      tag: "Quick Overview",
+
+      title: "Everything At",
+
+      italicWord: "A Glance",
+
+      facts: [
+        {
+          icon: Home,
+          label: "Best For",
+          value: "Luxury Villas",
+          description: "Perfect for spacious homes and open-plan living.",
+        },
+        {
+          icon: LayoutGrid,
+          label: "Layout Type",
+          value: "Island Kitchen",
+          description: "Central island with surrounding workspace.",
+        },
+        {
+          icon: Boxes,
+          label: "Storage",
+          value: "Maximum",
+          description: "Island cabinets add significant storage.",
+        },
+        {
+          icon: Workflow,
+          label: "Lifestyle",
+          value: "Luxury Living",
+          description: "Cooking, dining, and entertaining together.",
+        },
+      ],
+    },
+    blueprint: {
+      tag: "Kitchen Blueprint",
+
+      title: "Understanding The",
+
+      italicWord: "Layout",
+
+      description:
+        "The island kitchen introduces a multifunctional central workspace while maintaining an efficient work triangle around the sink, hob, and refrigerator.",
+
+      image: kitchenImages.island.blueprint,
+
+      points: [
+        {
+          title: "Central Island Workspace",
+          description:
+            "Provides additional preparation, serving, and dining space.",
+        },
+        {
+          title: "Efficient Work Triangle",
+          description:
+            "The sink, cooktop, and refrigerator remain easily accessible.",
+        },
+        {
+          title: "Perfect for Entertaining",
+          description:
+            "Guests can interact while cooking without interrupting workflow.",
+        },
+        {
+          title: "Additional Storage",
+          description:
+            "The island incorporates deep drawers and hidden cabinets.",
+        },
+      ],
+    },
+    benefits: {
+      tag: "Benefits",
+
+      title: "Why Homeowners",
+
+      italicWord: "Love It",
+
+      description:
+        "A statement kitchen that combines luxury aesthetics with exceptional functionality.",
+
+      items: [
+        {
+          title: "Luxury Appearance",
+          description: "Creates a premium centerpiece for modern homes.",
+        },
+        {
+          title: "More Counter Space",
+          description: "Ideal for meal preparation and serving.",
+        },
+        {
+          title: "Extra Storage",
+          description: "The island provides additional drawers and cabinets.",
+        },
+        {
+          title: "Perfect for Socializing",
+          description:
+            "Family and guests can gather around the island comfortably.",
+        },
+        {
+          title: "Flexible Seating",
+          description:
+            "Can be designed as a breakfast counter or dining extension.",
+        },
+        {
+          title: "Highly Functional",
+          description:
+            "Supports cooking, dining, working, and entertaining in one space.",
+        },
+      ],
+    },
+    storage: {
+      tag: "Smart Storage",
+
+      title: "Intelligent",
+
+      italicWord: "Solutions",
+
+      description:
+        "Every Kohinoor kitchen is equipped with premium storage accessories that maximize space, improve organization, and enhance everyday convenience.",
+
+      items: [
+        {
+          title: "Magic Corner",
+          image: kitchenImages.storage.magicCorner,
+          description:
+            "Transform blind corner cabinets into fully accessible storage with smooth pull-out shelves.",
+        },
+        {
+          title: "Tall Pantry Unit",
+          image: kitchenImages.storage.pantry,
+          description:
+            "A spacious vertical pantry that keeps groceries, jars, and dry ingredients neatly organized.",
+        },
+        {
+          title: "Bottle Pull-Out",
+          image: kitchenImages.storage.bottlePullout,
+          description:
+            "Store oils, spices, sauces, and condiments in a slim pull-out unit for quick access.",
+        },
+        {
+          title: "Cutlery Organizer",
+          image: kitchenImages.storage.cutlery,
+          description:
+            "Custom drawer organizers keep cutlery and kitchen tools neatly arranged.",
+        },
+        {
+          title: "Soft Close Drawers",
+          image: kitchenImages.storage.softClose,
+          description:
+            "Premium soft-close channels ensure silent, smooth, and long-lasting drawer operation.",
+        },
+        {
+          title: "Carousel Corner Unit",
+          image: kitchenImages.storage.carousel,
+          description:
+            "Rotating shelves provide effortless access to cookware stored deep inside corner cabinets.",
+        },
+      ],
+    },
+    gallery: {
+      tag: "Featured Projects",
+
+      title: "Luxury",
+
+      italicWord: "Interiors",
+
+      projects: [
+        {
+          title: "Modern White Island Kitchen",
+          location: "Delhi NCR",
+          image: kitchenImages.island.gallery1,
+        },
+        {
+          title: "Walnut Luxury Island Kitchen",
+          location: "Delhi",
+          image: kitchenImages.island.gallery2,
+        },
+        {
+          title: "Contemporary Black Island Kitchen",
+          location: "Gurugram",
+          image: kitchenImages.island.gallery3,
+        },
+        {
+          title: "Luxury Open-Plan Kitchen",
+          location: "Noida",
+          image: kitchenImages.island.gallery4,
+        },
+      ],
+    },
+    faq: {
+      tag: "Frequently Asked Questions",
+
+      title: "Everything You Need",
+
+      italicWord: "To Know",
+
+      items: [
+        {
+          question: "How much space is required for an island kitchen?",
+          answer:
+            "An island kitchen works best in medium to large homes where there is enough clearance around the island for comfortable movement. Typically, at least 20-25 feet of circulation space is recommended on all sides.",
+        },
+        {
+          question: "Can an island include a sink or cooktop?",
+          answer:
+            "Yes, Depending on the design, the island can accommodate a sink, cooktop, breakfast counter, or additional storage, making it a highly versatile workspace.",
+        },
+        {
+          question: "Is an island kitchen suitable for apartments?",
+          answer:
+            "It depends on the available floor space. Larger apartments with open-plan layouts can comfortably accommodate an island kitchen, while compact apartments may benefit from alternative layouts.",
+        },
+        {
+          question: "What are the advantages of an island kitchen?",
+          answer:
+            "Island kitchens offer additional workspace, enhanced storage, flexible seating, and a social cooking environment, making them ideal for modern lifestyles and entertaining guests.",
+        },
+        {
+          question: "Which materials are recommended for an island kitchen?",
+          answer:
+            "For lasting durability and reliable performance, we recommend HDHMR boards and BWP-grade plywood. Their excellent moisture resistance and structural strength make them ideal for premium modular kitchen cabinetry.",
+        },
+        {
+          question: "What is the starting cost of an island modular kitchen?",
+          answer:
+            "The cost depends on the kitchen size, layout, selected materials, finishes, hardware, and accessories. Following an initial design consultation, we provide a detailed quote that suits your requirements and space."
+        },
+      ],
+    },
+  },
+  straight: {
+    hero: {
+      subtitle: "Luxury Modular Kitchens",
+
+      title: "Straight Modular Kitchen Design",
+
+      description:
+        "Choose a space-saving straight modular kitchen in Delhi NCR for compact homes, smart vertical storage, and a clean contemporary style.",
+
+      image: kitchenImages.straight.hero,
+
+      buttonText: "Get Free Consultation",
+
+      buttonLink: "/contact",
+    },
+    quickFacts: {
+      tag: "Quick Overview",
+
+      title: "Everything At",
+
+      italicWord: "A Glance",
+
+      facts: [
+        {
+          icon: Home,
+          label: "Best For",
+          value: "Apartments & Studios",
+          description: "Ideal for compact homes and urban living.",
+        },
+        {
+          icon: LayoutGrid,
+          label: "Layout Type",
+          value: "Straight",
+          description: "Single-wall modular kitchen.",
+        },
+        {
+          icon: Boxes,
+          label: "Storage",
+          value: "Moderate",
+          description: "Optimized vertical storage solutions.",
+        },
+        {
+          icon: Workflow,
+          label: "Workflow",
+          value: "Simple",
+          description: "Everything within a single linear workspace.",
+        },
+      ],
+    },
+    blueprint: {
+      tag: "Kitchen Blueprint",
+
+      title: "Understanding The",
+
+      italicWord: "Layout",
+
+      description:
+        "A straight kitchen arranges all cabinets, appliances, and workstations along a single wall, creating a clean, efficient, and space-saving cooking environment.",
+
+      image: kitchenImages.straight.blueprint,
+
+      points: [
+        {
+          title: "Single Wall Layout",
+          description:
+            "All kitchen elements are aligned on one wall for maximum space efficiency.",
+        },
+        {
+          title: "Easy Workflow",
+          description:
+            "Cooking, preparation, and cleaning zones are organized in a continuous sequence.",
+        },
+        {
+          title: "Smart Vertical Storage",
+          description:
+            "Wall cabinets and tall units maximize storage without occupying additional floor space.",
+        },
+        {
+          title: "Ideal for Compact Homes",
+          description:
+            "A practical solution for apartments, studios, and open-plan living spaces.",
+        },
+      ],
+    },
+    storage: {
+      tag: "Smart Storage",
+
+      title: "Intelligent",
+
+      italicWord: "Solutions",
+
+      description:
+        "Every Kohinoor kitchen is equipped with premium storage accessories that maximize space, improve organization, and enhance everyday convenience.",
+
+      items: [
+        {
+          title: "Magic Corner",
+          image: kitchenImages.storage.magicCorner,
+          description:
+            "Transform blind corner cabinets into fully accessible storage with smooth pull-out shelves.",
+        },
+        {
+          title: "Tall Pantry Unit",
+          image: kitchenImages.storage.pantry,
+          description:
+            "A spacious vertical pantry that keeps groceries, jars, and dry ingredients neatly organized.",
+        },
+        {
+          title: "Bottle Pull-Out",
+          image: kitchenImages.storage.bottlePullout,
+          description:
+            "Store oils, spices, sauces, and condiments in a slim pull-out unit for quick access.",
+        },
+        {
+          title: "Cutlery Organizer",
+          image: kitchenImages.storage.cutlery,
+          description:
+            "Custom drawer organizers keep cutlery and kitchen tools neatly arranged.",
+        },
+        {
+          title: "Soft Close Drawers",
+          image: kitchenImages.storage.softClose,
+          description:
+            "Premium soft-close channels ensure silent, smooth, and long-lasting drawer operation.",
+        },
+        {
+          title: "Carousel Corner Unit",
+          image: kitchenImages.storage.carousel,
+          description:
+            "Rotating shelves provide effortless access to cookware stored deep inside corner cabinets.",
+        },
+      ],
+    },
+    benefits: {
+      tag: "Benefits",
+
+      title: "Why Homeowners",
+
+      italicWord: "Love It",
+
+      description:
+        "A clean, practical kitchen layout that makes the most of limited space without compromising functionality.",
+
+      items: [
+        {
+          title: "Space Saving",
+          description:
+            "Perfect for compact homes where every square foot matters.",
+        },
+        {
+          title: "Simple Workflow",
+          description:
+            "Everything is positioned within easy reach along one wall.",
+        },
+        {
+          title: "Modern Appearance",
+          description:
+            "Creates a sleek, uncluttered look that complements contemporary interiors.",
+        },
+        {
+          title: "Affordable",
+          description:
+            "Requires fewer cabinets and countertops than larger layouts.",
+        },
+        {
+          title: "Easy Maintenance",
+          description:
+            "A linear layout makes cleaning and maintenance quick and convenient.",
+        },
+        {
+          title: "Open Living",
+          description:
+            "Blends seamlessly with dining and living spaces in open-plan homes.",
+        },
+      ],
+    },
+    gallery: {
+      tag: "Featured Projects",
+
+      title: "Elegant",
+
+      italicWord: "Designs",
+
+      projects: [
+        {
+          title: "Modern White Straight Kitchen",
+          location: "Delhi NCR",
+          image: kitchenImages.straight.gallery1,
+        },
+        {
+          title: "Premium Wooden Straight Kitchen",
+          location: "Delhi",
+          image: kitchenImages.straight.gallery2,
+        },
+        {
+          title: "Minimal Grey Straight Kitchen",
+          location: "Gurugram",
+          image: kitchenImages.straight.gallery3,
+        },
+        {
+          title: "Luxury Compact Kitchen",
+          location: "Noida",
+          image: kitchenImages.straight.gallery4,
+        },
+      ],
+    },
+    faq: {
+      tag: "Frequently Asked Questions",
+
+      title: "Everything You Need",
+
+      italicWord: "To Know",
+
+      items: [
+        {
+          question: "Is a straight kitchen suitable for small homes?",
+          answer:
+            "Yes. A straight kitchen is specifically designed for compact homes, apartments, and studio spaces, offering an efficient layout without occupying excessive floor area.",
+        },
+        {
+          question: "Can a straight kitchen provide sufficient storage?",
+          answer:
+            "Absolutely. Tall pantry units, wall cabinets, and smart storage accessories help maximize vertical storage while keeping the kitchen organized.",
+        },
+        {
+          question: "What are the advantages of a straight modular kitchen?",
+          answer:
+            "Straight kitchens are space-efficient, cost-effective, easy to maintain, and blend seamlessly into modern open-plan living spaces.",
+        },
+        {
+          question:
+            "Which materials are recommended for a straight modular kitchen?",
+          answer:
+            "HDHMR, Marine Plywood, and BWP-grade plywood combined with premium hardware ensure long-lasting durability and moisture resistance.",
+        },
+        {
+          question: "Can a straight kitchen include premium accessories?",
+          answer:
+            "Yes. Features like bottle pull-outs, cutlery organizers, soft-close drawers, tall pantry units, and pull-out baskets can all be incorporated depending on the available space.",
+        },
+        {
+          question: "What is the starting cost of a straight modular kitchen?",
+          answer:
+            "The cost depends on the kitchen size, materials, finishes, hardware, and accessories. A premium straight modular kitchen generally starts from around ₹1.8 lakhs.",
+        },
+      ],
+    },
+  },
+  peninsula: {
+    hero: {
+      subtitle: "Luxury Modular Kitchens",
+
+      title: "Peninsula Modular Kitchen Design",
+
+      description:
+        "Discover elegant peninsula modular kitchens in Delhi NCR that combine extra workspace, smart storage, and casual dining in one modern layout.",
+
+      image: kitchenImages.peninsula.hero,
+
+      buttonText: "Get Free Consultation",
+
+      buttonLink: "/contact",
+    },
+    quickFacts: {
+      tag: "Quick Overview",
+
+      title: "Everything At",
+
+      italicWord: "A Glance",
+
+      facts: [
+        {
+          icon: Home,
+          label: "Best For",
+          value: "Medium to Large Homes",
+          description: "Perfect for open-plan apartments and family homes.",
+        },
+        {
+          icon: LayoutGrid,
+          label: "Layout Type",
+          value: "Peninsula",
+          description: "Connected island extension.",
+        },
+        {
+          icon: Boxes,
+          label: "Storage",
+          value: "Very High",
+          description: "Additional cabinets beneath the peninsula.",
+        },
+        {
+          icon: Workflow,
+          label: "Lifestyle",
+          value: "Open Living",
+          description: "Ideal for cooking and social interaction.",
+        },
+      ],
+    },
+    blueprint: {
+      tag: "Kitchen Blueprint",
+
+      title: "Understanding The",
+
+      italicWord: "Layout",
+
+      description:
+        "A peninsula kitchen extends the countertop from one side, creating additional workspace, storage, and seating while maintaining an efficient work triangle.",
+
+      image: kitchenImages.peninsula.blueprint,
+
+      points: [
+        {
+          title: "Connected Peninsula",
+          description:
+            "Unlike an island, the peninsula is attached to the main cabinetry, making it suitable for smaller spaces.",
+        },
+        {
+          title: "Additional Workspace",
+          description:
+            "Provides extra room for food preparation, serving, or dining.",
+        },
+        {
+          title: "Efficient Work Triangle",
+          description:
+            "Maintains comfortable access between the sink, hob, and refrigerator.",
+        },
+        {
+          title: "Perfect Social Space",
+          description:
+            "Creates a natural gathering point for family meals and entertaining guests.",
+        },
+      ],
+    },
+    benefits: {
+      tag: "Benefits",
+
+      title: "Why Homeowners",
+
+      italicWord: "Love It",
+
+      description:
+        "The perfect balance between space efficiency and luxurious open-plan living.",
+
+      items: [
+        {
+          title: "More Counter Space",
+          description:
+            "Adds valuable preparation and serving space without needing a separate island.",
+        },
+        {
+          title: "Extra Storage",
+          description:
+            "Additional cabinets beneath the peninsula maximize storage.",
+        },
+        {
+          title: "Open Layout",
+          description:
+            "Creates a seamless connection between the kitchen and living area.",
+        },
+        {
+          title: "Breakfast Counter",
+          description:
+            "Comfortably accommodates bar seating for casual dining.",
+        },
+        {
+          title: "Efficient Workflow",
+          description:
+            "Keeps cooking, cleaning, and preparation zones within easy reach.",
+        },
+        {
+          title: "Modern Luxury",
+          description:
+            "Combines contemporary aesthetics with practical functionality.",
+        },
+      ],
+    },
+    storage: {
+      tag: "Smart Storage",
+
+      title: "Intelligent",
+
+      italicWord: "Solutions",
+
+      description:
+        "Every Kohinoor kitchen is equipped with premium storage accessories that maximize space, improve organization, and enhance everyday convenience.",
+
+      items: [
+        {
+          title: "Magic Corner",
+          image: kitchenImages.storage.magicCorner,
+          description:
+            "Transform blind corner cabinets into fully accessible storage with smooth pull-out shelves.",
+        },
+        {
+          title: "Tall Pantry Unit",
+          image: kitchenImages.storage.pantry,
+          description:
+            "A spacious vertical pantry that keeps groceries, jars, and dry ingredients neatly organized.",
+        },
+        {
+          title: "Bottle Pull-Out",
+          image: kitchenImages.storage.bottlePullout,
+          description:
+            "Store oils, spices, sauces, and condiments in a slim pull-out unit for quick access.",
+        },
+        {
+          title: "Cutlery Organizer",
+          image: kitchenImages.storage.cutlery,
+          description:
+            "Custom drawer organizers keep cutlery and kitchen tools neatly arranged.",
+        },
+        {
+          title: "Soft Close Drawers",
+          image: kitchenImages.storage.softClose,
+          description:
+            "Premium soft-close channels ensure silent, smooth, and long-lasting drawer operation.",
+        },
+        {
+          title: "Carousel Corner Unit",
+          image: kitchenImages.storage.carousel,
+          description:
+            "Rotating shelves provide effortless access to cookware stored deep inside corner cabinets.",
+        },
+      ],
+    },
+    gallery: {
+      tag: "Featured Projects",
+
+      title: "Luxury",
+
+      italicWord: "Spaces",
+
+      projects: [
+        {
+          title: "Modern White Peninsula Kitchen",
+          location: "Delhi NCR",
+          image: kitchenImages.peninsula.gallery1,
+        },
+        {
+          title: "Walnut Peninsula Kitchen",
+          location: "Delhi",
+          image: kitchenImages.peninsula.gallery2,
+        },
+        {
+          title: "Contemporary Grey Peninsula Kitchen",
+          location: "Gurugram",
+          image: kitchenImages.peninsula.gallery3,
+        },
+        {
+          title: "Luxury Open Peninsula Kitchen",
+          location: "Noida",
+          image: kitchenImages.peninsula.gallery4,
+        },
+      ],
+    },
+    faq: {
+      tag: "Frequently Asked Questions",
+
+      title: "Everything You Need",
+
+      italicWord: "To Know",
+
+      items: [
+        {
+          question:
+            "What is the difference between a peninsula kitchen and an island kitchen?",
+          answer:
+            "A peninsula kitchen features a countertop extension connected to the main cabinetry, while an island is completely freestanding. Peninsulas require less space and are ideal for medium-sized homes.",
+        },
+        {
+          question: "Is a peninsula kitchen suitable for small homes?",
+          answer:
+            "Yes. A peninsula kitchen offers many of the benefits of an island, such as additional workspace and seating, while fitting comfortably into homes with limited floor space.",
+        },
+        {
+          question: "Can a peninsula be used as a breakfast counter?",
+          answer:
+            "Absolutely. The extended countertop can accommodate bar stools, making it ideal for casual dining, quick meals, or entertaining guests.",
+        },
+        {
+          question: "What are the advantages of a peninsula kitchen?",
+          answer:
+            "It provides extra countertop space, increased storage, better workflow, and a seamless connection between the kitchen and living areas, making it highly functional and visually appealing.",
+        },
+        {
+          question:
+            "Which materials are recommended for a peninsula modular kitchen?",
+          answer:
+            "HDHMR, Marine Plywood, BWP-grade plywood, premium quartz countertops, and high-quality hardware ensure durability, moisture resistance, and long-term performance.",
+        },
+        {
+          question: "What is the starting cost of a peninsula modular kitchen?",
+          answer:
+            "The cost depends on the layout, materials, finishes, accessories, and appliances. A premium peninsula kitchen generally starts from around ₹4 lakhs.",
+        },
+      ],
+    },
+  },
 };
