@@ -33,10 +33,6 @@ const kitchenLinks = [
         label: "Straight Kitchen",
         path: ROUTES.STRAIGHT_KITCHEN,
     },
-    {
-        label: "Peninsula Kitchen",
-        path: ROUTES.PENINSULA_KITCHEN,
-    },
 ];
 
 const serviceLinks = [

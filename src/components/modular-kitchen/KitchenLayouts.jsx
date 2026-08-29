@@ -48,14 +48,7 @@ const layouts = [
             "A minimal modular kitchen design that is elegant, efficient, and perfect for apartments or urban homes.",
         image: layout5,
         path: ROUTES.STRAIGHT_KITCHEN,
-    },
-    {
-        title: "Peninsula Kitchen",
-        description:
-            "A modern modular kitchen layout that combines openness with extra storage, prep space, and seating.",
-        image: layout6,
-        path: ROUTES.PENINSULA_KITCHEN,
-    },
+    }
 ];
 
 function KitchenLayouts() {

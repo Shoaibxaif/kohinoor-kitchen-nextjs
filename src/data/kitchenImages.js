@@ -44,15 +44,6 @@ import straightGallery2 from "@/assets/images/layouts/straight/gallery-2.webp";
 import straightGallery3 from "@/assets/images/layouts/straight/gallery-3.webp";
 import straightGallery4 from "@/assets/images/layouts/straight/gallery-4.webp";
 
-// Peninsula
-
-import peninsulaHero from "@/assets/images/layouts/peninsula/hero.webp";
-import peninsulaAbout from "@/assets/images/layouts/peninsula/about.webp";
-import peninsualGallery1 from "@/assets/images/layouts/peninsula/gallery-1.webp";
-import peninsualGallery2 from "@/assets/images/layouts/peninsula/gallery-2.webp";
-import peninsualGallery3 from "@/assets/images/layouts/peninsula/gallery-3.webp";
-import peninsualGallery4 from "@/assets/images/layouts/peninsula/gallery-4.webp";
-
 // Storage Solutions
 
 import magicCorner from "@/assets/images/accessories/magic-corner.webp";
@@ -106,15 +97,6 @@ export const kitchenImages = {
     gallery2: straightGallery2,
     gallery3: straightGallery3,
     gallery4: straightGallery4,
-  },
-
-  peninsula: {
-    hero: peninsulaHero,
-    blueprint: peninsulaAbout,
-    gallery1: peninsualGallery1,
-    gallery2: peninsualGallery2,
-    gallery3: peninsualGallery3,
-    gallery4: peninsualGallery4,
   },
   storage: {
     magicCorner,

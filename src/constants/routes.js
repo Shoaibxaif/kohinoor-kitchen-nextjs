@@ -13,8 +13,6 @@ export const ROUTES = {
 
   STRAIGHT_KITCHEN: "/straight-kitchen",
 
-  PENINSULA_KITCHEN: "/peninsula-kitchen",
-
   ABOUT: "/about",
 
   CONTACT: "/contact",
@@ -22,7 +20,7 @@ export const ROUTES = {
   PROJECTS: "/projects",
 
   PRIVACY: "/privacy",
-  
+
   TERMS: "/terms",
 
   WARDROBES: "/wardrobes",

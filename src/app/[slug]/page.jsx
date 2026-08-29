@@ -16,7 +16,6 @@ const slugMap = {
     "parallel-kitchen": "parallel",
     "island-kitchen": "island",
     "straight-kitchen": "straight",
-    "peninsula-kitchen": "peninsula",
 };
 
 const titleMap = {
@@ -25,7 +24,6 @@ const titleMap = {
     "parallel-kitchen": "Parallel Kitchen",
     "island-kitchen": "Island Kitchen",
     "straight-kitchen": "Straight Kitchen",
-    "peninsula-kitchen": "Peninsula Kitchen",
 };
 
 // Static export can only serve the layouts generated below. Unknown slugs

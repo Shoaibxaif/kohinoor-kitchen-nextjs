@@ -7,7 +7,6 @@ const filters = [
   "Parallel",
   "Straight",
   "Island",
-  "Peninsula",
 ];
 
 function ProjectFilters({ activeFilter, onFilterChange }) {
