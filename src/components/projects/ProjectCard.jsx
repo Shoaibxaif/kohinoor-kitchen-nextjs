@@ -6,9 +6,7 @@ import { ROUTES } from "@/constants/routes";
 function ProjectCard({
     image,
     title,
-    location,
     layout,
-    area,
 }) {
     return (
         <article className="group overflow-hidden bg-white">
@@ -74,10 +72,6 @@ function ProjectCard({
                         >
                             {title}
                         </h3>
-
-                        <p className="mt-2 text-muted">
-                            {location}
-                        </p>
                     </div>
 
                     <Link
