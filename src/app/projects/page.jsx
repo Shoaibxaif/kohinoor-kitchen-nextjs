@@ -2,7 +2,7 @@ import HeroSection from "@/components/projects/ProjectsHero";
 import ProjectsInteractive from "@/components/projects/ProjectsInteractive";
 import ProjectStats from "@/components/projects/ProjectStats";
 import ProcessTimeline from "@/components/projects/ProcessTimeline";
-import Testimonials from "@/components/projects/Testimonials";
+import Testimonials from "@/components/common/Testimonials";
 import ProjectFAQ from "@/components/projects/ProjectFAQ";
 import CTA from "@/components/home/CTASection";
 import StructuredData from "@/components/common/StructuredData";

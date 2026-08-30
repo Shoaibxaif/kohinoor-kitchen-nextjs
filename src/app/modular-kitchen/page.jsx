@@ -5,7 +5,7 @@ import KitchenLayouts from "@/components/modular-kitchen/KitchenLayouts";
 import MaterialOptions from "@/components/modular-kitchen/MaterialOptions";
 import Accessories from "@/components/modular-kitchen/Accessories";
 import FeaturedProjects from "@/components/home/FeaturedProjects";
-import Testimonials from "@/components/home/Testimonials";
+import Testimonials from "@/components/common/Testimonials";
 import FAQ from "@/components/modular-kitchen/FAQ";
 import CTASection from "@/components/home/CTASection";
 import StructuredData from "@/components/common/StructuredData";

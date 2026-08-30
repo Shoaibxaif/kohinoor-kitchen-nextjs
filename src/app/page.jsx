@@ -6,7 +6,7 @@ import AboutSection from "@/components/home/AboutSection";
 import FeaturedProjects from "@/components/home/FeaturedProjects";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
 import DesignProcess from "@/components/home/DesignProcess";
-import Testimonials from "@/components/home/Testimonials";
+import Testimonials from "@/components/common/Testimonials";
 import CTASection from "@/components/home/CTASection";
 
 export const metadata = {
