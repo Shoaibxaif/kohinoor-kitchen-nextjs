@@ -10,7 +10,7 @@ function ProjectGrid({ projects = [], activeFilter }) {
       );
 
   return (
-    <section className="bg-white py-10 lg:py-16">
+    <section className="bg-white pb-10 pt-4 lg:pb-16 lg:pt-6">
       <Container>
         {filteredProjects.length === 0 ? (
           <div className="py-32 text-center">
