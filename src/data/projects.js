@@ -1,33 +1,30 @@
-import project1 from "@/assets/images/projects/project-1.jpg";
-import project2 from "@/assets/images/projects/project-2.jpg";
-import project3 from "@/assets/images/projects/project-3.jpg";
+import lShapedKitchen01 from "@/assets/images/projects/kitchens/l-shaped/l-shaped-kitchen-01.webp";
+import lShapedKitchen02 from "@/assets/images/projects/kitchens/l-shaped/l-shaped-kitchen-02.webp";
+import lShapedKitchen03 from "@/assets/images/projects/kitchens/l-shaped/l-shaped-kitchen-03.webp";
 
 export const projects = [
   {
     id: 1,
-    slug: "contemporary-south-delhi-kitchen",
-    title: "Contemporary South Delhi Kitchen",
+    slug: "Ivory-Edge-l-shaped-kitchen-delhi-ncr",
+    title: "Ivory Edge",
     layout: "L-Shaped",
-    location: "South Delhi",
-    area: "320 sq.ft",
-    image: project1,
+    location: "Delhi NCR",
+    image: lShapedKitchen01,
   },
   {
     id: 2,
-    slug: "luxury-noida-u-shaped-kitchen",
-    title: "Luxury Noida U-Shaped Kitchen",
-    layout: "U-Shaped",
-    location: "Noida",
-    area: "360 sq.ft",
-    image: project2,
+    slug: "Noir-Island-l-shaped-kitchen-gurugram",
+    title: "Noir Island",
+    layout: "L-Shaped",
+    location: "Gurugram",
+    image: lShapedKitchen02,
   },
   {
     id: 3,
-    slug: "premium-gurugram-island-kitchen",
-    title: "Premium Gurugram Island Kitchen",
-    layout: "Island",
-    location: "Gurugram",
-    area: "420 sq.ft",
-    image: project3,
+    slug: "Minimal-Luxe-L-Shaped-Kitchen-noida",
+    title: "Minimal Luxe",
+    layout: "L-Shaped",
+    location: "Noida",
+    image: lShapedKitchen03,
   },
 ];

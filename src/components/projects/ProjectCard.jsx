@@ -13,23 +13,24 @@ function ProjectCard({
     return (
         <article className="group overflow-hidden bg-white">
             {/* Image */}
-            <div className="relative overflow-hidden h-[420px]">
-                <Image
-                    src={image}
-                    alt={title}
-                    fill
-                    className="
+            <Link href={ROUTES.CONTACT} className="block">
+                <div className="relative overflow-hidden h-[420px]">
+                    <Image
+                        src={image}
+                        alt={title}
+                        fill
+                        className="
             object-cover
             transition-transform
             duration-700
             group-hover:scale-105
           "
-                    sizes="(min-width: 1024px) 33vw, 100vw"
-                />
+                        sizes="(min-width: 1024px) 33vw, 100vw"
+                    />
 
-                {/* Layout Badge */}
-                <span
-                    className="
+                    {/* Layout Badge */}
+                    <span
+                        className="
             absolute
             top-5
             left-5
@@ -42,13 +43,13 @@ function ProjectCard({
             tracking-[0.15em]
             text-dark
           "
-                >
-                    {layout}
-                </span>
+                    >
+                        {layout}
+                    </span>
 
-                {/* Overlay */}
-                <div
-                    className="
+                    {/* Overlay */}
+                    <div
+                        className="
             absolute
             inset-0
             bg-gradient-to-t
@@ -60,8 +61,9 @@ function ProjectCard({
             duration-500
             group-hover:opacity-100
           "
-                />
-            </div>
+                    />
+                </div>
+            </Link>
 
             {/* Content */}
             <div className="border border-t-0 border-border p-7">
@@ -78,7 +80,8 @@ function ProjectCard({
                         </p>
                     </div>
 
-                    <div
+                    <Link
+                        href={ROUTES.CONTACT}
                         className="
               h-12
               w-12
@@ -92,36 +95,12 @@ function ProjectCard({
               duration-300
               group-hover:bg-dark
               group-hover:text-white
+              text-dark
+              group-hover:text-white
             "
+                        aria-label={`Discuss a similar project for ${title}`}
                     >
                         <ArrowUpRight size={18} />
-                    </div>
-                </div>
-
-                <div className="mt-6 flex items-center justify-between">
-                    <span
-                        className="
-              text-xs
-              uppercase
-              tracking-[0.18em]
-              text-accent
-            "
-                    >
-                        {area}
-                    </span>
-
-                    <Link
-                        href={ROUTES.CONTACT}
-                        className="
-              text-sm
-              uppercase
-              tracking-[0.15em]
-              text-dark
-              hover:text-accent
-              transition-colors
-            "
-                    >
-                        Discuss a Similar Project
                     </Link>
                 </div>
             </div>
