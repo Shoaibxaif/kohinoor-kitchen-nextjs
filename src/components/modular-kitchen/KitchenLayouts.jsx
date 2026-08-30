@@ -6,12 +6,11 @@ import Container from "@/components/common/Container";
 import SectionHeading from "@/components/common/SectionHeading";
 import { ROUTES } from "@/constants/routes";
 
-import layout1 from "@/assets/images/layouts/l-shaped.jpg";
-import layout2 from "@/assets/images/layouts/l-shaped.jpg";
-import layout3 from "@/assets/images/layouts/l-shaped.jpg";
-import layout4 from "@/assets/images/layouts/l-shaped.jpg";
-import layout5 from "@/assets/images/layouts/l-shaped.jpg";
-import layout6 from "@/assets/images/layouts/l-shaped.jpg";
+import layout1 from "@/assets/images/layouts/l-shaped/gallery-1.webp";
+import layout2 from "@/assets/images/layouts/u-shaped/gallery-1.webp";
+import layout3 from "@/assets/images/layouts/parallel/gallery-1.webp";
+import layout4 from "@/assets/images/layouts/island/gallery-1.webp";
+import layout5 from "@/assets/images/layouts/straight/gallery-1.webp";
 
 const layouts = [
     {
