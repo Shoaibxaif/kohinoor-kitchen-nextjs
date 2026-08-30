@@ -33,10 +33,12 @@ function ProjectGrid({ projects = [], activeFilter }) {
               xl:grid-cols-3
             "
           >
-            {filteredProjects.map((project) => (
+            {filteredProjects.map((project, index) => (
               <ProjectCard
                 key={project.id}
                 {...project}
+                projectIndex={index}
+                allProjects={filteredProjects}
               />
             ))}
           </div>
